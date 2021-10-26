@@ -1,5 +1,5 @@
 # **edna_metabarcoding**
-Repository for eDNA metabarcoding pipeline from raw data to workable seq data for analysis
+Repository for eDNA metabarcoding pipeline from raw data to workable seq data for analysis. The goal for this repo is to host the general software pipeline for eDNA metabarcoding, and then to be called upon from other repos for project-specific output.
 
 **This repo contains the workflow for processing MiSeq metabarcoding data.** It will demultiplex samples, merge pair-ended reads, remove primer sequences, filter sequences, and create OTUs.
 

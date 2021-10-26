@@ -17,4 +17,8 @@ Repository for eDNA metabarcoding pipeline from raw data to workable seq data fo
 ***
 
 # Where this software comes from
-This workflow is an adapted version of the [JAMP R software from Elbrecth et al (2018)](https://github.com/VascoElbrecht/JAMP). JAMP relies on the following command-line tools: USearch, VSearch, Cutadapt, and FastQC.
+This workflow is an adapted version of the [JAMP R software from Elbrecth et al (2018)](https://github.com/VascoElbrecht/JAMP). JAMP relies on the following command-line tools: 
+* [USearch v11 32bit](https://www.drive5.com/usearch/manual/) (*note: 32bit does not work on MacOS Big Sur*)
+* [VSearch v2.6.2 ](https://github.com/torognes/vsearch)(*note: this is not the most up-to-date version*)
+* [Cutadapt v3.5](https://cutadapt.readthedocs.io/en/stable/installation.html)
+* [FastQC v0.11.9](https://www.bioinformatics.babraham.ac.uk/projects/download.html#fastqc).

@@ -22,3 +22,14 @@ system2("gunzip", "*.fastq.gz")
 
 ```
 
+## move .fastq files into git folder
+
+```{r}
+
+current_folder <- "."
+
+
+
+
+```
+

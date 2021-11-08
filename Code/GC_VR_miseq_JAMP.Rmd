@@ -1,0 +1,58 @@
+---
+title: "R Notebook"
+output: html_notebook
+editor_options: 
+  chunk_output_type: console
+---
+
+## Clear workspace and load JAMP
+
+```{r include=FALSE}
+# Clear workspace and close all graphics devices --------------------------
+
+rm(list = ls())
+graphics.off()
+
+library(JAMP)
+
+```
+
+
+## Set working directory to proper folder
+
+```{r include=FALSE}
+
+# set working directory to proper repo
+
+setwd("/Users/jaredfreedman/Research/git/edna_metabarcoding/GC_VR_miseq_demultiplexed")
+
+```
+
+## Check for PhiX
+
+```{r include=FALSE}
+# check for PhiX
+
+# only subsample 10000 reads
+
+if(T){
+  system2("vsearch", 
+          "-fastx_subsample ../../eDNA/GC_VR_miseq_demulti/N_debris_R1.fastq -fastaout G_Demultiplexing_shifted/_data/N_debris_R1.fasta -sample_size 10000")
+} else { # check all reads in read 1 for PhiX
+  system2("paste",
+          " - - - - < G_Demultiplexing_shifted/_data/N_debris_R1.fastq | cut -f 1,2 | sed 's/^@/>/' | tr \"\t\" \"\n\" > G_Demultiplexing_shifted/_data/N_debris_R1.fasta")
+}
+
+
+system2("vsearch",
+        "-usearch_global G_Demultiplexing_shifted/_data/N_debris_R1.fasta -db ../../JAMP/Tutorial/PhiX.fasta -id 0.9 -strand both -blast6out PhiX_table.txt -maxrejects 1 -maxaccepts 1")
+```
+
+## Merge pair end reads
+
+```{r}
+
+Merge_PE("../../eDNA/GC_VR_miseq_demulti")
+
+```
+

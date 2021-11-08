@@ -1,6 +1,8 @@
 ---
 title: "JAMP Tutorial Walkthrough"
 output: html_notebook
+editor_options: 
+  chunk_output_type: console
 ---
 
 # R Markdown
@@ -30,6 +32,7 @@ download.file("https://ndownloader.figshare.com/files/6503952", "16_S10_L001_R1_
 download.file("https://ndownloader.figshare.com/files/6503991", "16_S10_L001_R2_001_run1.fastq.gz")
 system2("gunzip", "16_S10_L001_R1_001_run1.fastq.gz")
 system2("gunzip", "16_S10_L001_R2_001_run1.fastq.gz")
+
 
 list.files()
 
@@ -64,15 +67,15 @@ Demultiplexing_shifted(file1="16_S10_L001_R1_001_run1.fastq",
 
 if(T){
   system2("vsearch", 
-          "-fastx_subsample G_Demultiplexing_shifted/_data/N_debris_R1.fastq -fastaout G_Demultiplexing_shifted/_data/N_debris_R1.fasta -sample_size 10000")
+          "-fastx_subsample A_Demultiplexing_shifted/_data/N_debris_R1.fastq -fastaout A_Demultiplexing_shifted/_data/N_debris_R1.fasta -sample_size 10000")
 } else { # check all reads in read 1 for PhiX
   system2("paste",
-          " - - - - < G_Demultiplexing_shifted/_data/N_debris_R1.fastq | cut -f 1,2 | sed 's/^@/>/' | tr \"\t\" \"\n\" > G_Demultiplexing_shifted/_data/N_debris_R1.fasta")
+          " - - - - < A_Demultiplexing_shifted/_data/N_debris_R1.fastq | cut -f 1,2 | sed 's/^@/>/' | tr \"\t\" \"\n\" > A_Demultiplexing_shifted/_data/N_debris_R1.fasta")
 }
 
 
 system2("vsearch",
-        "-usearch_global G_Demultiplexing_shifted/_data/N_debris_R1.fasta -db ../../JAMP/Tutorial/PhiX.fasta -id 0.9 -strand both -blast6out PhiX_table.txt -maxrejects 1 -maxaccepts 1")
+        "-usearch_global A_Demultiplexing_shifted/_data/N_debris_R1.fasta -db ../../JAMP/Tutorial/PhiX.fasta -id 0.9 -strand both -blast6out PhiX_table.txt -maxrejects 1 -maxaccepts 1")
 ```
 
 

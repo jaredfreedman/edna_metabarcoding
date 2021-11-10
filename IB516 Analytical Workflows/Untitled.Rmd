@@ -1,0 +1,22 @@
+---
+title: "R Notebook"
+output:
+  pdf_document: default
+  html_notebook: default
+---
+
+This is an example Notebook to make sure we can use LaTeX 
+
+```{r}
+#dummy Code
+
+a <- 5
+b <- 4
+
+c <- a*b
+
+print(c)
+```
+
+did this work
+

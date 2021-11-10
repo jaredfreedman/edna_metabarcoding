@@ -1,0 +1,41 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+
+\begin{document}
+
+I would like to write an equation:
+
+\begin{equation}\label{linear}
+f(x) = ax
+\end{equation}
+
+In comparison to \ref{quadratic}, another option would be:
+
+\begin{equation} \label{quadratic}
+f(x) = x^2
+\end{equation}
+
+and let's label this equation \ref{linear}.
+
+\begin{align}
+y	&=	f(x)		\notag		\\
+	&=	x^2		\label{multi}	\\
+	&=	x \cdot x	\notag
+\end{align}
+
+This can be referenced in the same way.
+
+\clearpage
+\begin{figure}
+	\centering
+	\includegraphics[width=1\linewidth]{fig	
+
+\end{document}

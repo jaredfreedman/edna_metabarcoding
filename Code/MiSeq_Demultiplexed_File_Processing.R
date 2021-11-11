@@ -1,9 +1,11 @@
-###  MiSeq Demultiplexed File Processing  ###
+###  MiSeq_Demultiplexed_File_Processing  ###
 
 # Created 11/9/21
 # Updated 11/10/21
 
-# This file contains a script to copy the original demultiplexed MiSeq file names from CQLS into a new folder, extract the information from the files, and rename the files to contain only the information needed by , 
+# This file contains a script to copy the original demultiplexed MiSeq file names from CQLS into a new folder, extract the information from the files, and rename the files to contain only the information needed by MergePE()
+
+# Note: file renaming didn't work for Undetermined files, so those were renamed manually in Finder
 
 
 # Clear workspace and close open graphics devices -------------------------
@@ -81,5 +83,13 @@ write.csv(Seq_Sheet, "Seq_Data_Sheet.csv")
 
 
 
+# Move renamed files into Git repo ----------------------------------------
 
+renamed_files <-list.files(pattern = "*.fastq")
+
+dir.create("Renamed_fastq")
+dir.create("../../../git/edna_metabarcoding/GC_VR_MiSeq_2021/demulti_fastq")
+git_repo <- "../../../git/edna_metabarcoding/GC_VR_MiSeq_2021/demulti_fastq"
+
+file.copy(renamed_files, git_repo)
 

@@ -26,7 +26,7 @@ library(JAMP)
 
 # set working directory to proper repo
 
-setwd("/Users/jaredfreedman/Research/git/edna_metabarcoding/GC_VR_miseq_demultiplexed")
+setwd("/Users/jaredfreedman/Research/git/edna_metabarcoding/GC_VR_MiSeq_2021")
 
 ```
 
@@ -39,22 +39,26 @@ setwd("/Users/jaredfreedman/Research/git/edna_metabarcoding/GC_VR_miseq_demultip
 
 if(T){
   system2("vsearch", 
-          "-fastx_subsample ../../eDNA/GC_VR_miseq_demulti/N_debris_R1.fastq -fastaout G_Demultiplexing_shifted/_data/N_debris_R1.fasta -sample_size 10000")
+          "-fastx_subsample GC_VR_MiSeq_Demulti/Undetermined_S0_R1_001.fastq -fastaout GC_VR_MiSeq_Demulti/Undetermined_S0_R1_001.fastq -sample_pct 100")
 } else { # check all reads in read 1 for PhiX
   system2("paste",
-          " - - - - < G_Demultiplexing_shifted/_data/N_debris_R1.fastq | cut -f 1,2 | sed 's/^@/>/' | tr \"\t\" \"\n\" > G_Demultiplexing_shifted/_data/N_debris_R1.fasta")
+          " - - - - < /GC_VR_MiSeq_Demulti/Undetermined_S0_R1_001.fastq | cut -f 1,2 | sed 's/^@/>/' | tr \"\t\" \"\n\" > /GC_VR_MiSeq_Demulti/Undetermined_S0_R1_001.fastq")
 }
 
 
 system2("vsearch",
-        "-usearch_global G_Demultiplexing_shifted/_data/N_debris_R1.fasta -db ../../JAMP/Tutorial/PhiX.fasta -id 0.9 -strand both -blast6out PhiX_table.txt -maxrejects 1 -maxaccepts 1")
+        "-usearch_global /GC_VR_MiSeq_Demulti/Undetermined_S0_R1_001.fastq -db /Users/jaredfreedman/Research/git/JAMP/Tutorial/PhiX.fasta -id 0.9 -strand both -blast6out PhiX_table.txt -maxrejects 1 -maxaccepts 1")
 ```
 
 ## Merge pair end reads
 
 ```{r}
 
-Merge_PE("../../eDNA/GC_VR_miseq_demulti")
+
+files <- list.files("GC_VR_MiSeq_Demulti", full.names=T)
+files
+
+Merge_PE(files = "latest")
 
 ```
 

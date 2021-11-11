@@ -1,21 +1,34 @@
+###  MiSeq Demultiplexed File Processing  ###
 
+# Created 11/9/21
+# Updated 11/10/21
+
+# This file contains a script to copy the original demultiplexed MiSeq file names from CQLS into a new folder, extract the information from the files, and rename the files to contain only the information needed by , 
 
 
 # Clear workspace and close open graphics devices -------------------------
 rm(list = ls())
 graphics.off()
+library(stringr)
 
 
 # Set working directory? ---------------------------------------------------
 setwd("/Users/jaredfreedman/Research/eDNA/GC_VR_miseq_demulti")
 
 
+# Create a new folder and copy fastq files into that folder ---------------
+
+dir.create("Renamed_fastq")
+filenames <- list.files(pattern = "*.fastq")
+file.copy(filenames, "Renamed_fastq")
+
+setwd("/Users/jaredfreedman/Research/eDNA/GC_VR_miseq_demulti/Renamed_fastq")
 
 # Read in SampleSheet CSV -------------------------------------------------
 
 # Reads in SampleSheet and removes top part of sheet containing header information
 
-SampleSheet <- read.csv("Reports/SampleSheet.csv")
+SampleSheet <- read.csv("../Reports/SampleSheet.csv")
 names(SampleSheet) <- SampleSheet[18,]
 SampleSheet <- SampleSheet[19:112,]
 SS1 <- SampleSheet
@@ -45,18 +58,28 @@ sample <- this_file_split[2]   #creates character for sample well number
 site <- paste(this_file_split[7], this_file_split[8], sep = "_")   #creates character for site name (new fastq file name)
 splitNA <- strsplit(site, split = "_NA")[[1]]   # split site string into site name and _NA (only for sites with NA for this_file_split[8])
 sitename <- splitNA   # Create sitename using the name without NA
+sitename_split <- strsplit(sitename, split = "_001")[[1]]   #these two lines create sitename without _001 at the end. merge_pe() needs files to end in R1 or R2
+site_name <- paste(sitename_split[1], sitename_split[2], sep="")
 
 Seq_Sheet$Sample_Plate[ifile] <- lane   #these three lines update the Seq_Sheet with new info 
 Seq_Sheet$Sample_Well[ifile] <- sample
-Seq_Sheet$Sample_Project[ifile] <- sitename
+Seq_Sheet$Sample_Project[ifile] <- site_name
 
-ifile <- ifile+1
-
-#sitename <- strsplit(contains_sitename, split = "_")[[1]]
-
-file.rename(this_file, sitename)
+file.rename(this_file, Seq_Sheet$Sample_Project[ifile])
   
+ifile <- ifile+1
 }
+
+
+
+# Write CSV of the Seq_Sheet data frame -----------------------------------
+
+date <- Sys.Date()
+Seq_Data_Sheet <- seqsheet 
+
+write.csv(Seq_Sheet, "Seq_Data_Sheet.csv")
+
+
 
 
 

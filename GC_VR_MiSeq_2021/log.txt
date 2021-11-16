@@ -114,3 +114,118 @@ Done with PE merging
 *** Module completed!
 
 
+##########
+2021-11-16 10:48:43
+PROCESSING MODULE:
+B_Cutadapt
+
+Module Version: v0.2
+
+
+Using Version: Cutadapt v3.5
+Starting to remove adapters (primers) on both ends in 95 files:
+Notice: Option "bothsides" enabled, will also trim adapters on reverse complements and orientate all sequences in the same forward direction.
+BA_1_S92 - NA% reads passed (53.69% forward + NA% reverse orientation)
+BA_2_S61 - NA% reads passed (55.11% forward + NA% reverse orientation)
+BOU_1_S94 - NA% reads passed (50.45% forward + NA% reverse orientation)
+BOU_2_S80 - NA% reads passed (52.3% forward + NA% reverse orientation)
+CHILDS_1_S11 - NA% reads passed (54.41% forward + NA% reverse orientation)
+CHILDS_2_S12 - NA% reads passed (54.05% forward + NA% reverse orientation)
+CLR_1_S59 - 50.59% reads passed (50.58% forward + 0% reverse orientation)
+CLR_2_S60 - NA% reads passed (48.5% forward + NA% reverse orientation)
+COL_1_S86 - NA% reads passed (55.81% forward + NA% reverse orientation)
+COL_2_S81 - 41.7% reads passed (41.7% forward + 0% reverse orientation)
+CR_109_1_S31 - NA% reads passed (55.33% forward + NA% reverse orientation)
+CR_109_2_S32 - NA% reads passed (54.1% forward + NA% reverse orientation)
+CR_134_1_S33 - NA% reads passed (54.46% forward + NA% reverse orientation)
+CR_134_2_S34 - NA% reads passed (52.77% forward + NA% reverse orientation)
+CR_143_1_S35 - NA% reads passed (55.5% forward + NA% reverse orientation)
+CR_143_2_S36 - NA% reads passed (54.27% forward + NA% reverse orientation)
+CR_148_1_S37 - NA% reads passed (54.58% forward + NA% reverse orientation)
+CR_148_2_S38 - NA% reads passed (56.74% forward + NA% reverse orientation)
+CR_157_1_S39 - NA% reads passed (55.93% forward + NA% reverse orientation)
+CR_157_2_S40 - NA% reads passed (52.85% forward + NA% reverse orientation)
+CR_180_1_S41 - NA% reads passed (51.88% forward + NA% reverse orientation)
+CR_180_2_S42 - NA% reads passed (53.11% forward + NA% reverse orientation)
+CR_204_1_S43 - 56.14% reads passed (56.14% forward + 0% reverse orientation)
+CR_204_2_S44 - NA% reads passed (53.65% forward + NA% reverse orientation)
+CR_216_1_S45 - NA% reads passed (NA% forward + NA% reverse orientation)
+CR_216_2_S46 - NA% reads passed (53.58% forward + NA% reverse orientation)
+CR_226_1_S47 - NA% reads passed (54.2% forward + NA% reverse orientation)
+CR_226_2_S48 - 53.56% reads passed (53.56% forward + 0% reverse orientation)
+CR_229_1_S49 - NA% reads passed (55.45% forward + NA% reverse orientation)
+CR_229_2_S50 - 47.8% reads passed (47.8% forward + 0% reverse orientation)
+CR_246_1_S51 - NA% reads passed (50.85% forward + NA% reverse orientation)
+CR_246_2_S52 - 46.33% reads passed (46.33% forward + 0% reverse orientation)
+CR_275_1_S53 - 54.56% reads passed (54.56% forward + 0% reverse orientation)
+CR_275_2_S54 - 52.86% reads passed (52.86% forward + 0% reverse orientation)
+CR_52_1_S23 - NA% reads passed (54.07% forward + NA% reverse orientation)
+CR_52_2_S24 - NA% reads passed (54.41% forward + NA% reverse orientation)
+CR_61_1_S90 - NA% reads passed (54.04% forward + NA% reverse orientation)
+CR_61_2_S25 - NA% reads passed (54.49% forward + NA% reverse orientation)
+CR_84_1_S91 - NA% reads passed (52.94% forward + NA% reverse orientation)
+CR_84_2_S26 - 42.9% reads passed (42.9% forward + 0% reverse orientation)
+CR_94_1_S27 - NA% reads passed (54.2% forward + NA% reverse orientation)
+CR_94_2_S28 - NA% reads passed (54.1% forward + NA% reverse orientation)
+CR_97_1_S29 - NA% reads passed (NA% forward + NA% reverse orientation)
+CR_97_2_S30 - NA% reads passed (53.72% forward + NA% reverse orientation)
+DIA_1_S79 - NA% reads passed (53.61% forward + NA% reverse orientation)
+DIA_2_S88 - NA% reads passed (53.82% forward + NA% reverse orientation)
+FCW_1_S3 - NA% reads passed (54.25% forward + NA% reverse orientation)
+FCW_2_S4 - NA% reads passed (54.31% forward + NA% reverse orientation)
+HAV_1_S71 - NA% reads passed (53.5% forward + NA% reverse orientation)
+HAV_2_S72 - 52.01% reads passed (52.01% forward + 0% reverse orientation)
+HER_1_S93 - NA% reads passed (51.3% forward + NA% reverse orientation)
+HER_2_S62 - NA% reads passed (53.35% forward + NA% reverse orientation)
+KAN_1_S67 - 53.01% reads passed (53.01% forward + 0% reverse orientation)
+KAN_2_S68 - NA% reads passed (52.48% forward + NA% reverse orientation)
+LCR_1_S57 - 53.83% reads passed (53.83% forward + 0% reverse orientation)
+LCR_2_S58 - NA% reads passed (53.89% forward + NA% reverse orientation)
+LF_1_S73 - 41.62% reads passed (41.62% forward + 0% reverse orientation)
+LF_2_S74 - 44.06% reads passed (44.06% forward + 0% reverse orientation)
+MAT_1_S69 - NA% reads passed (53.8% forward + NA% reverse orientation)
+MAT_2_S70 - NA% reads passed (54% forward + NA% reverse orientation)
+NANK_1_S55 - 54% reads passed (54% forward + 0% reverse orientation)
+NANK_2_S56 - NA% reads passed (54.05% forward + NA% reverse orientation)
+neg_Control_S89 - NA% reads passed (2.93% forward + NA% reverse orientation)
+pos_Control_S87 - NA% reads passed (53.48% forward + NA% reverse orientation)
+RM_20_1_S19 - NA% reads passed (53.5% forward + NA% reverse orientation)
+RM_20_2_S20 - NA% reads passed (53.73% forward + NA% reverse orientation)
+RM_88_1_S21 - NA% reads passed (54.8% forward + NA% reverse orientation)
+RM_88_2_S22 - NA% reads passed (53.74% forward + NA% reverse orientation)
+SC_1_S13 - NA% reads passed (54.2% forward + NA% reverse orientation)
+SC_2_S14 - NA% reads passed (54.52% forward + NA% reverse orientation)
+SCGC_1_S75 - NA% reads passed (53.38% forward + NA% reverse orientation)
+SCGC_2_S76 - NA% reads passed (53.25% forward + NA% reverse orientation)
+SHI_1_S63 - NA% reads passed (54.38% forward + NA% reverse orientation)
+SHI_2_S64 - NA% reads passed (54.61% forward + NA% reverse orientation)
+SPE_1_S84 - NA% reads passed (54.72% forward + NA% reverse orientation)
+SPE_2_S85 - NA% reads passed (54.48% forward + NA% reverse orientation)
+TAP_1_S65 - NA% reads passed (54.05% forward + NA% reverse orientation)
+TAP_2_S66 - NA% reads passed (53.39% forward + NA% reverse orientation)
+TCDW_1_S7 - NA% reads passed (53.96% forward + NA% reverse orientation)
+TCDW_2_S8 - NA% reads passed (54.18% forward + NA% reverse orientation)
+TRA_1_S82 - NA% reads passed (51.93% forward + NA% reverse orientation)
+TRA_2_S83 - NA% reads passed (51.4% forward + NA% reverse orientation)
+TS_1_S77 - NA% reads passed (52.03% forward + NA% reverse orientation)
+TS_2_S78 - NA% reads passed (52.23% forward + NA% reverse orientation)
+Undetermined_S0 - 13.24% reads passed (13.24% forward + 0% reverse orientation)
+VRBF_1_S9 - NA% reads passed (53.72% forward + NA% reverse orientation)
+VRBF_2_S10 - NA% reads passed (54% forward + NA% reverse orientation)
+VRSB_1_S5 - NA% reads passed (54.25% forward + NA% reverse orientation)
+VRSB_2_S6 - NA% reads passed (53.71% forward + NA% reverse orientation)
+WBC_1_S17 - NA% reads passed (54.26% forward + NA% reverse orientation)
+WBC_2_S18 - NA% reads passed (54.17% forward + NA% reverse orientation)
+WCC_1_S1 - NA% reads passed (54.51% forward + NA% reverse orientation)
+WCC_2_S2 - NA% reads passed (54.7% forward + NA% reverse orientation)
+WFOC_1_S15 - NA% reads passed (53.52% forward + NA% reverse orientation)
+WFOC_2_S16 - NA% reads passed (53.81% forward + NA% reverse orientation)
+
+Primers were successfully removed from NA% on average (SD = NA%).
+
+2021-11-16 10:52:25
+
+
+*** Module completed!
+
+

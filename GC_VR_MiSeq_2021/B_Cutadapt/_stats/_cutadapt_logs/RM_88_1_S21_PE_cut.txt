@@ -1,0 +1,107 @@
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o B_Cutadapt/_data/temp.txt A_merge_PE/_data/RM_88_1_S21_PE.fastq --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.37 s (6 µs/read; 9.82 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  60,630
+Reads with adapters:                    48,694 (80.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           11,936 (19.7%)
+Reads written (passing filters):        48,694 (80.3%)
+
+Total basepairs processed:    11,730,244 bp
+Total written (filtered):      8,095,196 bp (69.0%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 48694 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	10	0.0	2	0 0 10
+25	93	0.0	2	0 86 7
+26	20159	0.0	2	19602 460 97
+27	16890	0.0	2	0 16410 480
+28	11542	0.0	2	0 0 11542
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a GAHCGAATACCHYTATTTGTTTG$ -o B_Cutadapt/_data/temp_A.txt B_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.48 s (10 µs/read; 6.10 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  48,694
+Reads with adapters:                    33,227 (68.2%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           15,467 (31.8%)
+Reads written (passing filters):        33,227 (68.2%)
+
+Total basepairs processed:     8,095,196 bp
+Total written (filtered):      4,712,444 bp (58.2%)
+
+=== Adapter 1 ===
+
+Sequence: GAHCGAATACCHYTATTTGTTTG; Type: anchored 3'; Length: 23; Trimmed: 33227 times
+
+No. of allowed errors: 2
+
+Bases preceding removed adapters:
+  A: 98.6%
+  C: 0.1%
+  G: 0.2%
+  T: 1.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'A' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+21	5	0.0	2	0 0 5
+22	96	0.0	2	0 67 29
+23	12896	0.0	2	7864 4868 164
+24	12456	0.0	2	0 8211 4245
+25	7774	0.0	2	0 0 7774
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
+vsearch-fastx_revcomp A_merge_PE/_data/RM_88_1_S21_PE.fastq -fastqout B_Cutadapt/_data/temp2_RC.txt  -label_suffix _RC
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading FASTQ file 100%
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o B_Cutadapt/_data/temp.txt B_Cutadapt/_data/temp2_RC.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.17 s (3 µs/read; 21.71 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  60,630
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           60,630 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:    11,730,244 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a GAHCGAATACCHYTATTTGTTTG$ -o B_Cutadapt/_data/temp_B.txt B_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+No reads processed!
+
+cat B_Cutadapt/_data/temp_A.txt B_Cutadapt/_data/temp_B.txt > B_Cutadapt/_data/RM_88_1_S21_PE_cut.fastq

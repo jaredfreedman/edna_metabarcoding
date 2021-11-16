@@ -1,0 +1,133 @@
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o B_Cutadapt/_data/temp.txt A_merge_PE/_data/CR_246_2_S52_PE.fastq --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.54 s (6 µs/read; 9.35 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  84,257
+Reads with adapters:                    59,719 (70.9%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           24,538 (29.1%)
+Reads written (passing filters):        59,719 (70.9%)
+
+Total basepairs processed:    12,651,935 bp
+Total written (filtered):      8,310,830 bp (65.7%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 59719 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	23	0.0	2	0 0 23
+25	218	0.0	2	0 170 48
+26	26145	0.0	2	24227 826 1092
+27	20022	0.0	2	0 19224 798
+28	13311	0.0	2	0 0 13311
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a GAHCGAATACCHYTATTTGTTTG$ -o B_Cutadapt/_data/temp_A.txt B_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.37 s (6 µs/read; 9.56 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  59,719
+Reads with adapters:                    39,035 (65.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           20,684 (34.6%)
+Reads written (passing filters):        39,035 (65.4%)
+
+Total basepairs processed:     8,310,830 bp
+Total written (filtered):      4,618,586 bp (55.6%)
+
+=== Adapter 1 ===
+
+Sequence: GAHCGAATACCHYTATTTGTTTG; Type: anchored 3'; Length: 23; Trimmed: 39035 times
+
+No. of allowed errors: 2
+
+Bases preceding removed adapters:
+  A: 77.9%
+  C: 3.9%
+  G: 0.4%
+  T: 14.5%
+  none/other: 3.3%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+21	2	0.0	2	0 0 2
+22	135	0.0	2	0 78 57
+23	16098	0.0	2	8375 7367 356
+24	14803	0.0	2	0 8694 6109
+25	7997	0.0	2	0 0 7997
+vsearch-fastx_revcomp A_merge_PE/_data/CR_246_2_S52_PE.fastq -fastqout B_Cutadapt/_data/temp2_RC.txt  -label_suffix _RC
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading FASTQ file 100%
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o B_Cutadapt/_data/temp.txt B_Cutadapt/_data/temp2_RC.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.22 s (3 µs/read; 23.04 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  84,257
+Reads with adapters:                         1 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           84,256 (100.0%)
+Reads written (passing filters):             1 (0.0%)
+
+Total basepairs processed:    12,651,935 bp
+Total written (filtered):             25 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 1 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+27	1	0.0	2	0 1
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a GAHCGAATACCHYTATTTGTTTG$ -o B_Cutadapt/_data/temp_B.txt B_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.00 s (3730 µs/read; 0.02 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                       1
+Reads with adapters:                         1 (100.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:                0 (0.0%)
+Reads written (passing filters):             1 (100.0%)
+
+Total basepairs processed:            25 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GAHCGAATACCHYTATTTGTTTG; Type: anchored 3'; Length: 23; Trimmed: 1 times
+
+No. of allowed errors: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 100.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+25	1	0.0	2	0 0 1
+
+cat B_Cutadapt/_data/temp_A.txt B_Cutadapt/_data/temp_B.txt > B_Cutadapt/_data/CR_246_2_S52_PE_cut.fastq

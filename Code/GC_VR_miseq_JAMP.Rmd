@@ -58,6 +58,41 @@ demulti_files <- list.files("demulti_fastq/_data", full.names = TRUE)
 
 Merge_PE(files = demulti_files)
 
+#Successfully merged
 
 ```
+
+
+## Trim primers
+fwhF2 and EPTDr2n
+
+EPTDr2n ended with a Y degenerate base, which IDT was unable to produce. Instead, two primers were created, one ending with C (EPTDr2n_C) and the other ending with T (EPTDr2n_T).
+
+All primers are sets of 4 primers with 0-3 N bases to create frame shifts.
+
+```{r include=FALSE}
+
+# import primer sequences (just COI primer sequence, not including universal tail)
+
+primers <- read.csv("Sites_and_Samples/fwhF2_EPTDr2n_primer_sequences.csv")
+
+fwhF2 <- primers$Sequence[primers$Name=="fwhF2"]
+EPTDr2n <- primers$Sequence[primers$Name=="EPTDr2n"]
+
+# trim primers 
+
+Cutadapt(forward = fwhF2,
+         reverse = EPTDr2n,
+         bothsides=T)
+
+#by using "bothsides=T", forward or reverse primers are detected on both ends. This is not nessesary for fusion primers.
+```
+
+
+
+
+
+
+
+
 

@@ -1,0 +1,116 @@
+##########
+2021-11-11 18:00:14
+PROCESSING MODULE:
+A_merge_PE
+
+
+
+Version v0.2
+
+
+BA_1_S92: 93.55% merged - median length: 192.68
+BA_2_S61: 93.84% merged - median length: 193.56
+BOU_1_S94: 93.51% merged - median length: 183.5
+BOU_2_S80: 93.86% merged - median length: 184.46
+CHILDS_1_S11: 92.45% merged - median length: 193.14
+CHILDS_2_S12: 92.36% merged - median length: 193.03
+CLR_1_S59: 91.07% merged - median length: 115.72
+CLR_2_S60: 87.98% merged - median length: 162.04
+COL_1_S86: 92.27% merged - median length: 183.89
+COL_2_S81: 92.61% merged - median length: 144.96
+CR_109_1_S31: 94.25% merged - median length: 192.75
+CR_109_2_S32: 93.56% merged - median length: 191.87
+CR_134_1_S33: 94.06% merged - median length: 193.17
+CR_134_2_S34: 93.02% merged - median length: 178.94
+CR_143_1_S35: 93.91% merged - median length: 193.1
+CR_143_2_S36: 93.55% merged - median length: 188.25
+CR_148_1_S37: 93.68% merged - median length: 192.41
+CR_148_2_S38: 93.97% merged - median length: 192.55
+CR_157_1_S39: 93.6% merged - median length: 192.39
+CR_157_2_S40: 93.71% merged - median length: 185.7
+CR_180_1_S41: 93.61% merged - median length: 177.21
+CR_180_2_S42: 93.51% merged - median length: 182.22
+CR_204_1_S43: 93.91% merged - median length: 190
+CR_204_2_S44: 93.26% merged - median length: 183.9
+CR_216_1_S45: NaN% merged - median length: 
+CR_216_2_S46: 93.79% merged - median length: 182.57
+CR_226_1_S47: 93.44% merged - median length: 180.31
+CR_226_2_S48: 93.46% merged - median length: 166.77
+CR_229_1_S49: 93.35% merged - median length: 185.65
+CR_229_2_S50: 92.64% merged - median length: 118.51
+CR_246_1_S51: 91.4% merged - median length: 177.56
+CR_246_2_S52: 93.08% merged - median length: 150.16
+CR_275_1_S53: 92.97% merged - median length: 156.73
+CR_275_2_S54: 93.36% merged - median length: 148.82
+CR_52_1_S23: 93.72% merged - median length: 193.25
+CR_52_2_S24: 93.6% merged - median length: 193.05
+CR_61_1_S90: 93.86% merged - median length: 191.78
+CR_61_2_S25: 93.43% merged - median length: 193.4
+CR_84_1_S91: 93.6% merged - median length: 189.78
+CR_84_2_S26: 93.05% merged - median length: 132.07
+CR_94_1_S27: 93.89% merged - median length: 192.99
+CR_94_2_S28: 93.63% merged - median length: 192.67
+CR_97_1_S29: NaN% merged - median length: 
+CR_97_2_S30: 93.6% merged - median length: 190.25
+DIA_1_S79: 93.53% merged - median length: 191.79
+DIA_2_S88: 93.85% merged - median length: 192.47
+FCW_1_S3: 93.82% merged - median length: 193.4
+FCW_2_S4: 93.83% merged - median length: 193.36
+HAV_1_S71: 93.29% merged - median length: 190.45
+HAV_2_S72: 92.86% merged - median length: 177.88
+HER_1_S93: 93.94% merged - median length: 183.47
+HER_2_S62: 93.72% merged - median length: 190.54
+KAN_1_S67: 93.59% merged - median length: 184.56
+KAN_2_S68: 93.65% merged - median length: 179.38
+LCR_1_S57: 93.77% merged - median length: 190.96
+LCR_2_S58: 93.82% merged - median length: 192.46
+LF_1_S73: 92.8% merged - median length: 118.72
+LF_2_S74: 92.65% merged - median length: 93.5
+MAT_1_S69: 93.34% merged - median length: 191.41
+MAT_2_S70: 93.75% merged - median length: 191.12
+NANK_1_S55: 93.47% merged - median length: 192.96
+NANK_2_S56: 93.66% merged - median length: 193.07
+neg_Control_S89: 92.35% merged - median length: 40.64
+pos_Control_S87: 93.62% merged - median length: 193.58
+RM_20_1_S19: 93.39% merged - median length: 192.61
+RM_20_2_S20: 92.75% merged - median length: 192.44
+RM_88_1_S21: 93.67% merged - median length: 193.47
+RM_88_2_S22: 93.7% merged - median length: 192.28
+SC_1_S13: 93.56% merged - median length: 193.34
+SC_2_S14: 93.45% merged - median length: 193.21
+SCGC_1_S75: 93.67% merged - median length: 191.88
+SCGC_2_S76: 93.64% merged - median length: 191.79
+SHI_1_S63: 93.98% merged - median length: 192.89
+SHI_2_S64: 93.21% merged - median length: 193.4
+SPE_1_S84: 93.74% merged - median length: 190.96
+SPE_2_S85: 93.79% merged - median length: 188.59
+TAP_1_S65: 93.75% merged - median length: 192.79
+TAP_2_S66: 93.73% merged - median length: 191.02
+TCDW_1_S7: 93.59% merged - median length: 193.53
+TCDW_2_S8: 93.5% merged - median length: 193.48
+TRA_1_S82: 93.61% merged - median length: 183.96
+TRA_2_S83: 93.63% merged - median length: 183.51
+TS_1_S77: 93.15% merged - median length: 183.03
+TS_2_S78: 93.19% merged - median length: 188.07
+Undetermined_S0: 82.14% merged - median length: 305.4
+VRBF_1_S9: 93.35% merged - median length: 192.66
+VRBF_2_S10: 93.19% merged - median length: 192.14
+VRSB_1_S5: 93.36% merged - median length: 192.98
+VRSB_2_S6: 93.83% merged - median length: 193.58
+WBC_1_S17: 93.66% merged - median length: 193.32
+WBC_2_S18: 93.48% merged - median length: 193.28
+WCC_1_S1: 93.57% merged - median length: 193.52
+WCC_2_S2: 93.66% merged - median length: 193.51
+WFOC_1_S15: 93.47% merged - median length: 192.84
+WFOC_2_S16: 93.41% merged - median length: 192.57
+
+
+
+On average NaN% sequences merged (SD = NA%).
+
+2021-11-11 18:04:31
+Done with PE merging
+
+*** Module completed!
+
+

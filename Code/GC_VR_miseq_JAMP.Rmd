@@ -53,12 +53,11 @@ system2("vsearch",
 ## Merge pair end reads
 
 ```{r}
+demulti_files <- list.files("demulti_fastq/_data", full.names = TRUE)
 
 
-files <- list.files("GC_VR_MiSeq_Demulti", full.names=T)
-files
+Merge_PE(files = demulti_files)
 
-Merge_PE(files = "latest")
 
 ```
 

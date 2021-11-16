@@ -79,5 +79,5 @@ Temporary Items
 # Ignore pdf, csv, and txt outputs from MergePE function
 
 *_PE.pdf
-*_PE.txt
+*_PE_log.txt
 *_PE.csv

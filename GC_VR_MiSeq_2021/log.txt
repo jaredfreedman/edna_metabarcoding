@@ -229,3 +229,29 @@ Primers were successfully removed from NA% on average (SD = NA%).
 *** Module completed!
 
 
+##########
+2021-11-16 10:54:52
+PROCESSING MODULE:
+C_Cutadapt
+
+Module Version: v0.2
+
+
+Using Version: Cutadapt v3.5
+Starting to remove adapters (primers) on both ends in 95 files:
+Notice: Option "bothsides" enabled, will also trim adapters on reverse complements and orientate all sequences in the same forward direction.
+BA_1_S92 - NA% reads passed (0% forward + NA% reverse orientation)
+BA_2_S61 - NA% reads passed (0% forward + NA% reverse orientation)
+BOU_1_S94 - NA% reads passed (0% forward + NA% reverse orientation)
+BOU_2_S80 - NA% reads passed (0% forward + NA% reverse orientation)
+CHILDS_1_S11 - NA% reads passed (0% forward + NA% reverse orientation)
+CHILDS_2_S12 - NA% reads passed (0% forward + NA% reverse orientation)
+CLR_1_S59 - NA% reads passed (0% forward + NA% reverse orientation)
+CLR_2_S60 - NA% reads passed (0% forward + NA% reverse orientation)
+COL_1_S86 - NA% reads passed (0% forward + NA% reverse orientation)
+COL_2_S81 - NA% reads passed (0% forward + NA% reverse orientation)
+CR_109_1_S31 - NA% reads passed (0% forward + NA% reverse orientation)
+CR_109_2_S32 - NA% reads passed (0% forward + NA% reverse orientation)
+CR_134_1_S33 - NA% reads passed (0% forward + NA% reverse orientation)
+CR_134_2_S34 - NA% reads passed (0% forward + NA% reverse orientation)
+CR_143_1_S35 - NA% reads passed (0% forward + NA% reverse orientation)

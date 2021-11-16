@@ -75,3 +75,9 @@ Temporary Items
 # Ignore .fasta and .fastq files (often too big for Git)
 *.fasta
 *.fastq
+
+# Ignore pdf, csv, and txt outputs from MergePE function
+
+*_PE.pdf
+*_PE_log.txt
+*_PE.csv

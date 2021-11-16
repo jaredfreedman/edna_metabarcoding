@@ -1,0 +1,29 @@
+vsearch  -fastq_mergepairs "demulti_fastq/_data/FCW_1_S3_R1.fastq" -reverse "demulti_fastq/_data/FCW_1_S3_R2.fastq" -fastqout "A_merge_PE/_data/FCW_1_S3_PE.fastq" -fastq_maxdiffs 99 -fastq_maxdiffpct 25 -fastq_minovlen 16 -fastq_allowmergestagger
+
+
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+    114891  Pairs
+    107785  Merged (93.8%)
+      7106  Not merged (6.2%)
+
+Pairs that failed merging due to various reasons:
+         6  too few kmers found on same diagonal
+      7100  alignment score too low, or score drop too high
+
+Statistics of all reads:
+    251.00  Mean read length
+
+Statistics of merged reads:
+    193.40  Mean fragment length
+      3.53  Standard deviation of fragment length
+      0.14  Mean expected error in forward sequences
+      0.20  Mean expected error in reverse sequences
+      0.13  Mean expected error in merged sequences
+      0.54  Mean observed errors in merged region of forward sequences
+      0.43  Mean observed errors in merged region of reverse sequences
+      0.97  Mean observed errors in merged region

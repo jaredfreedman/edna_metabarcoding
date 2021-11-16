@@ -1,0 +1,13 @@
+vsearch  -fastq_mergepairs "demulti_fastq/_data/CR_97_1_S29_R1.fastq" -reverse "demulti_fastq/_data/CR_97_1_S29_R2.fastq" -fastqout "A_merge_PE/_data/CR_97_1_S29_PE.fastq" -fastq_maxdiffs 99 -fastq_maxdiffpct 25 -fastq_minovlen 16 -fastq_allowmergestagger
+
+
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Merging reads 100%
+         0  Pairs
+         0  Merged
+         0  Not merged
+

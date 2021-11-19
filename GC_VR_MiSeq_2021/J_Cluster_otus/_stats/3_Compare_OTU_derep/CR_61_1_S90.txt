@@ -1,0 +1,13 @@
+usearch -usearch_global J_Cluster_otus/_data/1_derep_inc_singletons/CR_61_1_S90_PE_derep.fasta -db "J_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs.fasta" -strand plus -id 0.97 -blast6out "J_Cluster_otus/_data/3_Compare_OTU_derep/CR_61_1_S90.txt" -maxhits 1 -maxaccepts 1 -maxrejects 32
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading file J_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs.fasta 100%
+274090 nt in 1932 seqs, min 132, max 152, avg 142
+Masking 100%
+Counting k-mers 100%
+Creating k-mer index 100%
+Searching 100%
+Matching unique query sequences: 5373 of 6333 (84.84%)

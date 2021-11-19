@@ -1,0 +1,57 @@
+10 dereplicated files where merged (inc singleotns) into file:
+"H_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta"
+
+cat H_Cluster_otus/_data/1_derep_inc_singletons/BA_1_S92_PE_derep.fasta H_Cluster_otus/_data/1_derep_inc_singletons/BA_2_S61_PE_derep.fasta H_Cluster_otus/_data/1_derep_inc_singletons/BOU_1_S94_PE_derep.fasta H_Cluster_otus/_data/1_derep_inc_singletons/BOU_2_S80_PE_derep.fasta H_Cluster_otus/_data/1_derep_inc_singletons/CHILDS_1_S11_PE_derep.fasta H_Cluster_otus/_data/1_derep_inc_singletons/CHILDS_2_S12_PE_derep.fasta H_Cluster_otus/_data/1_derep_inc_singletons/CLR_1_S59_PE_derep.fasta H_Cluster_otus/_data/1_derep_inc_singletons/CLR_2_S60_PE_derep.fasta H_Cluster_otus/_data/1_derep_inc_singletons/COL_1_S86_PE_derep.fasta H_Cluster_otus/_data/1_derep_inc_singletons/COL_2_S81_PE_derep.fasta > H_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta
+
+
+cat -derep_fulllength H_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta -output H_Cluster_otus/_data/2_OTU_clustering/B_all_derep_min2.fasta -sizein -sizeout -minuniquesize 2 -fasta_width 0
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file H_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta 100%
+7150994 nt in 50480 seqs, min 132, max 150, avg 142
+Sorting 100%
+42693 unique sequences, avg cluster 11.2, median 1, max 33113
+Writing output file 100%
+12078 uniques written, 30615 clusters discarded (71.7%)
+
+
+
+vsearch  -cluster_smallmem H_Cluster_otus/_data/2_OTU_clustering/B_all_derep_min2.fasta -centroids H_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs+chimeras.fasta -strand plus -usersort -id 0.97 -uc H_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs_OTUtab.txt -fasta_width 0 -relabel otu_ -sizein -sizeout
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading file H_Cluster_otus/_data/2_OTU_clustering/B_all_derep_min2.fasta 100%
+1711240 nt in 12078 seqs, min 132, max 145, avg 142
+Masking 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 742 Size min 2, max 77276, avg 16.3
+Singletons: 0, 0.0% of seqs, 0.0% of clusters
+
+
+
+vsearch  -uchime_denovo H_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs+chimeras.fasta -nonchimeras H_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs.fasta -sizein -sizeout -fasta_width 0 -relabel OTU_
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading file H_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs+chimeras.fasta 100%
+105259 nt in 742 seqs, min 133, max 143, avg 142
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 315 (42.5%) chimeras, 427 (57.5%) non-chimeras,
+and 0 (0.0%) borderline sequences in 742 unique sequences.
+Taking abundance information into account, this corresponds to
+3570 (0.8%) chimeras, 444540 (99.2%) non-chimeras,
+and 0 (0.0%) borderline sequences in 448110 total sequences.
+

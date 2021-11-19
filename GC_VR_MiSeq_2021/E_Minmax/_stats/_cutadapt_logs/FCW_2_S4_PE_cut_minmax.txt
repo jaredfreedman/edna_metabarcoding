@@ -1,0 +1,16 @@
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: D_Cutadapt/_data/FCW_2_S4_PE_cut.fastq -o E_Minmax/_data/FCW_2_S4_PE_cut_minmax.fastq -m 132 -M 152
+Processing reads on 1 core in single-end mode ...
+Finished in 0.26 s (5 µs/read; 13.16 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  57,990
+
+== Read fate breakdown ==
+Reads that were too short:                  13 (0.0%)
+Reads that were too long:                    4 (0.0%)
+Reads written (passing filters):        57,973 (100.0%)
+
+Total basepairs processed:     8,222,299 bp
+Total written (filtered):      8,220,864 bp (100.0%)

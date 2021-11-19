@@ -1,0 +1,8 @@
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o D_Cutadapt/_data/temp.txt A_merge_PE/_data/CR_97_1_S29_PE.fastq --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+No reads processed!
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a RAHCGAATACCHYTATTTGTTTG$ -o D_Cutadapt/_data/CR_97_1_S29_PE_cut.fastq D_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+No reads processed!

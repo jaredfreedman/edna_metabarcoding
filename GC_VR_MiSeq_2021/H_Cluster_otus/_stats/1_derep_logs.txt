@@ -1,0 +1,110 @@
+1_derep_inc_singletons/BA_1_S92_PE_derep.fasta
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file F_U_max_ee/_data/BA_1_S92_PE_cut_minmax_ee1.fasta 100%
+15142756 nt in 106855 seqs, min 132, max 150, avg 142
+Sorting 100%
+10244 unique sequences, avg cluster 10.4, median 1, max 33057
+Writing output file 100%
+
+
+1_derep_inc_singletons/BA_2_S61_PE_derep.fasta
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file F_U_max_ee/_data/BA_2_S61_PE_cut_minmax_ee1.fasta 100%
+6537358 nt in 46049 seqs, min 138, max 144, avg 142
+Sorting 100%
+3544 unique sequences, avg cluster 13.0, median 1, max 23910
+Writing output file 100%
+
+
+1_derep_inc_singletons/BOU_1_S94_PE_derep.fasta
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file F_U_max_ee/_data/BOU_1_S94_PE_cut_minmax_ee1.fasta 100%
+10519340 nt in 74270 seqs, min 138, max 147, avg 142
+Sorting 100%
+7676 unique sequences, avg cluster 9.7, median 1, max 22495
+Writing output file 100%
+
+
+1_derep_inc_singletons/BOU_2_S80_PE_derep.fasta
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file F_U_max_ee/_data/BOU_2_S80_PE_cut_minmax_ee1.fasta 100%
+7968679 nt in 56385 seqs, min 132, max 145, avg 141
+Sorting 100%
+6016 unique sequences, avg cluster 9.4, median 1, max 15403
+Writing output file 100%
+
+
+1_derep_inc_singletons/CHILDS_1_S11_PE_derep.fasta
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file F_U_max_ee/_data/CHILDS_1_S11_PE_cut_minmax_ee1.fasta 100%
+8724196 nt in 61633 seqs, min 133, max 150, avg 142
+Sorting 100%
+6167 unique sequences, avg cluster 10.0, median 1, max 18476
+Writing output file 100%
+
+
+1_derep_inc_singletons/CHILDS_2_S12_PE_derep.fasta
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file F_U_max_ee/_data/CHILDS_2_S12_PE_cut_minmax_ee1.fasta 100%
+7077204 nt in 49981 seqs, min 137, max 145, avg 142
+Sorting 100%
+7778 unique sequences, avg cluster 6.4, median 1, max 8318
+Writing output file 100%
+
+
+1_derep_inc_singletons/CLR_1_S59_PE_derep.fasta
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file F_U_max_ee/_data/CLR_1_S59_PE_cut_minmax_ee1.fasta 100%
+845241 nt in 5956 seqs, min 139, max 143, avg 142
+Sorting 100%
+1399 unique sequences, avg cluster 4.3, median 1, max 1328
+Writing output file 100%
+
+
+1_derep_inc_singletons/CLR_2_S60_PE_derep.fasta
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file F_U_max_ee/_data/CLR_2_S60_PE_cut_minmax_ee1.fasta 100%
+219252 nt in 1545 seqs, min 140, max 144, avg 142
+Sorting 100%
+682 unique sequences, avg cluster 2.3, median 1, max 133
+Writing output file 100%
+
+
+1_derep_inc_singletons/COL_1_S86_PE_derep.fasta
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file F_U_max_ee/_data/COL_1_S86_PE_cut_minmax_ee1.fasta 100%
+6322317 nt in 44526 seqs, min 133, max 144, avg 142
+Sorting 100%
+3680 unique sequences, avg cluster 12.1, median 1, max 10073
+Writing output file 100%
+
+
+1_derep_inc_singletons/COL_2_S81_PE_derep.fasta
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file F_U_max_ee/_data/COL_2_S81_PE_cut_minmax_ee1.fasta 100%
+4475793 nt in 31525 seqs, min 134, max 144, avg 142
+Sorting 100%
+3294 unique sequences, avg cluster 9.6, median 1, max 11085
+Writing output file 100%
+
+

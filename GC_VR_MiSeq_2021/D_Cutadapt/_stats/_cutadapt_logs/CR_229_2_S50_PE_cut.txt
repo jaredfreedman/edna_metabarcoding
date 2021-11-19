@@ -1,0 +1,67 @@
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o D_Cutadapt/_data/temp.txt A_merge_PE/_data/CR_229_2_S50_PE.fastq --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.89 s (8 µs/read; 7.81 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 115,640
+Reads with adapters:                    84,521 (73.1%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           31,119 (26.9%)
+Reads written (passing filters):        84,521 (73.1%)
+
+Total basepairs processed:    13,704,554 bp
+Total written (filtered):      8,393,227 bp (61.2%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 84521 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	27	0.0	2	0 0 27
+25	226	0.0	2	0 179 47
+26	36592	0.0	2	33211 1228 2153
+27	28909	0.0	2	0 27761 1148
+28	18767	0.0	2	0 0 18767
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a RAHCGAATACCHYTATTTGTTTG$ -o D_Cutadapt/_data/CR_229_2_S50_PE_cut.fastq D_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.63 s (7 µs/read; 8.10 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  84,521
+Reads with adapters:                    60,851 (72.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           23,670 (28.0%)
+Reads written (passing filters):        60,851 (72.0%)
+
+Total basepairs processed:     8,393,227 bp
+Total written (filtered):      4,779,683 bp (56.9%)
+
+=== Adapter 1 ===
+
+Sequence: RAHCGAATACCHYTATTTGTTTG; Type: anchored 3'; Length: 23; Trimmed: 60851 times
+
+No. of allowed errors: 2
+
+Bases preceding removed adapters:
+  A: 49.3%
+  C: 0.7%
+  G: 0.2%
+  T: 8.7%
+  none/other: 41.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+21	10	0.0	2	0 0 10
+22	145	0.0	2	0 130 15
+23	21864	0.0	2	19469 1980 415
+24	20729	0.0	2	0 19045 1684
+25	18103	0.0	2	0 0 18103

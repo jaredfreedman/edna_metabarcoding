@@ -1,0 +1,57 @@
+93 dereplicated files where merged (inc singleotns) into file:
+"J_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta"
+
+cat J_Cluster_otus/_data/1_derep_inc_singletons/BA_1_S92_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/BA_2_S61_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/BOU_1_S94_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/BOU_2_S80_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CHILDS_1_S11_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CHILDS_2_S12_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CLR_1_S59_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CLR_2_S60_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/COL_1_S86_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/COL_2_S81_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_109_1_S31_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_109_2_S32_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_134_1_S33_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_134_2_S34_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_143_1_S35_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_143_2_S36_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_148_1_S37_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_148_2_S38_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_157_1_S39_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_157_2_S40_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_180_1_S41_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_180_2_S42_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_204_1_S43_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_204_2_S44_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_216_2_S46_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_226_1_S47_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_226_2_S48_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_229_1_S49_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_229_2_S50_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_246_1_S51_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_246_2_S52_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_275_1_S53_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_275_2_S54_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_52_1_S23_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_52_2_S24_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_61_1_S90_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_61_2_S25_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_84_1_S91_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_84_2_S26_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_94_1_S27_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_94_2_S28_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/CR_97_2_S30_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/DIA_1_S79_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/DIA_2_S88_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/FCW_1_S3_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/FCW_2_S4_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/HAV_1_S71_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/HAV_2_S72_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/HER_1_S93_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/HER_2_S62_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/KAN_1_S67_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/KAN_2_S68_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/LCR_1_S57_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/LCR_2_S58_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/LF_1_S73_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/LF_2_S74_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/MAT_1_S69_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/MAT_2_S70_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/NANK_1_S55_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/NANK_2_S56_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/neg_Control_S89_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/pos_Control_S87_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/RM_20_1_S19_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/RM_20_2_S20_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/RM_88_1_S21_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/RM_88_2_S22_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/SC_1_S13_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/SC_2_S14_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/SCGC_1_S75_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/SCGC_2_S76_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/SHI_1_S63_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/SHI_2_S64_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/SPE_1_S84_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/SPE_2_S85_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/TAP_1_S65_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/TAP_2_S66_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/TCDW_1_S7_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/TCDW_2_S8_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/TRA_1_S82_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/TRA_2_S83_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/TS_1_S77_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/TS_2_S78_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/Undetermined_S0_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/VRBF_1_S9_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/VRBF_2_S10_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/VRSB_1_S5_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/VRSB_2_S6_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/WBC_1_S17_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/WBC_2_S18_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/WCC_1_S1_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/WCC_2_S2_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/WFOC_1_S15_PE_derep.fasta J_Cluster_otus/_data/1_derep_inc_singletons/WFOC_2_S16_PE_derep.fasta > J_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta
+
+
+cat -derep_fulllength J_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta -output J_Cluster_otus/_data/2_OTU_clustering/B_all_derep_min2.fasta -sizein -sizeout -minuniquesize 2 -fasta_width 0
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Dereplicating file J_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta 100%
+94603600 nt in 667492 seqs, min 132, max 152, avg 142
+Sorting 100%
+390609 unique sequences, avg cluster 13.3, median 1, max 474877
+Writing output file 100%
+107773 uniques written, 282836 clusters discarded (72.4%)
+
+
+
+vsearch  -cluster_smallmem J_Cluster_otus/_data/2_OTU_clustering/B_all_derep_min2.fasta -centroids J_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs+chimeras.fasta -strand plus -usersort -id 0.97 -uc J_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs_OTUtab.txt -fasta_width 0 -relabel otu_ -sizein -sizeout
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading file J_Cluster_otus/_data/2_OTU_clustering/B_all_derep_min2.fasta 100%
+15276367 nt in 107773 seqs, min 132, max 152, avg 142
+Masking 100%
+Counting k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 4968 Size min 2, max 701132, avg 21.7
+Singletons: 0, 0.0% of seqs, 0.0% of clusters
+
+
+
+vsearch  -uchime_denovo J_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs+chimeras.fasta -nonchimeras J_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs.fasta -sizein -sizeout -fasta_width 0 -relabel OTU_
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading file J_Cluster_otus/_data/2_OTU_clustering/C_all_derep_min2_OTUs+chimeras.fasta 100%
+704863 nt in 4968 seqs, min 132, max 152, avg 142
+Masking 100%
+Sorting by abundance 100%
+Counting k-mers 100%
+Detecting chimeras 100%
+Found 3036 (61.1%) chimeras, 1932 (38.9%) non-chimeras,
+and 0 (0.0%) borderline sequences in 4968 unique sequences.
+Taking abundance information into account, this corresponds to
+60069 (1.2%) chimeras, 4833380 (98.8%) non-chimeras,
+and 0 (0.0%) borderline sequences in 4893449 total sequences.
+

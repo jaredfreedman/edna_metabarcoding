@@ -230,7 +230,7 @@ Primers were successfully removed from NA% on average (SD = NA%).
 
 
 ##########
-2021-11-16 10:54:52
+2021-11-18 14:21:47
 PROCESSING MODULE:
 C_Cutadapt
 
@@ -240,18 +240,1028 @@ Module Version: v0.2
 Using Version: Cutadapt v3.5
 Starting to remove adapters (primers) on both ends in 95 files:
 Notice: Option "bothsides" enabled, will also trim adapters on reverse complements and orientate all sequences in the same forward direction.
-BA_1_S92 - NA% reads passed (0% forward + NA% reverse orientation)
-BA_2_S61 - NA% reads passed (0% forward + NA% reverse orientation)
-BOU_1_S94 - NA% reads passed (0% forward + NA% reverse orientation)
-BOU_2_S80 - NA% reads passed (0% forward + NA% reverse orientation)
-CHILDS_1_S11 - NA% reads passed (0% forward + NA% reverse orientation)
-CHILDS_2_S12 - NA% reads passed (0% forward + NA% reverse orientation)
-CLR_1_S59 - NA% reads passed (0% forward + NA% reverse orientation)
-CLR_2_S60 - NA% reads passed (0% forward + NA% reverse orientation)
-COL_1_S86 - NA% reads passed (0% forward + NA% reverse orientation)
-COL_2_S81 - NA% reads passed (0% forward + NA% reverse orientation)
-CR_109_1_S31 - NA% reads passed (0% forward + NA% reverse orientation)
-CR_109_2_S32 - NA% reads passed (0% forward + NA% reverse orientation)
-CR_134_1_S33 - NA% reads passed (0% forward + NA% reverse orientation)
-CR_134_2_S34 - NA% reads passed (0% forward + NA% reverse orientation)
-CR_143_1_S35 - NA% reads passed (0% forward + NA% reverse orientation)
+BA_1_S92 - NA% reads passed (60.75% forward + NA% reverse orientation)
+BA_2_S61 - NA% reads passed (61.12% forward + NA% reverse orientation)
+BOU_1_S94 - NA% reads passed (57.05% forward + NA% reverse orientation)
+BOU_2_S80 - NA% reads passed (59.7% forward + NA% reverse orientation)
+CHILDS_1_S11 - NA% reads passed (61.11% forward + NA% reverse orientation)
+CHILDS_2_S12 - NA% reads passed (61.06% forward + NA% reverse orientation)
+CLR_1_S59 - 55.92% reads passed (55.92% forward + 0% reverse orientation)
+CLR_2_S60 - NA% reads passed (54% forward + NA% reverse orientation)
+COL_1_S86 - NA% reads passed (57.8% forward + NA% reverse orientation)
+COL_2_S81 - 43.65% reads passed (43.65% forward + 0% reverse orientation)
+CR_109_1_S31 - NA% reads passed (60.9% forward + NA% reverse orientation)
+CR_109_2_S32 - NA% reads passed (60.74% forward + NA% reverse orientation)
+CR_134_1_S33 - NA% reads passed (61.2% forward + NA% reverse orientation)
+CR_134_2_S34 - NA% reads passed (56.32% forward + NA% reverse orientation)
+CR_143_1_S35 - NA% reads passed (60.86% forward + NA% reverse orientation)
+CR_143_2_S36 - NA% reads passed (59.38% forward + NA% reverse orientation)
+CR_148_1_S37 - NA% reads passed (60.86% forward + NA% reverse orientation)
+CR_148_2_S38 - NA% reads passed (60.46% forward + NA% reverse orientation)
+CR_157_1_S39 - NA% reads passed (60.31% forward + NA% reverse orientation)
+CR_157_2_S40 - NA% reads passed (59.01% forward + NA% reverse orientation)
+CR_180_1_S41 - NA% reads passed (56.27% forward + NA% reverse orientation)
+CR_180_2_S42 - NA% reads passed (56.77% forward + NA% reverse orientation)
+CR_204_1_S43 - 59.23% reads passed (59.23% forward + 0% reverse orientation)
+CR_204_2_S44 - NA% reads passed (57.05% forward + NA% reverse orientation)
+CR_216_1_S45 - NA% reads passed (NA% forward + NA% reverse orientation)
+CR_216_2_S46 - NA% reads passed (59.31% forward + NA% reverse orientation)
+CR_226_1_S47 - NA% reads passed (58.06% forward + NA% reverse orientation)
+CR_226_2_S48 - 59.2% reads passed (59.2% forward + 0% reverse orientation)
+CR_229_1_S49 - NA% reads passed (59% forward + NA% reverse orientation)
+CR_229_2_S50 - 52.62% reads passed (52.62% forward + 0% reverse orientation)
+CR_246_1_S51 - NA% reads passed (56.34% forward + NA% reverse orientation)
+CR_246_2_S52 - 52.96% reads passed (52.96% forward + 0% reverse orientation)
+CR_275_1_S53 - 60.17% reads passed (60.17% forward + 0% reverse orientation)
+CR_275_2_S54 - 59.61% reads passed (59.61% forward + 0% reverse orientation)
+CR_52_1_S23 - NA% reads passed (60.97% forward + NA% reverse orientation)
+CR_52_2_S24 - NA% reads passed (61.43% forward + NA% reverse orientation)
+CR_61_1_S90 - NA% reads passed (60.8% forward + NA% reverse orientation)
+CR_61_2_S25 - NA% reads passed (61.13% forward + NA% reverse orientation)
+CR_84_1_S91 - NA% reads passed (59.83% forward + NA% reverse orientation)
+CR_84_2_S26 - 49.48% reads passed (49.48% forward + 0% reverse orientation)
+CR_94_1_S27 - NA% reads passed (61.09% forward + NA% reverse orientation)
+CR_94_2_S28 - NA% reads passed (61.14% forward + NA% reverse orientation)
+CR_97_1_S29 - NA% reads passed (NA% forward + NA% reverse orientation)
+CR_97_2_S30 - NA% reads passed (60.29% forward + NA% reverse orientation)
+DIA_1_S79 - NA% reads passed (61.08% forward + NA% reverse orientation)
+DIA_2_S88 - NA% reads passed (60.98% forward + NA% reverse orientation)
+FCW_1_S3 - NA% reads passed (61.37% forward + NA% reverse orientation)
+FCW_2_S4 - NA% reads passed (61.37% forward + NA% reverse orientation)
+HAV_1_S71 - NA% reads passed (61.05% forward + NA% reverse orientation)
+HAV_2_S72 - 59.63% reads passed (59.63% forward + 0% reverse orientation)
+HER_1_S93 - NA% reads passed (57.1% forward + NA% reverse orientation)
+HER_2_S62 - NA% reads passed (61.03% forward + NA% reverse orientation)
+KAN_1_S67 - 60.05% reads passed (60.04% forward + 0% reverse orientation)
+KAN_2_S68 - NA% reads passed (59.61% forward + NA% reverse orientation)
+LCR_1_S57 - 61.31% reads passed (61.31% forward + 0% reverse orientation)
+LCR_2_S58 - NA% reads passed (61.52% forward + NA% reverse orientation)
+LF_1_S73 - 47.78% reads passed (47.78% forward + 0% reverse orientation)
+LF_2_S74 - 50.96% reads passed (50.96% forward + 0% reverse orientation)
+MAT_1_S69 - NA% reads passed (61.14% forward + NA% reverse orientation)
+MAT_2_S70 - NA% reads passed (61.3% forward + NA% reverse orientation)
+NANK_1_S55 - 60.93% reads passed (60.93% forward + 0% reverse orientation)
+NANK_2_S56 - NA% reads passed (61.15% forward + NA% reverse orientation)
+neg_Control_S89 - NA% reads passed (3.3% forward + NA% reverse orientation)
+pos_Control_S87 - NA% reads passed (60.54% forward + NA% reverse orientation)
+RM_20_1_S19 - NA% reads passed (61% forward + NA% reverse orientation)
+RM_20_2_S20 - NA% reads passed (61.11% forward + NA% reverse orientation)
+RM_88_1_S21 - NA% reads passed (61.13% forward + NA% reverse orientation)
+RM_88_2_S22 - NA% reads passed (60.73% forward + NA% reverse orientation)
+SC_1_S13 - NA% reads passed (61.08% forward + NA% reverse orientation)
+SC_2_S14 - NA% reads passed (61.04% forward + NA% reverse orientation)
+SCGC_1_S75 - NA% reads passed (61.18% forward + NA% reverse orientation)
+SCGC_2_S76 - NA% reads passed (60.92% forward + NA% reverse orientation)
+SHI_1_S63 - NA% reads passed (61.63% forward + NA% reverse orientation)
+SHI_2_S64 - NA% reads passed (61.64% forward + NA% reverse orientation)
+SPE_1_S84 - NA% reads passed (60.7% forward + NA% reverse orientation)
+SPE_2_S85 - NA% reads passed (60.11% forward + NA% reverse orientation)
+TAP_1_S65 - NA% reads passed (61.2% forward + NA% reverse orientation)
+TAP_2_S66 - NA% reads passed (61% forward + NA% reverse orientation)
+TCDW_1_S7 - NA% reads passed (61.45% forward + NA% reverse orientation)
+TCDW_2_S8 - NA% reads passed (61.7% forward + NA% reverse orientation)
+TRA_1_S82 - NA% reads passed (59.37% forward + NA% reverse orientation)
+TRA_2_S83 - NA% reads passed (58.79% forward + NA% reverse orientation)
+TS_1_S77 - NA% reads passed (59.42% forward + NA% reverse orientation)
+TS_2_S78 - NA% reads passed (59.77% forward + NA% reverse orientation)
+Undetermined_S0 - 14.84% reads passed (14.84% forward + 0% reverse orientation)
+VRBF_1_S9 - NA% reads passed (61.26% forward + NA% reverse orientation)
+VRBF_2_S10 - NA% reads passed (61.49% forward + NA% reverse orientation)
+VRSB_1_S5 - NA% reads passed (61.19% forward + NA% reverse orientation)
+VRSB_2_S6 - NA% reads passed (61.3% forward + NA% reverse orientation)
+WBC_1_S17 - NA% reads passed (61.67% forward + NA% reverse orientation)
+WBC_2_S18 - NA% reads passed (61.81% forward + NA% reverse orientation)
+WCC_1_S1 - NA% reads passed (61.55% forward + NA% reverse orientation)
+WCC_2_S2 - NA% reads passed (61.55% forward + NA% reverse orientation)
+WFOC_1_S15 - NA% reads passed (61.01% forward + NA% reverse orientation)
+WFOC_2_S16 - NA% reads passed (61.35% forward + NA% reverse orientation)
+
+Primers were successfully removed from NA% on average (SD = NA%).
+
+2021-11-18 14:25:37
+
+
+*** Module completed!
+
+
+##########
+2021-11-18 15:01:08
+PROCESSING MODULE:
+D_Cutadapt
+
+Module Version: v0.2
+
+
+Using Version: Cutadapt v3.5
+Starting to remove adapters (primers) on both ends in 95 files:
+BA_1_S92 - 60.75% reads passed
+BA_2_S61 - 61.12% reads passed
+BOU_1_S94 - 57.05% reads passed
+BOU_2_S80 - 59.7% reads passed
+CHILDS_1_S11 - 61.11% reads passed
+CHILDS_2_S12 - 61.06% reads passed
+CLR_1_S59 - 55.92% reads passed
+CLR_2_S60 - 54% reads passed
+COL_1_S86 - 57.8% reads passed
+COL_2_S81 - 43.65% reads passed
+CR_109_1_S31 - 60.9% reads passed
+CR_109_2_S32 - 60.74% reads passed
+CR_134_1_S33 - 61.2% reads passed
+CR_134_2_S34 - 56.32% reads passed
+CR_143_1_S35 - 60.86% reads passed
+CR_143_2_S36 - 59.38% reads passed
+CR_148_1_S37 - 60.86% reads passed
+CR_148_2_S38 - 60.46% reads passed
+CR_157_1_S39 - 60.31% reads passed
+CR_157_2_S40 - 59.01% reads passed
+CR_180_1_S41 - 56.27% reads passed
+CR_180_2_S42 - 56.77% reads passed
+CR_204_1_S43 - 59.23% reads passed
+CR_204_2_S44 - 57.05% reads passed
+CR_216_1_S45 - NA% reads passed
+CR_216_2_S46 - 59.31% reads passed
+CR_226_1_S47 - 58.06% reads passed
+CR_226_2_S48 - 59.2% reads passed
+CR_229_1_S49 - 59% reads passed
+CR_229_2_S50 - 52.62% reads passed
+CR_246_1_S51 - 56.34% reads passed
+CR_246_2_S52 - 52.96% reads passed
+CR_275_1_S53 - 60.17% reads passed
+CR_275_2_S54 - 59.61% reads passed
+CR_52_1_S23 - 60.97% reads passed
+CR_52_2_S24 - 61.43% reads passed
+CR_61_1_S90 - 60.8% reads passed
+CR_61_2_S25 - 61.13% reads passed
+CR_84_1_S91 - 59.83% reads passed
+CR_84_2_S26 - 49.48% reads passed
+CR_94_1_S27 - 61.09% reads passed
+CR_94_2_S28 - 61.14% reads passed
+CR_97_1_S29 - NA% reads passed
+CR_97_2_S30 - 60.29% reads passed
+DIA_1_S79 - 61.08% reads passed
+DIA_2_S88 - 60.98% reads passed
+FCW_1_S3 - 61.37% reads passed
+FCW_2_S4 - 61.37% reads passed
+HAV_1_S71 - 61.05% reads passed
+HAV_2_S72 - 59.63% reads passed
+HER_1_S93 - 57.1% reads passed
+HER_2_S62 - 61.03% reads passed
+KAN_1_S67 - 60.04% reads passed
+KAN_2_S68 - 59.61% reads passed
+LCR_1_S57 - 61.31% reads passed
+LCR_2_S58 - 61.52% reads passed
+LF_1_S73 - 47.78% reads passed
+LF_2_S74 - 50.96% reads passed
+MAT_1_S69 - 61.14% reads passed
+MAT_2_S70 - 61.3% reads passed
+NANK_1_S55 - 60.93% reads passed
+NANK_2_S56 - 61.15% reads passed
+neg_Control_S89 - 3.3% reads passed
+pos_Control_S87 - 60.54% reads passed
+RM_20_1_S19 - 61% reads passed
+RM_20_2_S20 - 61.11% reads passed
+RM_88_1_S21 - 61.13% reads passed
+RM_88_2_S22 - 60.73% reads passed
+SC_1_S13 - 61.08% reads passed
+SC_2_S14 - 61.04% reads passed
+SCGC_1_S75 - 61.18% reads passed
+SCGC_2_S76 - 60.92% reads passed
+SHI_1_S63 - 61.63% reads passed
+SHI_2_S64 - 61.64% reads passed
+SPE_1_S84 - 60.7% reads passed
+SPE_2_S85 - 60.11% reads passed
+TAP_1_S65 - 61.2% reads passed
+TAP_2_S66 - 61% reads passed
+TCDW_1_S7 - 61.45% reads passed
+TCDW_2_S8 - 61.7% reads passed
+TRA_1_S82 - 59.37% reads passed
+TRA_2_S83 - 58.79% reads passed
+TS_1_S77 - 59.42% reads passed
+TS_2_S78 - 59.77% reads passed
+Undetermined_S0 - 14.84% reads passed
+VRBF_1_S9 - 61.26% reads passed
+VRBF_2_S10 - 61.49% reads passed
+VRSB_1_S5 - 61.19% reads passed
+VRSB_2_S6 - 61.3% reads passed
+WBC_1_S17 - 61.67% reads passed
+WBC_2_S18 - 61.81% reads passed
+WCC_1_S1 - 61.55% reads passed
+WCC_2_S2 - 61.55% reads passed
+WFOC_1_S15 - 61.01% reads passed
+WFOC_2_S16 - 61.35% reads passed
+
+Primers were successfully removed from NA% on average (SD = NA%).
+
+2021-11-18 15:03:41
+
+
+*** Module completed!
+
+
+##########
+2021-11-18 17:04:55
+PROCESSING MODULE:
+E_Minmax
+
+Version: Cutadapt v3.5
+Starting to discard reads that don't fit the target length in 95 files:
+BA_1_S92 - 99.99% reads passed
+BA_2_S61 - 99.98% reads passed
+BOU_1_S94 - 99.97% reads passed
+BOU_2_S80 - 96.68% reads passed
+CHILDS_1_S11 - 99.96% reads passed
+CHILDS_2_S12 - 99.88% reads passed
+CLR_1_S59 - 49.75% reads passed
+CLR_2_S60 - 90.39% reads passed
+COL_1_S86 - 96.37% reads passed
+COL_2_S81 - 93.55% reads passed
+CR_109_1_S31 - 99.96% reads passed
+CR_109_2_S32 - 99.48% reads passed
+CR_134_1_S33 - 99.79% reads passed
+CR_134_2_S34 - 96.15% reads passed
+CR_143_1_S35 - 99.99% reads passed
+CR_143_2_S36 - 99.08% reads passed
+CR_148_1_S37 - 99.89% reads passed
+CR_148_2_S38 - 99.97% reads passed
+CR_157_1_S39 - 99.8% reads passed
+CR_157_2_S40 - 97.15% reads passed
+CR_180_1_S41 - 96.65% reads passed
+CR_180_2_S42 - 99.65% reads passed
+CR_204_1_S43 - 99.89% reads passed
+CR_204_2_S44 - 99.68% reads passed
+CR_216_1_S45 - NA% reads passed
+CR_216_2_S46 - 95.35% reads passed
+CR_226_1_S47 - 95.72% reads passed
+CR_226_2_S48 - 83.37% reads passed
+CR_229_1_S49 - 96.89% reads passed
+CR_229_2_S50 - 55.13% reads passed
+CR_246_1_S51 - 95.92% reads passed
+CR_246_2_S52 - 82.36% reads passed
+CR_275_1_S53 - 74.59% reads passed
+CR_275_2_S54 - 70.2% reads passed
+CR_52_1_S23 - 99.92% reads passed
+CR_52_2_S24 - 99.88% reads passed
+CR_61_1_S90 - 99.53% reads passed
+CR_61_2_S25 - 99.93% reads passed
+CR_84_1_S91 - 99.76% reads passed
+CR_84_2_S26 - 72.87% reads passed
+CR_94_1_S27 - 99.91% reads passed
+CR_94_2_S28 - 99.86% reads passed
+CR_97_1_S29 - NA% reads passed
+CR_97_2_S30 - 98.97% reads passed
+DIA_1_S79 - 99.35% reads passed
+DIA_2_S88 - 99.85% reads passed
+FCW_1_S3 - 99.96% reads passed
+FCW_2_S4 - 99.97% reads passed
+HAV_1_S71 - 99% reads passed
+HAV_2_S72 - 91.52% reads passed
+HER_1_S93 - 99.99% reads passed
+HER_2_S62 - 98.8% reads passed
+KAN_1_S67 - 96.24% reads passed
+KAN_2_S68 - 92.64% reads passed
+LCR_1_S57 - 98.84% reads passed
+LCR_2_S58 - 99.39% reads passed
+LF_1_S73 - 62.46% reads passed
+LF_2_S74 - 36.75% reads passed
+MAT_1_S69 - 99.19% reads passed
+MAT_2_S70 - 99.02% reads passed
+NANK_1_S55 - 99.88% reads passed
+NANK_2_S56 - 99.92% reads passed
+neg_Control_S89 - 39.35% reads passed
+pos_Control_S87 - 99.78% reads passed
+RM_20_1_S19 - 99.68% reads passed
+RM_20_2_S20 - 99.5% reads passed
+RM_88_1_S21 - 99.98% reads passed
+RM_88_2_S22 - 99.58% reads passed
+SC_1_S13 - 99.99% reads passed
+SC_2_S14 - 99.95% reads passed
+SCGC_1_S75 - 99.41% reads passed
+SCGC_2_S76 - 99.48% reads passed
+SHI_1_S63 - 99.79% reads passed
+SHI_2_S64 - 99.95% reads passed
+SPE_1_S84 - 99.52% reads passed
+SPE_2_S85 - 98.44% reads passed
+TAP_1_S65 - 99.6% reads passed
+TAP_2_S66 - 98.99% reads passed
+TCDW_1_S7 - 99.99% reads passed
+TCDW_2_S8 - 99.96% reads passed
+TRA_1_S82 - 96.98% reads passed
+TRA_2_S83 - 97.57% reads passed
+TS_1_S77 - 95.85% reads passed
+TS_2_S78 - 98.91% reads passed
+Undetermined_S0 - 96.18% reads passed
+VRBF_1_S9 - 99.65% reads passed
+VRBF_2_S10 - 99.09% reads passed
+VRSB_1_S5 - 99.68% reads passed
+VRSB_2_S6 - 99.98% reads passed
+WBC_1_S17 - 99.93% reads passed
+WBC_2_S18 - 99.94% reads passed
+WCC_1_S1 - 99.98% reads passed
+WCC_2_S2 - 99.96% reads passed
+WFOC_1_S15 - 99.68% reads passed
+WFOC_2_S16 - 99.53% reads passed
+
+Proportion of sequences of expected length: NA% on average (SD = NA%,  Median = NA%).
+
+2021-11-18 17:05:32
+
+
+*** Module completed!
+
+##########
+2021-11-18 17:08:54
+PROCESSING MODULE:
+F_U_max_ee
+
+
+
+Version v0.2
+
+
+Starting to quality filter (max expected errors = 1, maxN = 0) in 95 samples.
+BA_1_S92: 98.93% pass EE 
+BA_2_S61: 99.17% pass EE 
+BOU_1_S94: 98.95% pass EE 
+BOU_2_S80: 98.93% pass EE 
+CHILDS_1_S11: 98.89% pass EE 
+CHILDS_2_S12: 98.72% pass EE 
+CLR_1_S59: 99.27% pass EE 
+CLR_2_S60: 98.91% pass EE 
+COL_1_S86: 98.82% pass EE 
+COL_2_S81: 98.77% pass EE 
+CR_109_1_S31: 99.24% pass EE 
+CR_109_2_S32: 99.15% pass EE 
+CR_134_1_S33: 99.18% pass EE 
+CR_134_2_S34: 99.08% pass EE 
+CR_143_1_S35: 99.22% pass EE 
+CR_143_2_S36: 98.96% pass EE 
+CR_148_1_S37: 99.14% pass EE 
+CR_148_2_S38: 99.33% pass EE 
+CR_157_1_S39: 98.95% pass EE 
+CR_157_2_S40: 98.95% pass EE 
+CR_180_1_S41: 99.22% pass EE 
+CR_180_2_S42: 99.17% pass EE 
+CR_204_1_S43: 99.23% pass EE 
+CR_204_2_S44: 99.05% pass EE 
+WARNING:CR_216_1_S45: Imput file did not contain sequences!
+CR_216_2_S46: 99.12% pass EE 
+CR_226_1_S47: 99.14% pass EE 
+CR_226_2_S48: 99.11% pass EE 
+CR_229_1_S49: 99.12% pass EE 
+CR_229_2_S50: 99.1% pass EE 
+CR_246_1_S51: 98.53% pass EE 
+CR_246_2_S52: 98.82% pass EE 
+CR_275_1_S53: 99.09% pass EE 
+CR_275_2_S54: 99.08% pass EE 
+CR_52_1_S23: 98.97% pass EE 
+CR_52_2_S24: 99.15% pass EE 
+CR_61_1_S90: 99.28% pass EE 
+CR_61_2_S25: 99.15% pass EE 
+CR_84_1_S91: 99.07% pass EE 
+CR_84_2_S26: 99.17% pass EE 
+CR_94_1_S27: 99.28% pass EE 
+CR_94_2_S28: 98.89% pass EE 
+WARNING:CR_97_1_S29: Imput file did not contain sequences!
+CR_97_2_S30: 99.05% pass EE 
+DIA_1_S79: 98.9% pass EE 
+DIA_2_S88: 98.94% pass EE 
+FCW_1_S3: 98.84% pass EE 
+FCW_2_S4: 98.98% pass EE 
+HAV_1_S71: 98.51% pass EE 
+HAV_2_S72: 98.82% pass EE 
+HER_1_S93: 99.19% pass EE 
+HER_2_S62: 99.02% pass EE 
+KAN_1_S67: 98.87% pass EE 
+KAN_2_S68: 98.93% pass EE 
+LCR_1_S57: 99.12% pass EE 
+LCR_2_S58: 99.07% pass EE 
+LF_1_S73: 98.9% pass EE 
+LF_2_S74: 98.84% pass EE 
+MAT_1_S69: 98.95% pass EE 
+MAT_2_S70: 98.89% pass EE 
+NANK_1_S55: 98.9% pass EE 
+NANK_2_S56: 98.97% pass EE 
+neg_Control_S89: 99.1% pass EE 
+pos_Control_S87: 99.15% pass EE 
+RM_20_1_S19: 98.56% pass EE 
+RM_20_2_S20: 98.85% pass EE 
+RM_88_1_S21: 99.19% pass EE 
+RM_88_2_S22: 99.04% pass EE 
+SC_1_S13: 98.82% pass EE 
+SC_2_S14: 98.89% pass EE 
+SCGC_1_S75: 98.97% pass EE 
+SCGC_2_S76: 98.98% pass EE 
+SHI_1_S63: 99.07% pass EE 
+SHI_2_S64: 98.93% pass EE 
+SPE_1_S84: 99.23% pass EE 
+SPE_2_S85: 99.09% pass EE 
+TAP_1_S65: 99.12% pass EE 
+TAP_2_S66: 98.79% pass EE 
+TCDW_1_S7: 99.05% pass EE 
+TCDW_2_S8: 98.89% pass EE 
+TRA_1_S82: 98.7% pass EE 
+TRA_2_S83: 98.8% pass EE 
+TS_1_S77: 98.89% pass EE 
+TS_2_S78: 98.78% pass EE 
+Undetermined_S0: 87.27% pass EE 
+VRBF_1_S9: 98.97% pass EE 
+VRBF_2_S10: 98.74% pass EE 
+VRSB_1_S5: 98.83% pass EE 
+VRSB_2_S6: 99.28% pass EE 
+WBC_1_S17: 99.09% pass EE 
+WBC_2_S18: 98.94% pass EE 
+WCC_1_S1: 98.95% pass EE 
+WCC_2_S2: 99.03% pass EE 
+WFOC_1_S15: 98.75% pass EE 
+WFOC_2_S16: 98.49% pass EE 
+
+
+
+Sequences with sufficient read quality: NaN% on average (SD = NA%).
+
+2021-11-18 17:09:24
+*** Module completed!
+
+##########
+2021-11-19 10:27:58
+PROCESSING MODULE:
+G_U_max_ee
+
+
+
+Version v0.2
+
+
+Starting to quality filter (max expected errors = 0.5, maxN = 0) in 95 samples.
+BA_1_S92: 94.02% pass EE 
+BA_2_S61: 94.32% pass EE 
+BOU_1_S94: 92.9% pass EE 
+BOU_2_S80: 93.34% pass EE 
+CHILDS_1_S11: 92.81% pass EE 
+CHILDS_2_S12: 93.35% pass EE 
+CLR_1_S59: 93.98% pass EE 
+CLR_2_S60: 94.3% pass EE 
+COL_1_S86: 93.39% pass EE 
+COL_2_S81: 92.99% pass EE 
+CR_109_1_S31: 94.59% pass EE 
+CR_109_2_S32: 94.27% pass EE 
+CR_134_1_S33: 94.4% pass EE 
+CR_134_2_S34: 93.83% pass EE 
+CR_143_1_S35: 94.08% pass EE 
+CR_143_2_S36: 93.81% pass EE 
+CR_148_1_S37: 94.01% pass EE 
+CR_148_2_S38: 94.46% pass EE 
+CR_157_1_S39: 93.02% pass EE 
+CR_157_2_S40: 93.66% pass EE 
+CR_180_1_S41: 94.31% pass EE 
+CR_180_2_S42: 94.24% pass EE 
+CR_204_1_S43: 94.77% pass EE 
+CR_204_2_S44: 94.1% pass EE 
+WARNING:CR_216_1_S45: Imput file did not contain sequences!
+CR_216_2_S46: 94.17% pass EE 
+CR_226_1_S47: 94.16% pass EE 
+CR_226_2_S48: 94.02% pass EE 
+CR_229_1_S49: 94.31% pass EE 
+CR_229_2_S50: 94.17% pass EE 
+CR_246_1_S51: 93.8% pass EE 
+CR_246_2_S52: 93.66% pass EE 
+CR_275_1_S53: 94.08% pass EE 
+CR_275_2_S54: 93.82% pass EE 
+CR_52_1_S23: 93.81% pass EE 
+CR_52_2_S24: 93.36% pass EE 
+CR_61_1_S90: 94.53% pass EE 
+CR_61_2_S25: 94.52% pass EE 
+CR_84_1_S91: 93.78% pass EE 
+CR_84_2_S26: 94.5% pass EE 
+CR_94_1_S27: 93.84% pass EE 
+CR_94_2_S28: 93.3% pass EE 
+WARNING:CR_97_1_S29: Imput file did not contain sequences!
+CR_97_2_S30: 93.72% pass EE 
+DIA_1_S79: 93.57% pass EE 
+DIA_2_S88: 93.56% pass EE 
+FCW_1_S3: 94.35% pass EE 
+FCW_2_S4: 94.44% pass EE 
+HAV_1_S71: 92.19% pass EE 
+HAV_2_S72: 93.26% pass EE 
+HER_1_S93: 94.74% pass EE 
+HER_2_S62: 94.01% pass EE 
+KAN_1_S67: 93.47% pass EE 
+KAN_2_S68: 93.53% pass EE 
+LCR_1_S57: 93.77% pass EE 
+LCR_2_S58: 94.19% pass EE 
+LF_1_S73: 93.66% pass EE 
+LF_2_S74: 93.35% pass EE 
+MAT_1_S69: 93.67% pass EE 
+MAT_2_S70: 93.25% pass EE 
+NANK_1_S55: 93.32% pass EE 
+NANK_2_S56: 93.52% pass EE 
+neg_Control_S89: 93.8% pass EE 
+pos_Control_S87: 94.5% pass EE 
+RM_20_1_S19: 92.86% pass EE 
+RM_20_2_S20: 93.23% pass EE 
+RM_88_1_S21: 94.03% pass EE 
+RM_88_2_S22: 93.8% pass EE 
+SC_1_S13: 93.48% pass EE 
+SC_2_S14: 93.02% pass EE 
+SCGC_1_S75: 93.55% pass EE 
+SCGC_2_S76: 93.43% pass EE 
+SHI_1_S63: 93.8% pass EE 
+SHI_2_S64: 93.95% pass EE 
+SPE_1_S84: 94.45% pass EE 
+SPE_2_S85: 94.26% pass EE 
+TAP_1_S65: 94.35% pass EE 
+TAP_2_S66: 93.48% pass EE 
+TCDW_1_S7: 94.15% pass EE 
+TCDW_2_S8: 93.82% pass EE 
+TRA_1_S82: 93.86% pass EE 
+TRA_2_S83: 93.73% pass EE 
+TS_1_S77: 93.53% pass EE 
+TS_2_S78: 93.38% pass EE 
+Undetermined_S0: 79.9% pass EE 
+VRBF_1_S9: 93.53% pass EE 
+VRBF_2_S10: 93.39% pass EE 
+VRSB_1_S5: 93.54% pass EE 
+VRSB_2_S6: 94.17% pass EE 
+WBC_1_S17: 93.86% pass EE 
+WBC_2_S18: 93.45% pass EE 
+WCC_1_S1: 93.88% pass EE 
+WCC_2_S2: 93.69% pass EE 
+WFOC_1_S15: 93.17% pass EE 
+WFOC_2_S16: 92.66% pass EE 
+
+
+
+Sequences with sufficient read quality: NaN% on average (SD = NA%).
+
+2021-11-19 10:28:28
+*** Module completed!
+
+##########
+2021-11-19 11:37:44
+PROCESSING MODULE:
+H_Cluster_otus
+
+Version v0.3
+
+
+10 files are dereplicated (incl. singletons!):
+1_derep_inc_singletons/BA_1_S92_PE_derep.fasta
+1_derep_inc_singletons/BA_2_S61_PE_derep.fasta
+1_derep_inc_singletons/BOU_1_S94_PE_derep.fasta
+1_derep_inc_singletons/BOU_2_S80_PE_derep.fasta
+1_derep_inc_singletons/CHILDS_1_S11_PE_derep.fasta
+1_derep_inc_singletons/CHILDS_2_S12_PE_derep.fasta
+1_derep_inc_singletons/CLR_1_S59_PE_derep.fasta
+1_derep_inc_singletons/CLR_2_S60_PE_derep.fasta
+1_derep_inc_singletons/COL_1_S86_PE_derep.fasta
+1_derep_inc_singletons/COL_2_S81_PE_derep.fasta
+
+
+10 dereplicated files where merged (inc singleotns) into file:
+"H_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta"
+Total number of sequences (not dereplicated): 50480
+
+Pooled sequences are dereplicated with minuniquesize = 2 into a total of 42693 unique sequences.
+File prepared for OTU clustering: "B_all_derep_min2.fasta"
+Clustered 12078 sequences into 742 OTU clusters using a treshold of 3%.
+
+Next step: Denovo chimera removal.
+
+Chimeras removed de novo: 315 (42.45%)
+          OTUs remaining: 427 (57.55%)
+
+Comparing 10 files with dereplicated reads (incl. singletons) against OTUs "H_Cluster_otus/C_all_derep_min2_OTUs.fasta" using "usearch_global" with id=0.97 as implemented in vsearch.
+
+BA_1_S92_PE - 84.81% reads matched
+BA_2_S61_PE - 87.58% reads matched
+BOU_1_S94_PE - 87.26% reads matched
+BOU_2_S80_PE - 92.74% reads matched
+CHILDS_1_S11_PE - 90.40% reads matched
+CHILDS_2_S12_PE - 88.67% reads matched
+CLR_1_S59_PE - 96.71% reads matched
+CLR_2_S60_PE - 94.87% reads matched
+COL_1_S86_PE - 89.76% reads matched
+COL_2_S81_PE - 97.09% reads matched
+
+
+OTU table generated (including OTU sequences): 3_Raw_OTU_table.csv
+OTU files are written also as fasta file in 3_Raw_OTU.fasta
+Discarding OTUs with below 0.01% abundance across at least 1 out of 10 samples.
+Discarded OTUs: 114 out of 427 discarded (26.7%)
+
+
+Remapping 10 files (incl. singletons) against subsetted OTUs "H_Cluster_otus/_data/5_subset/5_OTU_sub_0.01.fasta" using "usearch_global" using id=0.97.
+
+BA_1_S92_PE - 84.01% reads matched
+BA_2_S61_PE - 87.44% reads matched
+BOU_1_S94_PE - 87.15% reads matched
+BOU_2_S80_PE - 92.64% reads matched
+CHILDS_1_S11_PE - 89.31% reads matched
+CHILDS_2_S12_PE - 87.72% reads matched
+CLR_1_S59_PE - 96.71% reads matched
+CLR_2_S60_PE - 94.87% reads matched
+COL_1_S86_PE - 89.08% reads matched
+COL_2_S81_PE - 96.48% reads matched
+
+
+Subsetted OTU table generated (0.01% abundance in at least 1 sample): 5_OTU_sub_0.01.fasta
+2021-11-19 11:37:51
+*** Module completed!
+
+##########
+2021-11-19 11:46:21
+PROCESSING MODULE:
+I_Cluster_otus
+
+Version v0.3
+
+
+10 files are dereplicated (incl. singletons!):
+1_derep_inc_singletons/BA_1_S92_PE_derep.fasta
+1_derep_inc_singletons/BA_2_S61_PE_derep.fasta
+1_derep_inc_singletons/BOU_1_S94_PE_derep.fasta
+1_derep_inc_singletons/BOU_2_S80_PE_derep.fasta
+1_derep_inc_singletons/CHILDS_1_S11_PE_derep.fasta
+1_derep_inc_singletons/CHILDS_2_S12_PE_derep.fasta
+1_derep_inc_singletons/CLR_1_S59_PE_derep.fasta
+1_derep_inc_singletons/CLR_2_S60_PE_derep.fasta
+1_derep_inc_singletons/COL_1_S86_PE_derep.fasta
+1_derep_inc_singletons/COL_2_S81_PE_derep.fasta
+
+
+10 dereplicated files where merged (inc singleotns) into file:
+"I_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta"
+Total number of sequences (not dereplicated): 50480
+
+Pooled sequences are dereplicated with minuniquesize = 2 into a total of 42693 unique sequences.
+File prepared for OTU clustering: "B_all_derep_min2.fasta"
+Clustered 12078 sequences into 742 OTU clusters using a treshold of 3%.
+
+Next step: Denovo chimera removal.
+
+Chimeras removed de novo: 315 (42.45%)
+          OTUs remaining: 427 (57.55%)
+
+Comparing 10 files with dereplicated reads (incl. singletons) against OTUs "I_Cluster_otus/C_all_derep_min2_OTUs.fasta" using "usearch_global" with id=0.97 as implemented in vsearch.
+
+BA_1_S92_PE - 84.81% reads matched
+BA_2_S61_PE - 87.58% reads matched
+BOU_1_S94_PE - 87.26% reads matched
+BOU_2_S80_PE - 92.74% reads matched
+CHILDS_1_S11_PE - 90.40% reads matched
+CHILDS_2_S12_PE - 88.67% reads matched
+CLR_1_S59_PE - 96.71% reads matched
+CLR_2_S60_PE - 94.87% reads matched
+COL_1_S86_PE - 89.76% reads matched
+COL_2_S81_PE - 97.09% reads matched
+
+
+OTU table generated (including OTU sequences): 3_Raw_OTU_table.csv
+OTU files are written also as fasta file in 3_Raw_OTU.fasta
+Discarding OTUs with below 0.01% abundance across at least 1 out of 10 samples.
+Discarded OTUs: 114 out of 427 discarded (26.7%)
+
+
+Remapping 10 files (incl. singletons) against subsetted OTUs "I_Cluster_otus/_data/5_subset/5_OTU_sub_0.01.fasta" using "usearch_global" using id=0.97.
+
+BA_1_S92_PE - 84.01% reads matched
+BA_2_S61_PE - 87.44% reads matched
+BOU_1_S94_PE - 87.15% reads matched
+BOU_2_S80_PE - 92.64% reads matched
+CHILDS_1_S11_PE - 89.31% reads matched
+CHILDS_2_S12_PE - 87.72% reads matched
+CLR_1_S59_PE - 96.71% reads matched
+CLR_2_S60_PE - 94.87% reads matched
+COL_1_S86_PE - 89.08% reads matched
+COL_2_S81_PE - 96.48% reads matched
+
+
+Subsetted OTU table generated (0.01% abundance in at least 1 sample): 5_OTU_sub_0.01.fasta
+2021-11-19 11:46:27
+*** Module completed!
+
+##########
+2021-11-19 13:54:08
+PROCESSING MODULE:
+J_Cluster_otus
+
+Version v0.3
+
+
+WARNING! 2 file does NOT contain sequences and are not included in clustering:
+F_U_max_ee/_data/CR_216_1_S45_PE_cut_minmax_ee1.fasta
+F_U_max_ee/_data/CR_97_1_S29_PE_cut_minmax_ee1.fasta
+
+93 files are dereplicated (incl. singletons!):
+1_derep_inc_singletons/BA_1_S92_PE_derep.fasta
+1_derep_inc_singletons/BA_2_S61_PE_derep.fasta
+1_derep_inc_singletons/BOU_1_S94_PE_derep.fasta
+1_derep_inc_singletons/BOU_2_S80_PE_derep.fasta
+1_derep_inc_singletons/CHILDS_1_S11_PE_derep.fasta
+1_derep_inc_singletons/CHILDS_2_S12_PE_derep.fasta
+1_derep_inc_singletons/CLR_1_S59_PE_derep.fasta
+1_derep_inc_singletons/CLR_2_S60_PE_derep.fasta
+1_derep_inc_singletons/COL_1_S86_PE_derep.fasta
+1_derep_inc_singletons/COL_2_S81_PE_derep.fasta
+1_derep_inc_singletons/CR_109_1_S31_PE_derep.fasta
+1_derep_inc_singletons/CR_109_2_S32_PE_derep.fasta
+1_derep_inc_singletons/CR_134_1_S33_PE_derep.fasta
+1_derep_inc_singletons/CR_134_2_S34_PE_derep.fasta
+1_derep_inc_singletons/CR_143_1_S35_PE_derep.fasta
+1_derep_inc_singletons/CR_143_2_S36_PE_derep.fasta
+1_derep_inc_singletons/CR_148_1_S37_PE_derep.fasta
+1_derep_inc_singletons/CR_148_2_S38_PE_derep.fasta
+1_derep_inc_singletons/CR_157_1_S39_PE_derep.fasta
+1_derep_inc_singletons/CR_157_2_S40_PE_derep.fasta
+1_derep_inc_singletons/CR_180_1_S41_PE_derep.fasta
+1_derep_inc_singletons/CR_180_2_S42_PE_derep.fasta
+1_derep_inc_singletons/CR_204_1_S43_PE_derep.fasta
+1_derep_inc_singletons/CR_204_2_S44_PE_derep.fasta
+1_derep_inc_singletons/CR_216_2_S46_PE_derep.fasta
+1_derep_inc_singletons/CR_226_1_S47_PE_derep.fasta
+1_derep_inc_singletons/CR_226_2_S48_PE_derep.fasta
+1_derep_inc_singletons/CR_229_1_S49_PE_derep.fasta
+1_derep_inc_singletons/CR_229_2_S50_PE_derep.fasta
+1_derep_inc_singletons/CR_246_1_S51_PE_derep.fasta
+1_derep_inc_singletons/CR_246_2_S52_PE_derep.fasta
+1_derep_inc_singletons/CR_275_1_S53_PE_derep.fasta
+1_derep_inc_singletons/CR_275_2_S54_PE_derep.fasta
+1_derep_inc_singletons/CR_52_1_S23_PE_derep.fasta
+1_derep_inc_singletons/CR_52_2_S24_PE_derep.fasta
+1_derep_inc_singletons/CR_61_1_S90_PE_derep.fasta
+1_derep_inc_singletons/CR_61_2_S25_PE_derep.fasta
+1_derep_inc_singletons/CR_84_1_S91_PE_derep.fasta
+1_derep_inc_singletons/CR_84_2_S26_PE_derep.fasta
+1_derep_inc_singletons/CR_94_1_S27_PE_derep.fasta
+1_derep_inc_singletons/CR_94_2_S28_PE_derep.fasta
+1_derep_inc_singletons/CR_97_2_S30_PE_derep.fasta
+1_derep_inc_singletons/DIA_1_S79_PE_derep.fasta
+1_derep_inc_singletons/DIA_2_S88_PE_derep.fasta
+1_derep_inc_singletons/FCW_1_S3_PE_derep.fasta
+1_derep_inc_singletons/FCW_2_S4_PE_derep.fasta
+1_derep_inc_singletons/HAV_1_S71_PE_derep.fasta
+1_derep_inc_singletons/HAV_2_S72_PE_derep.fasta
+1_derep_inc_singletons/HER_1_S93_PE_derep.fasta
+1_derep_inc_singletons/HER_2_S62_PE_derep.fasta
+1_derep_inc_singletons/KAN_1_S67_PE_derep.fasta
+1_derep_inc_singletons/KAN_2_S68_PE_derep.fasta
+1_derep_inc_singletons/LCR_1_S57_PE_derep.fasta
+1_derep_inc_singletons/LCR_2_S58_PE_derep.fasta
+1_derep_inc_singletons/LF_1_S73_PE_derep.fasta
+1_derep_inc_singletons/LF_2_S74_PE_derep.fasta
+1_derep_inc_singletons/MAT_1_S69_PE_derep.fasta
+1_derep_inc_singletons/MAT_2_S70_PE_derep.fasta
+1_derep_inc_singletons/NANK_1_S55_PE_derep.fasta
+1_derep_inc_singletons/NANK_2_S56_PE_derep.fasta
+1_derep_inc_singletons/neg_Control_S89_PE_derep.fasta
+1_derep_inc_singletons/pos_Control_S87_PE_derep.fasta
+1_derep_inc_singletons/RM_20_1_S19_PE_derep.fasta
+1_derep_inc_singletons/RM_20_2_S20_PE_derep.fasta
+1_derep_inc_singletons/RM_88_1_S21_PE_derep.fasta
+1_derep_inc_singletons/RM_88_2_S22_PE_derep.fasta
+1_derep_inc_singletons/SC_1_S13_PE_derep.fasta
+1_derep_inc_singletons/SC_2_S14_PE_derep.fasta
+1_derep_inc_singletons/SCGC_1_S75_PE_derep.fasta
+1_derep_inc_singletons/SCGC_2_S76_PE_derep.fasta
+1_derep_inc_singletons/SHI_1_S63_PE_derep.fasta
+1_derep_inc_singletons/SHI_2_S64_PE_derep.fasta
+1_derep_inc_singletons/SPE_1_S84_PE_derep.fasta
+1_derep_inc_singletons/SPE_2_S85_PE_derep.fasta
+1_derep_inc_singletons/TAP_1_S65_PE_derep.fasta
+1_derep_inc_singletons/TAP_2_S66_PE_derep.fasta
+1_derep_inc_singletons/TCDW_1_S7_PE_derep.fasta
+1_derep_inc_singletons/TCDW_2_S8_PE_derep.fasta
+1_derep_inc_singletons/TRA_1_S82_PE_derep.fasta
+1_derep_inc_singletons/TRA_2_S83_PE_derep.fasta
+1_derep_inc_singletons/TS_1_S77_PE_derep.fasta
+1_derep_inc_singletons/TS_2_S78_PE_derep.fasta
+1_derep_inc_singletons/Undetermined_S0_PE_derep.fasta
+1_derep_inc_singletons/VRBF_1_S9_PE_derep.fasta
+1_derep_inc_singletons/VRBF_2_S10_PE_derep.fasta
+1_derep_inc_singletons/VRSB_1_S5_PE_derep.fasta
+1_derep_inc_singletons/VRSB_2_S6_PE_derep.fasta
+1_derep_inc_singletons/WBC_1_S17_PE_derep.fasta
+1_derep_inc_singletons/WBC_2_S18_PE_derep.fasta
+1_derep_inc_singletons/WCC_1_S1_PE_derep.fasta
+1_derep_inc_singletons/WCC_2_S2_PE_derep.fasta
+1_derep_inc_singletons/WFOC_1_S15_PE_derep.fasta
+1_derep_inc_singletons/WFOC_2_S16_PE_derep.fasta
+
+
+93 dereplicated files where merged (inc singleotns) into file:
+"J_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta"
+Total number of sequences (not dereplicated): 667492
+
+Pooled sequences are dereplicated with minuniquesize = 2 into a total of 390609 unique sequences.
+File prepared for OTU clustering: "B_all_derep_min2.fasta"
+Clustered 107773 sequences into 4968 OTU clusters using a treshold of 3%.
+
+Next step: Denovo chimera removal.
+
+Chimeras removed de novo: 3036 (61.11%)
+          OTUs remaining: 1932 (38.89%)
+
+Comparing 93 files with dereplicated reads (incl. singletons) against OTUs "J_Cluster_otus/C_all_derep_min2_OTUs.fasta" using "usearch_global" with id=0.97 as implemented in vsearch.
+
+BA_1_S92_PE - 85.91% reads matched
+BA_2_S61_PE - 88.04% reads matched
+BOU_1_S94_PE - 87.22% reads matched
+BOU_2_S80_PE - 92.97% reads matched
+CHILDS_1_S11_PE - 90.84% reads matched
+CHILDS_2_S12_PE - 89.64% reads matched
+CLR_1_S59_PE - 98.00% reads matched
+CLR_2_S60_PE - 97.95% reads matched
+COL_1_S86_PE - 90.16% reads matched
+COL_2_S81_PE - 97.66% reads matched
+CR_109_1_S31_PE - 89.09% reads matched
+CR_109_2_S32_PE - 89.17% reads matched
+CR_134_1_S33_PE - 92.56% reads matched
+CR_134_2_S34_PE - 93.49% reads matched
+CR_143_1_S35_PE - 89.67% reads matched
+CR_143_2_S36_PE - 91.61% reads matched
+CR_148_1_S37_PE - 88.85% reads matched
+CR_148_2_S38_PE - 92.77% reads matched
+CR_157_1_S39_PE - 89.54% reads matched
+CR_157_2_S40_PE - 89.38% reads matched
+CR_180_1_S41_PE - 90.55% reads matched
+CR_180_2_S42_PE - 95.71% reads matched
+CR_204_1_S43_PE - 90.61% reads matched
+CR_204_2_S44_PE - 91.50% reads matched
+CR_216_2_S46_PE - 88.57% reads matched
+CR_226_1_S47_PE - 90.95% reads matched
+CR_226_2_S48_PE - 88.03% reads matched
+CR_229_1_S49_PE - 91.56% reads matched
+CR_229_2_S50_PE - 95.82% reads matched
+CR_246_1_S51_PE - 89.85% reads matched
+CR_246_2_S52_PE - 93.36% reads matched
+CR_275_1_S53_PE - 94.39% reads matched
+CR_275_2_S54_PE - 91.37% reads matched
+CR_52_1_S23_PE - 89.82% reads matched
+CR_52_2_S24_PE - 87.72% reads matched
+CR_61_1_S90_PE - 84.84% reads matched
+CR_61_2_S25_PE - 91.96% reads matched
+CR_84_1_S91_PE - 88.44% reads matched
+CR_84_2_S26_PE - 91.92% reads matched
+CR_94_1_S27_PE - 91.03% reads matched
+CR_94_2_S28_PE - 93.65% reads matched
+CR_97_2_S30_PE - 90.62% reads matched
+DIA_1_S79_PE - 85.20% reads matched
+DIA_2_S88_PE - 84.35% reads matched
+FCW_1_S3_PE - 88.67% reads matched
+FCW_2_S4_PE - 88.06% reads matched
+HAV_1_S71_PE - 94.27% reads matched
+HAV_2_S72_PE - 88.73% reads matched
+HER_1_S93_PE - 89.61% reads matched
+HER_2_S62_PE - 89.87% reads matched
+KAN_1_S67_PE - 87.66% reads matched
+KAN_2_S68_PE - 86.71% reads matched
+LCR_1_S57_PE - 85.87% reads matched
+LCR_2_S58_PE - 88.04% reads matched
+LF_1_S73_PE - 92.57% reads matched
+LF_2_S74_PE - 91.17% reads matched
+MAT_1_S69_PE - 88.89% reads matched
+MAT_2_S70_PE - 89.10% reads matched
+NANK_1_S55_PE - 86.89% reads matched
+NANK_2_S56_PE - 85.01% reads matched
+neg_Control_S89_PE - 97.69% reads matched
+pos_Control_S87_PE - 83.20% reads matched
+RM_20_1_S19_PE - 91.78% reads matched
+RM_20_2_S20_PE - 92.57% reads matched
+RM_88_1_S21_PE - 90.32% reads matched
+RM_88_2_S22_PE - 90.53% reads matched
+SC_1_S13_PE - 88.39% reads matched
+SC_2_S14_PE - 86.77% reads matched
+SCGC_1_S75_PE - 90.26% reads matched
+SCGC_2_S76_PE - 89.72% reads matched
+SHI_1_S63_PE - 84.82% reads matched
+SHI_2_S64_PE - 84.16% reads matched
+SPE_1_S84_PE - 89.00% reads matched
+SPE_2_S85_PE - 87.66% reads matched
+TAP_1_S65_PE - 88.92% reads matched
+TAP_2_S66_PE - 88.85% reads matched
+TCDW_1_S7_PE - 83.02% reads matched
+TCDW_2_S8_PE - 80.45% reads matched
+TRA_1_S82_PE - 87.66% reads matched
+TRA_2_S83_PE - 87.37% reads matched
+TS_1_S77_PE - 86.42% reads matched
+TS_2_S78_PE - 88.98% reads matched
+Undetermined_S0_PE - 91.20% reads matched
+VRBF_1_S9_PE - 88.15% reads matched
+VRBF_2_S10_PE - 89.38% reads matched
+VRSB_1_S5_PE - 88.13% reads matched
+VRSB_2_S6_PE - 87.74% reads matched
+WBC_1_S17_PE - 82.62% reads matched
+WBC_2_S18_PE - 85.20% reads matched
+WCC_1_S1_PE - 81.25% reads matched
+WCC_2_S2_PE - 83.06% reads matched
+WFOC_1_S15_PE - 87.07% reads matched
+WFOC_2_S16_PE - 87.35% reads matched
+
+
+OTU table generated (including OTU sequences): 3_Raw_OTU_table.csv
+OTU files are written also as fasta file in 3_Raw_OTU.fasta
+Discarding OTUs with below 0.01% abundance across at least 1 out of 95 samples.
+Discarded OTUs: 519 out of 1932 discarded (26.86%)
+
+
+Remapping 93 files (incl. singletons) against subsetted OTUs "J_Cluster_otus/_data/5_subset/5_OTU_sub_0.01.fasta" using "usearch_global" using id=0.97.
+
+BA_1_S92_PE - 85.71% reads matched
+BA_2_S61_PE - 87.98% reads matched
+BOU_1_S94_PE - 87.09% reads matched
+BOU_2_S80_PE - 92.89% reads matched
+CHILDS_1_S11_PE - 90.42% reads matched
+CHILDS_2_S12_PE - 89.33% reads matched
+CLR_1_S59_PE - 98.00% reads matched
+CLR_2_S60_PE - 97.95% reads matched
+COL_1_S86_PE - 89.76% reads matched
+COL_2_S81_PE - 97.48% reads matched
+CR_109_1_S31_PE - 88.97% reads matched
+CR_109_2_S32_PE - 89.07% reads matched
+CR_134_1_S33_PE - 92.53% reads matched
+CR_134_2_S34_PE - 93.47% reads matched
+CR_143_1_S35_PE - 89.62% reads matched
+CR_143_2_S36_PE - 91.55% reads matched
+CR_148_1_S37_PE - 88.80% reads matched
+CR_148_2_S38_PE - 92.77% reads matched
+CR_157_1_S39_PE - 89.54% reads matched
+CR_157_2_S40_PE - 89.30% reads matched
+CR_180_1_S41_PE - 90.44% reads matched
+CR_180_2_S42_PE - 95.71% reads matched
+CR_204_1_S43_PE - 90.56% reads matched
+CR_204_2_S44_PE - 91.38% reads matched
+CR_216_2_S46_PE - 88.44% reads matched
+CR_226_1_S47_PE - 90.86% reads matched
+CR_226_2_S48_PE - 87.92% reads matched
+CR_229_1_S49_PE - 91.53% reads matched
+CR_229_2_S50_PE - 95.73% reads matched
+CR_246_1_S51_PE - 89.68% reads matched
+CR_246_2_S52_PE - 93.36% reads matched
+CR_275_1_S53_PE - 94.28% reads matched
+CR_275_2_S54_PE - 91.11% reads matched
+CR_52_1_S23_PE - 89.80% reads matched
+CR_52_2_S24_PE - 87.67% reads matched
+CR_61_1_S90_PE - 84.79% reads matched
+CR_61_2_S25_PE - 91.96% reads matched
+CR_84_1_S91_PE - 88.40% reads matched
+CR_84_2_S26_PE - 91.92% reads matched
+CR_94_1_S27_PE - 90.93% reads matched
+CR_94_2_S28_PE - 93.65% reads matched
+CR_97_2_S30_PE - 90.44% reads matched
+DIA_1_S79_PE - 84.93% reads matched
+DIA_2_S88_PE - 84.12% reads matched
+FCW_1_S3_PE - 88.48% reads matched
+FCW_2_S4_PE - 87.80% reads matched
+HAV_1_S71_PE - 94.04% reads matched
+HAV_2_S72_PE - 88.52% reads matched
+HER_1_S93_PE - 89.32% reads matched
+HER_2_S62_PE - 89.49% reads matched
+KAN_1_S67_PE - 87.44% reads matched
+KAN_2_S68_PE - 86.49% reads matched
+LCR_1_S57_PE - 85.56% reads matched
+LCR_2_S58_PE - 87.93% reads matched
+LF_1_S73_PE - 92.53% reads matched
+LF_2_S74_PE - 91.13% reads matched
+MAT_1_S69_PE - 88.62% reads matched
+MAT_2_S70_PE - 88.95% reads matched
+NANK_1_S55_PE - 86.85% reads matched
+NANK_2_S56_PE - 84.99% reads matched
+neg_Control_S89_PE - 97.69% reads matched
+pos_Control_S87_PE - 82.45% reads matched
+RM_20_1_S19_PE - 91.71% reads matched
+RM_20_2_S20_PE - 92.53% reads matched
+RM_88_1_S21_PE - 90.32% reads matched
+RM_88_2_S22_PE - 90.46% reads matched
+SC_1_S13_PE - 88.03% reads matched
+SC_2_S14_PE - 86.48% reads matched
+SCGC_1_S75_PE - 90.00% reads matched
+SCGC_2_S76_PE - 89.45% reads matched
+SHI_1_S63_PE - 84.69% reads matched
+SHI_2_S64_PE - 83.94% reads matched
+SPE_1_S84_PE - 88.68% reads matched
+SPE_2_S85_PE - 87.08% reads matched
+TAP_1_S65_PE - 88.66% reads matched
+TAP_2_S66_PE - 88.54% reads matched
+TCDW_1_S7_PE - 82.61% reads matched
+TCDW_2_S8_PE - 79.99% reads matched
+TRA_1_S82_PE - 87.37% reads matched
+TRA_2_S83_PE - 87.00% reads matched
+TS_1_S77_PE - 86.15% reads matched
+TS_2_S78_PE - 88.76% reads matched
+Undetermined_S0_PE - 91.00% reads matched
+VRBF_1_S9_PE - 87.72% reads matched
+VRBF_2_S10_PE - 88.96% reads matched
+VRSB_1_S5_PE - 87.67% reads matched
+VRSB_2_S6_PE - 87.42% reads matched
+WBC_1_S17_PE - 82.17% reads matched
+WBC_2_S18_PE - 84.81% reads matched
+WCC_1_S1_PE - 80.94% reads matched
+WCC_2_S2_PE - 82.58% reads matched
+WFOC_1_S15_PE - 86.40% reads matched
+WFOC_2_S16_PE - 86.73% reads matched
+
+
+Subsetted OTU table generated (0.01% abundance in at least 1 sample): 5_OTU_sub_0.01.fasta
+2021-11-19 13:55:44
+*** Module completed!
+

@@ -1,0 +1,120 @@
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o C_Cutadapt/_data/temp.txt A_merge_PE/_data/Undetermined_S0_PE.fastq --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 2.75 s (4 µs/read; 13.97 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 640,477
+Reads with adapters:                   126,460 (19.7%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          514,017 (80.3%)
+Reads written (passing filters):       126,460 (19.7%)
+
+Total basepairs processed:   195,604,006 bp
+Total written (filtered):     20,183,915 bp (10.3%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 126460 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	26	0.0	2	0 0 26
+25	253	0.0	2	0 231 22
+26	51341	0.0	2	48629 1774 938
+27	43440	0.0	2	0 41657 1783
+28	31400	0.0	2	0 0 31400
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a RAHCGAATACCHYTATTTGTTTG$ -o C_Cutadapt/_data/temp_A.txt C_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.83 s (7 µs/read; 9.16 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 126,460
+Reads with adapters:                    95,034 (75.1%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           31,426 (24.9%)
+Reads written (passing filters):        95,034 (75.1%)
+
+Total basepairs processed:    20,183,915 bp
+Total written (filtered):     12,979,447 bp (64.3%)
+
+=== Adapter 1 ===
+
+Sequence: RAHCGAATACCHYTATTTGTTTG; Type: anchored 3'; Length: 23; Trimmed: 95034 times
+
+No. of allowed errors: 2
+
+Bases preceding removed adapters:
+  A: 76.6%
+  C: 2.2%
+  G: 2.2%
+  T: 16.6%
+  none/other: 2.4%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+21	22	0.0	2	0 0 22
+22	212	0.0	2	0 197 15
+23	34821	0.0	2	32740 1663 418
+24	31622	0.0	2	0 30023 1599
+25	28357	0.0	2	0 0 28357
+vsearch-fastx_revcomp A_merge_PE/_data/Undetermined_S0_PE.fastq -fastqout C_Cutadapt/_data/temp2_RC.txt  -label_suffix _RC
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading FASTQ file 100%
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o C_Cutadapt/_data/temp.txt C_Cutadapt/_data/temp2_RC.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 2.71 s (4 µs/read; 14.19 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 640,477
+Reads with adapters:                         1 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:          640,476 (100.0%)
+Reads written (passing filters):             1 (0.0%)
+
+Total basepairs processed:   195,604,006 bp
+Total written (filtered):              1 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 1 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+26	1	0.0	2	1
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a RAHCGAATACCHYTATTTGTTTG$ -o C_Cutadapt/_data/temp_B.txt C_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.00 s (4773 µs/read; 0.01 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                       1
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:                1 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:             1 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: RAHCGAATACCHYTATTTGTTTG; Type: anchored 3'; Length: 23; Trimmed: 0 times
+
+cat C_Cutadapt/_data/temp_A.txt C_Cutadapt/_data/temp_B.txt > C_Cutadapt/_data/Undetermined_S0_PE_cut.fastq

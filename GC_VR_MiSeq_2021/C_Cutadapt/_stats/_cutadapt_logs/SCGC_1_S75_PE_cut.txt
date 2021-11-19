@@ -1,0 +1,98 @@
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o C_Cutadapt/_data/temp.txt A_merge_PE/_data/SCGC_1_S75_PE.fastq --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.56 s (7 µs/read; 8.86 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  83,070
+Reads with adapters:                    66,534 (80.1%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           16,536 (19.9%)
+Reads written (passing filters):        66,534 (80.1%)
+
+Total basepairs processed:    15,939,362 bp
+Total written (filtered):     11,005,807 bp (69.0%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 66534 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	20	0.0	2	0 0 20
+25	203	0.0	2	0 194 9
+26	27674	0.0	2	26859 647 168
+27	23016	0.0	2	0 22329 687
+28	15621	0.0	2	0 0 15621
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a RAHCGAATACCHYTATTTGTTTG$ -o C_Cutadapt/_data/temp_A.txt C_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.45 s (7 µs/read; 8.84 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  66,534
+Reads with adapters:                    50,819 (76.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           15,715 (23.6%)
+Reads written (passing filters):        50,819 (76.4%)
+
+Total basepairs processed:    11,005,807 bp
+Total written (filtered):      7,173,173 bp (65.2%)
+
+=== Adapter 1 ===
+
+Sequence: RAHCGAATACCHYTATTTGTTTG; Type: anchored 3'; Length: 23; Trimmed: 50819 times
+
+No. of allowed errors: 2
+
+Bases preceding removed adapters:
+  A: 78.1%
+  C: 4.9%
+  G: 0.8%
+  T: 16.0%
+  none/other: 0.2%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+21	19	0.0	2	0 0 19
+22	122	0.0	2	0 117 5
+23	17892	0.0	2	17275 497 120
+24	17035	0.0	2	0 16611 424
+25	15751	0.0	2	0 0 15751
+vsearch-fastx_revcomp A_merge_PE/_data/SCGC_1_S75_PE.fastq -fastqout C_Cutadapt/_data/temp2_RC.txt  -label_suffix _RC
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading FASTQ file 100%
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o C_Cutadapt/_data/temp.txt C_Cutadapt/_data/temp2_RC.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.25 s (3 µs/read; 20.19 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  83,070
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           83,070 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:    15,939,362 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a RAHCGAATACCHYTATTTGTTTG$ -o C_Cutadapt/_data/temp_B.txt C_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+No reads processed!
+
+cat C_Cutadapt/_data/temp_A.txt C_Cutadapt/_data/temp_B.txt > C_Cutadapt/_data/SCGC_1_S75_PE_cut.fastq

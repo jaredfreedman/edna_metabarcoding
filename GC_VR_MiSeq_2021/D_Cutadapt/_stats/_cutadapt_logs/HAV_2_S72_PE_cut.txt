@@ -1,0 +1,67 @@
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o D_Cutadapt/_data/temp.txt A_merge_PE/_data/HAV_2_S72_PE.fastq --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 1.41 s (9 µs/read; 6.46 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 151,392
+Reads with adapters:                   119,173 (78.7%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           32,219 (21.3%)
+Reads written (passing filters):       119,173 (78.7%)
+
+Total basepairs processed:    26,929,744 bp
+Total written (filtered):     18,342,645 bp (68.1%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 119173 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	23	0.0	2	0 0 23
+25	320	0.0	2	0 302 18
+26	49853	0.0	2	47950 1355 548
+27	41290	0.0	2	0 40043 1247
+28	27687	0.0	2	0 0 27687
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a RAHCGAATACCHYTATTTGTTTG$ -o D_Cutadapt/_data/HAV_2_S72_PE_cut.fastq D_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.81 s (7 µs/read; 8.85 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 119,173
+Reads with adapters:                    90,274 (75.8%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           28,899 (24.2%)
+Reads written (passing filters):        90,274 (75.8%)
+
+Total basepairs processed:    18,342,645 bp
+Total written (filtered):     11,762,422 bp (64.1%)
+
+=== Adapter 1 ===
+
+Sequence: RAHCGAATACCHYTATTTGTTTG; Type: anchored 3'; Length: 23; Trimmed: 90274 times
+
+No. of allowed errors: 2
+
+Bases preceding removed adapters:
+  A: 50.3%
+  C: 2.8%
+  G: 12.9%
+  T: 30.2%
+  none/other: 3.7%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+21	22	0.0	2	0 0 22
+22	247	0.0	2	0 227 20
+23	31826	0.0	2	30416 1152 258
+24	30683	0.0	2	0 29602 1081
+25	27496	0.0	2	0 0 27496

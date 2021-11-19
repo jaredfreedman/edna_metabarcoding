@@ -1,0 +1,8 @@
+vsearch -fastq_filter "E_Minmax/_data/VRBF_1_S9_PE_cut_minmax.fastq" -fastaout "F_U_max_ee/_data/VRBF_1_S9_PE_cut_minmax_ee1.fasta" -fastq_maxee 1 -fastq_qmax 60 -fastq_maxns 0
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading input file 100%
+56403 sequences kept (of which 0 truncated), 587 sequences discarded.

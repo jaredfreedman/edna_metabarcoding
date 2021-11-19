@@ -1,0 +1,76 @@
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o D_Cutadapt/_data/temp.txt A_merge_PE/_data/RM_88_2_S22_PE.fastq --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.69 s (7 µs/read; 8.21 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  93,823
+Reads with adapters:                    75,350 (80.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           18,473 (19.7%)
+Reads written (passing filters):        75,350 (80.3%)
+
+Total basepairs processed:    18,040,723 bp
+Total written (filtered):     12,471,277 bp (69.1%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 75350 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	11	0.0	2	0 0 11
+25	158	0.0	2	0 147 11
+26	31001	0.0	2	30013 763 225
+27	26290	0.0	2	0 25431 859
+28	17890	0.0	2	0 0 17890
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a RAHCGAATACCHYTATTTGTTTG$ -o D_Cutadapt/_data/RM_88_2_S22_PE_cut.fastq D_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.54 s (7 µs/read; 8.31 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  75,350
+Reads with adapters:                    56,977 (75.6%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           18,373 (24.4%)
+Reads written (passing filters):        56,977 (75.6%)
+
+Total basepairs processed:    12,471,277 bp
+Total written (filtered):      8,046,958 bp (64.5%)
+
+=== Adapter 1 ===
+
+Sequence: RAHCGAATACCHYTATTTGTTTG; Type: anchored 3'; Length: 23; Trimmed: 56977 times
+
+No. of allowed errors: 2
+
+Bases preceding removed adapters:
+  A: 94.9%
+  C: 0.2%
+  G: 0.3%
+  T: 4.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by 'A' extremely often.
+    The provided adapter sequence could be incomplete at its 5' end.
+    Ignore this warning when trimming primers.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+21	16	0.0	2	0 0 16
+22	161	0.0	2	0 157 4
+23	19789	0.0	2	19046 627 116
+24	19515	0.0	2	0 18899 616
+25	17496	0.0	2	0 0 17496
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.

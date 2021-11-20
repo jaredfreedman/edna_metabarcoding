@@ -112,6 +112,8 @@ Minmax(min=(313-10), max=(313+10))
 # discard reads above 1 expected error
 Max_ee(max_ee=1)
 
+Max_ee()
+
 ```
 
 ## Subsample to 60000, then cluster into OTUs

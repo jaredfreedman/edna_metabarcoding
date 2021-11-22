@@ -1265,3 +1265,265 @@ Subsetted OTU table generated (0.01% abundance in at least 1 sample): 5_OTU_sub_
 2021-11-19 13:55:44
 *** Module completed!
 
+##########
+2021-11-22 15:50:10
+PROCESSING MODULE:
+K_Cluster_otus
+
+Version v0.3
+
+
+WARNING! 2 file does NOT contain sequences and are not included in clustering:
+Max_ee_GC/_data/CR_216_1_S45_PE_cut_minmax_ee1.fasta
+Max_ee_GC/_data/CR_97_1_S29_PE_cut_minmax_ee1.fasta
+
+72 files are dereplicated (incl. singletons!):
+1_derep_inc_singletons/BA_1_S92_PE_derep.fasta
+1_derep_inc_singletons/BA_2_S61_PE_derep.fasta
+1_derep_inc_singletons/BOU_1_S94_PE_derep.fasta
+1_derep_inc_singletons/BOU_2_S80_PE_derep.fasta
+1_derep_inc_singletons/CLR_1_S59_PE_derep.fasta
+1_derep_inc_singletons/CLR_2_S60_PE_derep.fasta
+1_derep_inc_singletons/COL_1_S86_PE_derep.fasta
+1_derep_inc_singletons/COL_2_S81_PE_derep.fasta
+1_derep_inc_singletons/CR_109_1_S31_PE_derep.fasta
+1_derep_inc_singletons/CR_109_2_S32_PE_derep.fasta
+1_derep_inc_singletons/CR_134_1_S33_PE_derep.fasta
+1_derep_inc_singletons/CR_134_2_S34_PE_derep.fasta
+1_derep_inc_singletons/CR_143_1_S35_PE_derep.fasta
+1_derep_inc_singletons/CR_143_2_S36_PE_derep.fasta
+1_derep_inc_singletons/CR_148_1_S37_PE_derep.fasta
+1_derep_inc_singletons/CR_148_2_S38_PE_derep.fasta
+1_derep_inc_singletons/CR_157_1_S39_PE_derep.fasta
+1_derep_inc_singletons/CR_157_2_S40_PE_derep.fasta
+1_derep_inc_singletons/CR_180_1_S41_PE_derep.fasta
+1_derep_inc_singletons/CR_180_2_S42_PE_derep.fasta
+1_derep_inc_singletons/CR_204_1_S43_PE_derep.fasta
+1_derep_inc_singletons/CR_204_2_S44_PE_derep.fasta
+1_derep_inc_singletons/CR_216_2_S46_PE_derep.fasta
+1_derep_inc_singletons/CR_226_1_S47_PE_derep.fasta
+1_derep_inc_singletons/CR_226_2_S48_PE_derep.fasta
+1_derep_inc_singletons/CR_229_1_S49_PE_derep.fasta
+1_derep_inc_singletons/CR_229_2_S50_PE_derep.fasta
+1_derep_inc_singletons/CR_246_1_S51_PE_derep.fasta
+1_derep_inc_singletons/CR_246_2_S52_PE_derep.fasta
+1_derep_inc_singletons/CR_275_1_S53_PE_derep.fasta
+1_derep_inc_singletons/CR_275_2_S54_PE_derep.fasta
+1_derep_inc_singletons/CR_52_1_S23_PE_derep.fasta
+1_derep_inc_singletons/CR_52_2_S24_PE_derep.fasta
+1_derep_inc_singletons/CR_61_1_S90_PE_derep.fasta
+1_derep_inc_singletons/CR_61_2_S25_PE_derep.fasta
+1_derep_inc_singletons/CR_84_1_S91_PE_derep.fasta
+1_derep_inc_singletons/CR_84_2_S26_PE_derep.fasta
+1_derep_inc_singletons/CR_94_1_S27_PE_derep.fasta
+1_derep_inc_singletons/CR_94_2_S28_PE_derep.fasta
+1_derep_inc_singletons/CR_97_2_S30_PE_derep.fasta
+1_derep_inc_singletons/DIA_1_S79_PE_derep.fasta
+1_derep_inc_singletons/DIA_2_S88_PE_derep.fasta
+1_derep_inc_singletons/HAV_1_S71_PE_derep.fasta
+1_derep_inc_singletons/HAV_2_S72_PE_derep.fasta
+1_derep_inc_singletons/HER_1_S93_PE_derep.fasta
+1_derep_inc_singletons/HER_2_S62_PE_derep.fasta
+1_derep_inc_singletons/KAN_1_S67_PE_derep.fasta
+1_derep_inc_singletons/KAN_2_S68_PE_derep.fasta
+1_derep_inc_singletons/LCR_1_S57_PE_derep.fasta
+1_derep_inc_singletons/LCR_2_S58_PE_derep.fasta
+1_derep_inc_singletons/LF_1_S73_PE_derep.fasta
+1_derep_inc_singletons/LF_2_S74_PE_derep.fasta
+1_derep_inc_singletons/MAT_1_S69_PE_derep.fasta
+1_derep_inc_singletons/MAT_2_S70_PE_derep.fasta
+1_derep_inc_singletons/NANK_1_S55_PE_derep.fasta
+1_derep_inc_singletons/NANK_2_S56_PE_derep.fasta
+1_derep_inc_singletons/RM_20_1_S19_PE_derep.fasta
+1_derep_inc_singletons/RM_20_2_S20_PE_derep.fasta
+1_derep_inc_singletons/RM_88_1_S21_PE_derep.fasta
+1_derep_inc_singletons/RM_88_2_S22_PE_derep.fasta
+1_derep_inc_singletons/SC_1_S13_PE_derep.fasta
+1_derep_inc_singletons/SCGC_1_S75_PE_derep.fasta
+1_derep_inc_singletons/SHI_1_S63_PE_derep.fasta
+1_derep_inc_singletons/SHI_2_S64_PE_derep.fasta
+1_derep_inc_singletons/SPE_1_S84_PE_derep.fasta
+1_derep_inc_singletons/SPE_2_S85_PE_derep.fasta
+1_derep_inc_singletons/TAP_1_S65_PE_derep.fasta
+1_derep_inc_singletons/TAP_2_S66_PE_derep.fasta
+1_derep_inc_singletons/TRA_1_S82_PE_derep.fasta
+1_derep_inc_singletons/TRA_2_S83_PE_derep.fasta
+1_derep_inc_singletons/TS_1_S77_PE_derep.fasta
+1_derep_inc_singletons/TS_2_S78_PE_derep.fasta
+
+
+72 dereplicated files where merged (inc singleotns) into file:
+"K_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta"
+Total number of sequences (not dereplicated): 454514
+
+Pooled sequences are dereplicated with minuniquesize = 2 into a total of 262559 unique sequences.
+File prepared for OTU clustering: "B_all_derep_min2.fasta"
+Clustered 73195 sequences into 2844 OTU clusters using a treshold of 3%.
+
+Next step: Denovo chimera removal.
+
+Chimeras removed de novo: 1670 (58.72%)
+          OTUs remaining: 1174 (41.28%)
+
+Comparing 72 files with dereplicated reads (incl. singletons) against OTUs "K_Cluster_otus/C_all_derep_min2_OTUs.fasta" using "usearch_global" with id=0.97 as implemented in vsearch.
+
+BA_1_S92_PE - 85.53% reads matched
+BA_2_S61_PE - 88.35% reads matched
+BOU_1_S94_PE - 87.12% reads matched
+BOU_2_S80_PE - 92.99% reads matched
+CLR_1_S59_PE - 96.64% reads matched
+CLR_2_S60_PE - 97.07% reads matched
+COL_1_S86_PE - 90.00% reads matched
+COL_2_S81_PE - 97.60% reads matched
+CR_109_1_S31_PE - 89.04% reads matched
+CR_109_2_S32_PE - 88.94% reads matched
+CR_134_1_S33_PE - 92.43% reads matched
+CR_134_2_S34_PE - 93.33% reads matched
+CR_143_1_S35_PE - 89.50% reads matched
+CR_143_2_S36_PE - 91.43% reads matched
+CR_148_1_S37_PE - 88.71% reads matched
+CR_148_2_S38_PE - 92.57% reads matched
+CR_157_1_S39_PE - 89.29% reads matched
+CR_157_2_S40_PE - 88.95% reads matched
+CR_180_1_S41_PE - 90.38% reads matched
+CR_180_2_S42_PE - 95.71% reads matched
+CR_204_1_S43_PE - 90.58% reads matched
+CR_204_2_S44_PE - 91.24% reads matched
+CR_216_2_S46_PE - 88.34% reads matched
+CR_226_1_S47_PE - 90.70% reads matched
+CR_226_2_S48_PE - 87.69% reads matched
+CR_229_1_S49_PE - 91.42% reads matched
+CR_229_2_S50_PE - 95.58% reads matched
+CR_246_1_S51_PE - 89.55% reads matched
+CR_246_2_S52_PE - 93.36% reads matched
+CR_275_1_S53_PE - 94.30% reads matched
+CR_275_2_S54_PE - 91.09% reads matched
+CR_52_1_S23_PE - 89.58% reads matched
+CR_52_2_S24_PE - 87.57% reads matched
+CR_61_1_S90_PE - 84.49% reads matched
+CR_61_2_S25_PE - 91.63% reads matched
+CR_84_1_S91_PE - 88.22% reads matched
+CR_84_2_S26_PE - 91.92% reads matched
+CR_94_1_S27_PE - 90.82% reads matched
+CR_94_2_S28_PE - 93.47% reads matched
+CR_97_2_S30_PE - 90.27% reads matched
+DIA_1_S79_PE - 86.10% reads matched
+DIA_2_S88_PE - 85.13% reads matched
+HAV_1_S71_PE - 93.87% reads matched
+HAV_2_S72_PE - 88.76% reads matched
+HER_1_S93_PE - 89.82% reads matched
+HER_2_S62_PE - 89.71% reads matched
+KAN_1_S67_PE - 87.02% reads matched
+KAN_2_S68_PE - 86.14% reads matched
+LCR_1_S57_PE - 85.64% reads matched
+LCR_2_S58_PE - 88.06% reads matched
+LF_1_S73_PE - 92.57% reads matched
+LF_2_S74_PE - 93.23% reads matched
+MAT_1_S69_PE - 89.40% reads matched
+MAT_2_S70_PE - 89.83% reads matched
+NANK_1_S55_PE - 86.87% reads matched
+NANK_2_S56_PE - 85.39% reads matched
+RM_20_1_S19_PE - 91.71% reads matched
+RM_20_2_S20_PE - 92.53% reads matched
+RM_88_1_S21_PE - 89.78% reads matched
+RM_88_2_S22_PE - 90.30% reads matched
+SC_1_S13_PE - 86.27% reads matched
+SCGC_1_S75_PE - 90.09% reads matched
+SHI_1_S63_PE - 84.62% reads matched
+SHI_2_S64_PE - 84.19% reads matched
+SPE_1_S84_PE - 89.07% reads matched
+SPE_2_S85_PE - 87.72% reads matched
+TAP_1_S65_PE - 88.82% reads matched
+TAP_2_S66_PE - 88.88% reads matched
+TRA_1_S82_PE - 87.57% reads matched
+TRA_2_S83_PE - 87.34% reads matched
+TS_1_S77_PE - 86.41% reads matched
+TS_2_S78_PE - 89.14% reads matched
+
+
+OTU table generated (including OTU sequences): 3_Raw_OTU_table.csv
+OTU files are written also as fasta file in 3_Raw_OTU.fasta
+Discarding OTUs with below 0.01% abundance across at least 1 out of 74 samples.
+Discarded OTUs: 312 out of 1174 discarded (26.58%)
+
+
+Remapping 72 files (incl. singletons) against subsetted OTUs "K_Cluster_otus/_data/5_subset/5_OTU_sub_0.01.fasta" using "usearch_global" using id=0.97.
+
+BA_1_S92_PE - 85.24% reads matched
+BA_2_S61_PE - 88.29% reads matched
+BOU_1_S94_PE - 86.93% reads matched
+BOU_2_S80_PE - 92.89% reads matched
+CLR_1_S59_PE - 96.64% reads matched
+CLR_2_S60_PE - 97.07% reads matched
+COL_1_S86_PE - 89.62% reads matched
+COL_2_S81_PE - 97.21% reads matched
+CR_109_1_S31_PE - 88.92% reads matched
+CR_109_2_S32_PE - 88.82% reads matched
+CR_134_1_S33_PE - 92.39% reads matched
+CR_134_2_S34_PE - 93.25% reads matched
+CR_143_1_S35_PE - 89.45% reads matched
+CR_143_2_S36_PE - 91.35% reads matched
+CR_148_1_S37_PE - 88.66% reads matched
+CR_148_2_S38_PE - 92.57% reads matched
+CR_157_1_S39_PE - 89.26% reads matched
+CR_157_2_S40_PE - 88.89% reads matched
+CR_180_1_S41_PE - 90.24% reads matched
+CR_180_2_S42_PE - 95.71% reads matched
+CR_204_1_S43_PE - 90.49% reads matched
+CR_204_2_S44_PE - 91.12% reads matched
+CR_216_2_S46_PE - 88.21% reads matched
+CR_226_1_S47_PE - 90.61% reads matched
+CR_226_2_S48_PE - 87.60% reads matched
+CR_229_1_S49_PE - 91.38% reads matched
+CR_229_2_S50_PE - 95.46% reads matched
+CR_246_1_S51_PE - 89.40% reads matched
+CR_246_2_S52_PE - 93.36% reads matched
+CR_275_1_S53_PE - 94.17% reads matched
+CR_275_2_S54_PE - 90.85% reads matched
+CR_52_1_S23_PE - 89.54% reads matched
+CR_52_2_S24_PE - 87.53% reads matched
+CR_61_1_S90_PE - 84.40% reads matched
+CR_61_2_S25_PE - 91.63% reads matched
+CR_84_1_S91_PE - 88.17% reads matched
+CR_84_2_S26_PE - 91.92% reads matched
+CR_94_1_S27_PE - 90.72% reads matched
+CR_94_2_S28_PE - 93.46% reads matched
+CR_97_2_S30_PE - 90.09% reads matched
+DIA_1_S79_PE - 85.75% reads matched
+DIA_2_S88_PE - 84.88% reads matched
+HAV_1_S71_PE - 93.64% reads matched
+HAV_2_S72_PE - 88.52% reads matched
+HER_1_S93_PE - 89.44% reads matched
+HER_2_S62_PE - 89.30% reads matched
+KAN_1_S67_PE - 86.66% reads matched
+KAN_2_S68_PE - 85.68% reads matched
+LCR_1_S57_PE - 85.27% reads matched
+LCR_2_S58_PE - 87.86% reads matched
+LF_1_S73_PE - 92.53% reads matched
+LF_2_S74_PE - 93.19% reads matched
+MAT_1_S69_PE - 89.07% reads matched
+MAT_2_S70_PE - 89.71% reads matched
+NANK_1_S55_PE - 86.81% reads matched
+NANK_2_S56_PE - 85.35% reads matched
+RM_20_1_S19_PE - 91.60% reads matched
+RM_20_2_S20_PE - 92.47% reads matched
+RM_88_1_S21_PE - 89.78% reads matched
+RM_88_2_S22_PE - 90.22% reads matched
+SC_1_S13_PE - 85.64% reads matched
+SCGC_1_S75_PE - 89.82% reads matched
+SHI_1_S63_PE - 84.44% reads matched
+SHI_2_S64_PE - 83.99% reads matched
+SPE_1_S84_PE - 88.75% reads matched
+SPE_2_S85_PE - 87.11% reads matched
+TAP_1_S65_PE - 88.61% reads matched
+TAP_2_S66_PE - 88.54% reads matched
+TRA_1_S82_PE - 87.16% reads matched
+TRA_2_S83_PE - 86.96% reads matched
+TS_1_S77_PE - 86.03% reads matched
+TS_2_S78_PE - 88.83% reads matched
+
+
+Subsetted OTU table generated (0.01% abundance in at least 1 sample): 5_OTU_sub_0.01.fasta
+2021-11-22 15:51:10
+*** Module completed!
+

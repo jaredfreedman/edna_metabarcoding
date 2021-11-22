@@ -1,0 +1,13 @@
+vsearch -usearch_global K_Cluster_otus/_data/1_derep_inc_singletons/DIA_1_S79_PE_derep.fasta -db K_Cluster_otus/_data/5_subset/5_OTU_sub_0.01.fasta -strand plus -id 0.97 -blast6out K_Cluster_otus/_data/5_subset/usearch_global/DIA_1_S79.txt -maxhits 1 -maxaccepts 1 -maxrejects 32
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading file K_Cluster_otus/_data/5_subset/5_OTU_sub_0.01.fasta 100%
+122307 nt in 862 seqs, min 133, max 152, avg 142
+Masking 100%
+Counting k-mers 100%
+Creating k-mer index 100%
+Searching 100%
+Matching unique query sequences: 9755 of 11376 (85.75%)

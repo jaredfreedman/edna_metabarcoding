@@ -1527,3 +1527,99 @@ Subsetted OTU table generated (0.01% abundance in at least 1 sample): 5_OTU_sub_
 2021-11-22 15:51:10
 *** Module completed!
 
+##########
+2021-11-22 15:55:36
+PROCESSING MODULE:
+L_Cluster_otus
+
+Version v0.3
+
+
+18 files are dereplicated (incl. singletons!):
+1_derep_inc_singletons/CHILDS_1_S11_PE_derep.fasta
+1_derep_inc_singletons/CHILDS_2_S12_PE_derep.fasta
+1_derep_inc_singletons/FCW_1_S3_PE_derep.fasta
+1_derep_inc_singletons/FCW_2_S4_PE_derep.fasta
+1_derep_inc_singletons/SC_2_S14_PE_derep.fasta
+1_derep_inc_singletons/SCGC_2_S76_PE_derep.fasta
+1_derep_inc_singletons/TCDW_1_S7_PE_derep.fasta
+1_derep_inc_singletons/TCDW_2_S8_PE_derep.fasta
+1_derep_inc_singletons/VRBF_1_S9_PE_derep.fasta
+1_derep_inc_singletons/VRBF_2_S10_PE_derep.fasta
+1_derep_inc_singletons/VRSB_1_S5_PE_derep.fasta
+1_derep_inc_singletons/VRSB_2_S6_PE_derep.fasta
+1_derep_inc_singletons/WBC_1_S17_PE_derep.fasta
+1_derep_inc_singletons/WBC_2_S18_PE_derep.fasta
+1_derep_inc_singletons/WCC_1_S1_PE_derep.fasta
+1_derep_inc_singletons/WCC_2_S2_PE_derep.fasta
+1_derep_inc_singletons/WFOC_1_S15_PE_derep.fasta
+1_derep_inc_singletons/WFOC_2_S16_PE_derep.fasta
+
+
+18 dereplicated files where merged (inc singleotns) into file:
+"L_Cluster_otus/_data/2_OTU_clustering/A_all_files_united.fasta"
+Total number of sequences (not dereplicated): 190657
+
+Pooled sequences are dereplicated with minuniquesize = 2 into a total of 138564 unique sequences.
+File prepared for OTU clustering: "B_all_derep_min2.fasta"
+Clustered 37673 sequences into 2556 OTU clusters using a treshold of 3%.
+
+Next step: Denovo chimera removal.
+
+Chimeras removed de novo: 1462 (57.2%)
+          OTUs remaining: 1094 (42.8%)
+
+Comparing 18 files with dereplicated reads (incl. singletons) against OTUs "L_Cluster_otus/C_all_derep_min2_OTUs.fasta" using "usearch_global" with id=0.97 as implemented in vsearch.
+
+CHILDS_1_S11_PE - 90.90% reads matched
+CHILDS_2_S12_PE - 89.83% reads matched
+FCW_1_S3_PE - 88.13% reads matched
+FCW_2_S4_PE - 87.50% reads matched
+SC_2_S14_PE - 86.63% reads matched
+SCGC_2_S76_PE - 89.66% reads matched
+TCDW_1_S7_PE - 83.55% reads matched
+TCDW_2_S8_PE - 80.85% reads matched
+VRBF_1_S9_PE - 88.27% reads matched
+VRBF_2_S10_PE - 89.69% reads matched
+VRSB_1_S5_PE - 88.38% reads matched
+VRSB_2_S6_PE - 88.27% reads matched
+WBC_1_S17_PE - 83.43% reads matched
+WBC_2_S18_PE - 86.28% reads matched
+WCC_1_S1_PE - 81.43% reads matched
+WCC_2_S2_PE - 83.59% reads matched
+WFOC_1_S15_PE - 86.88% reads matched
+WFOC_2_S16_PE - 87.17% reads matched
+
+
+OTU table generated (including OTU sequences): 3_Raw_OTU_table.csv
+OTU files are written also as fasta file in 3_Raw_OTU.fasta
+Discarding OTUs with below 0.01% abundance across at least 1 out of 18 samples.
+Discarded OTUs: 301 out of 1094 discarded (27.51%)
+
+
+Remapping 18 files (incl. singletons) against subsetted OTUs "L_Cluster_otus/_data/5_subset/5_OTU_sub_0.01.fasta" using "usearch_global" using id=0.97.
+
+CHILDS_1_S11_PE - 90.51% reads matched
+CHILDS_2_S12_PE - 89.44% reads matched
+FCW_1_S3_PE - 87.88% reads matched
+FCW_2_S4_PE - 87.18% reads matched
+SC_2_S14_PE - 86.30% reads matched
+SCGC_2_S76_PE - 89.42% reads matched
+TCDW_1_S7_PE - 83.09% reads matched
+TCDW_2_S8_PE - 80.31% reads matched
+VRBF_1_S9_PE - 87.80% reads matched
+VRBF_2_S10_PE - 89.26% reads matched
+VRSB_1_S5_PE - 87.86% reads matched
+VRSB_2_S6_PE - 87.93% reads matched
+WBC_1_S17_PE - 82.90% reads matched
+WBC_2_S18_PE - 85.83% reads matched
+WCC_1_S1_PE - 80.99% reads matched
+WCC_2_S2_PE - 83.05% reads matched
+WFOC_1_S15_PE - 86.14% reads matched
+WFOC_2_S16_PE - 86.50% reads matched
+
+
+Subsetted OTU table generated (0.01% abundance in at least 1 sample): 5_OTU_sub_0.01.fasta
+2021-11-22 15:55:58
+*** Module completed!
+

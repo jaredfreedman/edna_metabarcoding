@@ -13,9 +13,19 @@ setwd("/Users/jaredfreedman/Research/git/edna_metabarcoding/GC_VR_MiSeq_2021")
 
 
 
-# Cluster OTUs ------------------------------------------------------------
+# Cluster OTUs with Grand Canyon Samples ------------------------------------------------------------
 
 Max_ee_GC <- list.files("Max_ee_GC/_data", full.names=T)
 
 Cluster_otus(files= Max_ee_GC,
              filter=0.01)
+
+
+
+# Cluseter OTUs with Verde River Samples ----------------------------------
+
+Max_ee_VR <- list.files("Max_ee_VR/_data", full.names=T)
+
+Cluster_otus(files= Max_ee_VR,
+             filter=0.01)
+

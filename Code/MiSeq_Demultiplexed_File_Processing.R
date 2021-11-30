@@ -17,6 +17,11 @@ library(stringr)
 # Set working directory? ---------------------------------------------------
 setwd("/Users/jaredfreedman/Research/eDNA/GC_VR_miseq_demulti")
 
+#unzip all files with .fastq.gz
+# "*.fastq.gz" will unzip all files in the directory ending in that file format
+
+system2("gunzip", "*.fastq.gz")
+
 
 # Create a new folder and copy fastq files into that folder ---------------
 

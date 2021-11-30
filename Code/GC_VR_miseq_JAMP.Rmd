@@ -108,9 +108,9 @@ Cutadapt(files = merged_files,
 
 ```{r include=FALSE}
 
-dir.create("_Length_distribution", path = "C_Cutadapt/_stats/_Length_distribution")
+dir.create("_Length_distribution", path = "D_Cutadapt/_stats/_Length_distribution")
 
-trimmed_files <- list.files(path = "C_Cutadapt/_Data", full.names = TRUE) # Create list of file names
+trimmed_files <- list.files(path = "D_Cutadapt/_Data", full.names = TRUE) # Create list of file names
 nfile <- length(trimmed_files)
 ifile <- 1
 
@@ -124,7 +124,7 @@ for(ifile in 1:nfile){
 
   
   Length_distribution(sequFile = file,
-                      out = paste("C_Cutadapt/_stats/_Length_distribution/", filename, ".pdf", sep=""),
+                      out = paste("D_Cutadapt/_stats/_Length_distribution/", filename, ".pdf", sep=""),
                       fastq=TRUE)
   
   print(paste("Length distribution histogram created for ", filename, sep=""))

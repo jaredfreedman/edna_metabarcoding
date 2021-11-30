@@ -18,6 +18,15 @@ unique_orders_df <- as.data.frame(unique_orders)
 
 pie_labels <- paste0(unique_orders, " = ", round(100 * unique_orders/sum(unique_orders), 2), "%")
 
-pie(x=unique_orders)
+pie(x=unique_orders, main = "Orders of 90 most commom \n COI fragments in Verde River Samples")
 
+
+
+# Save this as a PDF ------------------------------------------------------
+
+pdf(file="./Visual_Output/")
+
+pie(x=unique_orders, main = "Orders of 90 most commom \n COI fragments in Verde River Samples")
+
+dev.off()
 

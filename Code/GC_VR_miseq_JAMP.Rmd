@@ -145,21 +145,20 @@ The fwhF2/EPDr2n COI fragment is 142bp
 
 ```{r include=FALSE}
 
+#Filter trimmed reads to only read within +/- 10bp of expected fragment length
 Cutadapt_files <- list.files("D_Cutadapt/_data", full.names = TRUE)
-
 Minmax(files = Cutadapt_files,
        min=(142-10),
        max=(142+10))
 
 ```
 
-
 ## Discard reads with an Expected Error greater than 1
 
 ```{r include=FALSE}
 
+# Filter files by maximum expected error
 Minmax_files <- list.files("E_Minmax/_data", full.names = TRUE)
-
 Max_ee(files = Minmax_files,
        max_ee=1)
 #Output in F_U_max_ee 
@@ -170,7 +169,6 @@ Max_ee(files = Minmax_files,
 
 ```
 
-
 ## Cluster OTUs 
 Cluster sequences into OTUs using VSearch.
 This OTU clustering is not subset to the lowest sequencing depth, something that is available with USearch but not with VSearch. At the moment I am going to cluster without subsetting, but plan to figure out how to subset in the future (11/19/21).
@@ -178,21 +176,15 @@ This OTU clustering is not subset to the lowest sequencing depth, something that
 
 ```{r include=FALSE}
 
-start_time <- Sys.time() # start timer to see how long the following for loop will take
-
 # Take files from F_U_max_ee, which were filtered at an EE of 1
 Max_ee_files <- list.files("F_U_max_ee/_data", full.names=T)
 Max_ee_subset <- Max_ee_files[1:10]
 
+#cluster OTUs based on Max_ee files with a filter of 0.01%. This means that any sequence greater than 0.01% abundance in the total dataset will be included as an OTU
 Cluster_otus(files= Max_ee_files,
              filter=0.01)
 
-
-end_time <- Sys.time() # end timer once for loop is completed
-
-end_time - start_time
-
-
+#create new OTU heatmap with better color grading
 OTU_heatmap(file = "J_Cluster_otus/5_OTU_table_0.01.csv",
             out = "GC_VR_OTU_Heatmap_0.01.pdf",
             abundance = TRUE,

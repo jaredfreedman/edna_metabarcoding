@@ -1,0 +1,50 @@
+Query ID	Best ID	Search DB	Top %	Low %
+OTU_1	Diptera	COI FULL DATABASE (includes records without species designation)	100	99.24
+OTU_2	Cricotopus sp. 18ES	COI FULL DATABASE (includes records without species designation)	100	99.26
+OTU_3	Diptera	COI FULL DATABASE (includes records without species designation)	99.26	91.85
+OTU_4	Diptera	COI FULL DATABASE (includes records without species designation)	100	97.78
+OTU_5	Diptera	COI FULL DATABASE (includes records without species designation)	97.78	91.85
+OTU_6	Diptera	COI FULL DATABASE (includes records without species designation)	98.52	90.37
+OTU_7	Diptera	COI FULL DATABASE (includes records without species designation)	100	91.11
+OTU_8	No match	COI FULL DATABASE (includes records without species designation)		
+OTU_9	Diptera	COI FULL DATABASE (includes records without species designation)	97.01	92.54
+OTU_10	No match	COI FULL DATABASE (includes records without species designation)		
+OTU_11	Diptera	COI FULL DATABASE (includes records without species designation)	97.78	93.33
+OTU_12	Simulium brevicercum	COI FULL DATABASE (includes records without species designation)	100	98.52
+OTU_13	Thienemanniella xena	COI FULL DATABASE (includes records without species designation)	100	100
+OTU_14	No match	COI FULL DATABASE (includes records without species designation)		
+OTU_15	Diptera	COI FULL DATABASE (includes records without species designation)	100	100
+OTU_16	Diptera	COI FULL DATABASE (includes records without species designation)	100	92.59
+OTU_17	Simulium iriartei	COI FULL DATABASE (includes records without species designation)	100	93.33
+OTU_18	Diptera	COI FULL DATABASE (includes records without species designation)	99.26	91.85
+OTU_19	Diptera	COI FULL DATABASE (includes records without species designation)	97.78	86.67
+OTU_20	Diptera	COI FULL DATABASE (includes records without species designation)	100	100
+OTU_21	Diptera	COI FULL DATABASE (includes records without species designation)	100	99.26
+OTU_22	No match	COI FULL DATABASE (includes records without species designation)		
+OTU_23	Diptera	COI FULL DATABASE (includes records without species designation)	100	99.26
+OTU_24	No match	COI FULL DATABASE (includes records without species designation)		
+OTU_25	No match	COI FULL DATABASE (includes records without species designation)		
+OTU_26	No match	COI FULL DATABASE (includes records without species designation)		
+OTU_27	No match	COI FULL DATABASE (includes records without species designation)		
+OTU_28	No match	COI FULL DATABASE (includes records without species designation)		
+OTU_29	Diptera	COI FULL DATABASE (includes records without species designation)	98.52	92.59
+OTU_30	Diptera	COI FULL DATABASE (includes records without species designation)	100	97.04
+OTU_31	Diptera	COI FULL DATABASE (includes records without species designation)	100	99.26
+OTU_32	Diptera	COI FULL DATABASE (includes records without species designation)	97.04	94.81
+OTU_33	Diptera	COI FULL DATABASE (includes records without species designation)	100	99.26
+OTU_34	Diptera	COI FULL DATABASE (includes records without species designation)	97.04	92.59
+OTU_35	Diptera	COI FULL DATABASE (includes records without species designation)	100	88.89
+OTU_36	Capnura fibula	COI FULL DATABASE (includes records without species designation)	100	88.89
+OTU_37	Corydalus luteus	COI FULL DATABASE (includes records without species designation)	100	89.63
+OTU_38	Diptera	COI FULL DATABASE (includes records without species designation)	97.78	91.11
+OTU_39	Diptera	COI FULL DATABASE (includes records without species designation)	100	94.07
+OTU_40	Diptera	COI FULL DATABASE (includes records without species designation)	97.78	94.07
+OTU_41	Diptera	COI FULL DATABASE (includes records without species designation)	100	93.33
+OTU_42	Simulium bracteatum	COI FULL DATABASE (includes records without species designation)	100	99.26
+OTU_43	Diptera	COI FULL DATABASE (includes records without species designation)	100	95.56
+OTU_44	Simulium iriartei	COI FULL DATABASE (includes records without species designation)	100	91.85
+OTU_45	Orthocladius telochaetus	COI FULL DATABASE (includes records without species designation)	99.26	99.26
+OTU_46	Diptera	COI FULL DATABASE (includes records without species designation)	97.78	94.81
+OTU_47	Diptera	COI FULL DATABASE (includes records without species designation)	99.26	93.33
+OTU_48	No match	COI FULL DATABASE (includes records without species designation)		
+OTU_49	Diptera	COI FULL DATABASE (includes records without species designation)	99.26	91.85

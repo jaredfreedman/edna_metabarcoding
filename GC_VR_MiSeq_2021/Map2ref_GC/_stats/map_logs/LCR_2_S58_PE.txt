@@ -1,0 +1,13 @@
+usearch -usearch_global N_Map2ref/_data/1_derep/LCR_2_S58_PE_derep.fasta -db "J_Cluster_otus/3_Raw_OTU.fasta" -strand plus -id 0.97 -blast6out "N_Map2ref/_data/2_mapping/LCR_2_S58_PE.txt" -maxhits 1 -notmatched "N_Map2ref/_data/3_nohit_fasta/LCR_2_S58_PE_derep.fasta" -maxaccepts 1 -maxrejects 32
+
+
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading file J_Cluster_otus/3_Raw_OTU.fasta 100%
+274090 nt in 1932 seqs, min 132, max 152, avg 142
+Masking 100%
+Counting k-mers 100%
+Creating k-mer index 100%
+Searching 100%
+Matching unique query sequences: 3894 of 4423 (88.04%)

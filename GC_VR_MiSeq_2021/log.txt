@@ -1623,3 +1623,215 @@ Subsetted OTU table generated (0.01% abundance in at least 1 sample): 5_OTU_sub_
 2021-11-22 15:55:58
 *** Module completed!
 
+##########
+2021-11-24 11:08:56
+PROCESSING MODULE:
+M_Map2ref
+
+Version v0.1
+
+
+18 files are dereplicated (incl. singletons):
+1_derep/CHILDS_1_S11_PE_derep.fasta
+1_derep/CHILDS_2_S12_PE_derep.fasta
+1_derep/FCW_1_S3_PE_derep.fasta
+1_derep/FCW_2_S4_PE_derep.fasta
+1_derep/SC_2_S14_PE_derep.fasta
+1_derep/SCGC_2_S76_PE_derep.fasta
+1_derep/TCDW_1_S7_PE_derep.fasta
+1_derep/TCDW_2_S8_PE_derep.fasta
+1_derep/VRBF_1_S9_PE_derep.fasta
+1_derep/VRBF_2_S10_PE_derep.fasta
+1_derep/VRSB_1_S5_PE_derep.fasta
+1_derep/VRSB_2_S6_PE_derep.fasta
+1_derep/WBC_1_S17_PE_derep.fasta
+1_derep/WBC_2_S18_PE_derep.fasta
+1_derep/WCC_1_S1_PE_derep.fasta
+1_derep/WCC_2_S2_PE_derep.fasta
+1_derep/WFOC_1_S15_PE_derep.fasta
+1_derep/WFOC_2_S16_PE_derep.fasta
+Comparing 18 files with dereplicated reads (incl. singletons) against refDB: "3_Raw_OTU.fasta" using "usearch_global" and Usearch. Minimum identity (id) = 0.97, maxaccepts = 1 maxrejects = 32.
+
+M_Map2ref/CHILDS_1_S11_PE_derep.fasta - 90.84% reads matched
+M_Map2ref/CHILDS_2_S12_PE_derep.fasta - 89.64% reads matched
+M_Map2ref/FCW_1_S3_PE_derep.fasta - 88.67% reads matched
+M_Map2ref/FCW_2_S4_PE_derep.fasta - 88.06% reads matched
+M_Map2ref/SC_2_S14_PE_derep.fasta - 86.77% reads matched
+M_Map2ref/SCGC_2_S76_PE_derep.fasta - 89.72% reads matched
+M_Map2ref/TCDW_1_S7_PE_derep.fasta - 83.02% reads matched
+M_Map2ref/TCDW_2_S8_PE_derep.fasta - 80.45% reads matched
+M_Map2ref/VRBF_1_S9_PE_derep.fasta - 88.15% reads matched
+M_Map2ref/VRBF_2_S10_PE_derep.fasta - 89.38% reads matched
+M_Map2ref/VRSB_1_S5_PE_derep.fasta - 88.13% reads matched
+M_Map2ref/VRSB_2_S6_PE_derep.fasta - 87.74% reads matched
+M_Map2ref/WBC_1_S17_PE_derep.fasta - 82.62% reads matched
+M_Map2ref/WBC_2_S18_PE_derep.fasta - 85.20% reads matched
+M_Map2ref/WCC_1_S1_PE_derep.fasta - 81.25% reads matched
+M_Map2ref/WCC_2_S2_PE_derep.fasta - 83.06% reads matched
+M_Map2ref/WFOC_1_S15_PE_derep.fasta - 87.07% reads matched
+M_Map2ref/WFOC_2_S16_PE_derep.fasta - 87.35% reads matched
+2021-11-24 11:09:06
+*** Module completed!
+
+##########
+2021-11-24 11:10:23
+PROCESSING MODULE:
+N_Map2ref
+
+Version v0.1
+
+
+WARNING! 2 file does NOT contain sequences and are not included in clustering:
+Max_ee_GC/_data/CR_216_1_S45_PE_cut_minmax_ee1.fasta
+Max_ee_GC/_data/CR_97_1_S29_PE_cut_minmax_ee1.fasta
+
+72 files are dereplicated (incl. singletons):
+1_derep/BA_1_S92_PE_derep.fasta
+1_derep/BA_2_S61_PE_derep.fasta
+1_derep/BOU_1_S94_PE_derep.fasta
+1_derep/BOU_2_S80_PE_derep.fasta
+1_derep/CLR_1_S59_PE_derep.fasta
+1_derep/CLR_2_S60_PE_derep.fasta
+1_derep/COL_1_S86_PE_derep.fasta
+1_derep/COL_2_S81_PE_derep.fasta
+1_derep/CR_109_1_S31_PE_derep.fasta
+1_derep/CR_109_2_S32_PE_derep.fasta
+1_derep/CR_134_1_S33_PE_derep.fasta
+1_derep/CR_134_2_S34_PE_derep.fasta
+1_derep/CR_143_1_S35_PE_derep.fasta
+1_derep/CR_143_2_S36_PE_derep.fasta
+1_derep/CR_148_1_S37_PE_derep.fasta
+1_derep/CR_148_2_S38_PE_derep.fasta
+1_derep/CR_157_1_S39_PE_derep.fasta
+1_derep/CR_157_2_S40_PE_derep.fasta
+1_derep/CR_180_1_S41_PE_derep.fasta
+1_derep/CR_180_2_S42_PE_derep.fasta
+1_derep/CR_204_1_S43_PE_derep.fasta
+1_derep/CR_204_2_S44_PE_derep.fasta
+1_derep/CR_216_2_S46_PE_derep.fasta
+1_derep/CR_226_1_S47_PE_derep.fasta
+1_derep/CR_226_2_S48_PE_derep.fasta
+1_derep/CR_229_1_S49_PE_derep.fasta
+1_derep/CR_229_2_S50_PE_derep.fasta
+1_derep/CR_246_1_S51_PE_derep.fasta
+1_derep/CR_246_2_S52_PE_derep.fasta
+1_derep/CR_275_1_S53_PE_derep.fasta
+1_derep/CR_275_2_S54_PE_derep.fasta
+1_derep/CR_52_1_S23_PE_derep.fasta
+1_derep/CR_52_2_S24_PE_derep.fasta
+1_derep/CR_61_1_S90_PE_derep.fasta
+1_derep/CR_61_2_S25_PE_derep.fasta
+1_derep/CR_84_1_S91_PE_derep.fasta
+1_derep/CR_84_2_S26_PE_derep.fasta
+1_derep/CR_94_1_S27_PE_derep.fasta
+1_derep/CR_94_2_S28_PE_derep.fasta
+1_derep/CR_97_2_S30_PE_derep.fasta
+1_derep/DIA_1_S79_PE_derep.fasta
+1_derep/DIA_2_S88_PE_derep.fasta
+1_derep/HAV_1_S71_PE_derep.fasta
+1_derep/HAV_2_S72_PE_derep.fasta
+1_derep/HER_1_S93_PE_derep.fasta
+1_derep/HER_2_S62_PE_derep.fasta
+1_derep/KAN_1_S67_PE_derep.fasta
+1_derep/KAN_2_S68_PE_derep.fasta
+1_derep/LCR_1_S57_PE_derep.fasta
+1_derep/LCR_2_S58_PE_derep.fasta
+1_derep/LF_1_S73_PE_derep.fasta
+1_derep/LF_2_S74_PE_derep.fasta
+1_derep/MAT_1_S69_PE_derep.fasta
+1_derep/MAT_2_S70_PE_derep.fasta
+1_derep/NANK_1_S55_PE_derep.fasta
+1_derep/NANK_2_S56_PE_derep.fasta
+1_derep/RM_20_1_S19_PE_derep.fasta
+1_derep/RM_20_2_S20_PE_derep.fasta
+1_derep/RM_88_1_S21_PE_derep.fasta
+1_derep/RM_88_2_S22_PE_derep.fasta
+1_derep/SC_1_S13_PE_derep.fasta
+1_derep/SCGC_1_S75_PE_derep.fasta
+1_derep/SHI_1_S63_PE_derep.fasta
+1_derep/SHI_2_S64_PE_derep.fasta
+1_derep/SPE_1_S84_PE_derep.fasta
+1_derep/SPE_2_S85_PE_derep.fasta
+1_derep/TAP_1_S65_PE_derep.fasta
+1_derep/TAP_2_S66_PE_derep.fasta
+1_derep/TRA_1_S82_PE_derep.fasta
+1_derep/TRA_2_S83_PE_derep.fasta
+1_derep/TS_1_S77_PE_derep.fasta
+1_derep/TS_2_S78_PE_derep.fasta
+Comparing 72 files with dereplicated reads (incl. singletons) against refDB: "3_Raw_OTU.fasta" using "usearch_global" and Usearch. Minimum identity (id) = 0.97, maxaccepts = 1 maxrejects = 32.
+
+N_Map2ref/BA_1_S92_PE_derep.fasta - 85.91% reads matched
+N_Map2ref/BA_2_S61_PE_derep.fasta - 88.04% reads matched
+N_Map2ref/BOU_1_S94_PE_derep.fasta - 87.22% reads matched
+N_Map2ref/BOU_2_S80_PE_derep.fasta - 92.97% reads matched
+N_Map2ref/CLR_1_S59_PE_derep.fasta - 98.00% reads matched
+N_Map2ref/CLR_2_S60_PE_derep.fasta - 97.95% reads matched
+N_Map2ref/COL_1_S86_PE_derep.fasta - 90.16% reads matched
+N_Map2ref/COL_2_S81_PE_derep.fasta - 97.66% reads matched
+N_Map2ref/CR_109_1_S31_PE_derep.fasta - 89.09% reads matched
+N_Map2ref/CR_109_2_S32_PE_derep.fasta - 89.17% reads matched
+N_Map2ref/CR_134_1_S33_PE_derep.fasta - 92.56% reads matched
+N_Map2ref/CR_134_2_S34_PE_derep.fasta - 93.49% reads matched
+N_Map2ref/CR_143_1_S35_PE_derep.fasta - 89.67% reads matched
+N_Map2ref/CR_143_2_S36_PE_derep.fasta - 91.61% reads matched
+N_Map2ref/CR_148_1_S37_PE_derep.fasta - 88.85% reads matched
+N_Map2ref/CR_148_2_S38_PE_derep.fasta - 92.77% reads matched
+N_Map2ref/CR_157_1_S39_PE_derep.fasta - 89.54% reads matched
+N_Map2ref/CR_157_2_S40_PE_derep.fasta - 89.38% reads matched
+N_Map2ref/CR_180_1_S41_PE_derep.fasta - 90.55% reads matched
+N_Map2ref/CR_180_2_S42_PE_derep.fasta - 95.71% reads matched
+N_Map2ref/CR_204_1_S43_PE_derep.fasta - 90.61% reads matched
+N_Map2ref/CR_204_2_S44_PE_derep.fasta - 91.50% reads matched
+N_Map2ref/CR_216_2_S46_PE_derep.fasta - 88.57% reads matched
+N_Map2ref/CR_226_1_S47_PE_derep.fasta - 90.95% reads matched
+N_Map2ref/CR_226_2_S48_PE_derep.fasta - 88.03% reads matched
+N_Map2ref/CR_229_1_S49_PE_derep.fasta - 91.56% reads matched
+N_Map2ref/CR_229_2_S50_PE_derep.fasta - 95.82% reads matched
+N_Map2ref/CR_246_1_S51_PE_derep.fasta - 89.85% reads matched
+N_Map2ref/CR_246_2_S52_PE_derep.fasta - 93.36% reads matched
+N_Map2ref/CR_275_1_S53_PE_derep.fasta - 94.39% reads matched
+N_Map2ref/CR_275_2_S54_PE_derep.fasta - 91.37% reads matched
+N_Map2ref/CR_52_1_S23_PE_derep.fasta - 89.82% reads matched
+N_Map2ref/CR_52_2_S24_PE_derep.fasta - 87.72% reads matched
+N_Map2ref/CR_61_1_S90_PE_derep.fasta - 84.84% reads matched
+N_Map2ref/CR_61_2_S25_PE_derep.fasta - 91.96% reads matched
+N_Map2ref/CR_84_1_S91_PE_derep.fasta - 88.44% reads matched
+N_Map2ref/CR_84_2_S26_PE_derep.fasta - 91.92% reads matched
+N_Map2ref/CR_94_1_S27_PE_derep.fasta - 91.03% reads matched
+N_Map2ref/CR_94_2_S28_PE_derep.fasta - 93.65% reads matched
+N_Map2ref/CR_97_2_S30_PE_derep.fasta - 90.62% reads matched
+N_Map2ref/DIA_1_S79_PE_derep.fasta - 85.20% reads matched
+N_Map2ref/DIA_2_S88_PE_derep.fasta - 84.35% reads matched
+N_Map2ref/HAV_1_S71_PE_derep.fasta - 94.27% reads matched
+N_Map2ref/HAV_2_S72_PE_derep.fasta - 88.73% reads matched
+N_Map2ref/HER_1_S93_PE_derep.fasta - 89.61% reads matched
+N_Map2ref/HER_2_S62_PE_derep.fasta - 89.87% reads matched
+N_Map2ref/KAN_1_S67_PE_derep.fasta - 87.66% reads matched
+N_Map2ref/KAN_2_S68_PE_derep.fasta - 86.71% reads matched
+N_Map2ref/LCR_1_S57_PE_derep.fasta - 85.87% reads matched
+N_Map2ref/LCR_2_S58_PE_derep.fasta - 88.04% reads matched
+N_Map2ref/LF_1_S73_PE_derep.fasta - 92.57% reads matched
+N_Map2ref/LF_2_S74_PE_derep.fasta - 91.17% reads matched
+N_Map2ref/MAT_1_S69_PE_derep.fasta - 88.89% reads matched
+N_Map2ref/MAT_2_S70_PE_derep.fasta - 89.10% reads matched
+N_Map2ref/NANK_1_S55_PE_derep.fasta - 86.89% reads matched
+N_Map2ref/NANK_2_S56_PE_derep.fasta - 85.01% reads matched
+N_Map2ref/RM_20_1_S19_PE_derep.fasta - 91.78% reads matched
+N_Map2ref/RM_20_2_S20_PE_derep.fasta - 92.57% reads matched
+N_Map2ref/RM_88_1_S21_PE_derep.fasta - 90.32% reads matched
+N_Map2ref/RM_88_2_S22_PE_derep.fasta - 90.53% reads matched
+N_Map2ref/SC_1_S13_PE_derep.fasta - 88.39% reads matched
+N_Map2ref/SCGC_1_S75_PE_derep.fasta - 90.26% reads matched
+N_Map2ref/SHI_1_S63_PE_derep.fasta - 84.82% reads matched
+N_Map2ref/SHI_2_S64_PE_derep.fasta - 84.16% reads matched
+N_Map2ref/SPE_1_S84_PE_derep.fasta - 89.00% reads matched
+N_Map2ref/SPE_2_S85_PE_derep.fasta - 87.66% reads matched
+N_Map2ref/TAP_1_S65_PE_derep.fasta - 88.92% reads matched
+N_Map2ref/TAP_2_S66_PE_derep.fasta - 88.85% reads matched
+N_Map2ref/TRA_1_S82_PE_derep.fasta - 87.66% reads matched
+N_Map2ref/TRA_2_S83_PE_derep.fasta - 87.37% reads matched
+N_Map2ref/TS_1_S77_PE_derep.fasta - 86.42% reads matched
+N_Map2ref/TS_2_S78_PE_derep.fasta - 88.98% reads matched
+2021-11-24 11:10:50
+*** Module completed!
+

@@ -1,0 +1,91 @@
+ID	Phylum	Class	Order	Family	Genus	Species	Similarity	Status
+>OTU_1	Arthropoda	Insecta	Diptera	Chironomidae	Dicrotendipes		100	Early-Release
+>OTU_2	Arthropoda	Insecta	Diptera	Chironomidae	Cricotopus		100	Published
+>OTU_3	Arthropoda	Insecta	Diptera	Chironomidae			99.26	Private
+>OTU_4	Arthropoda	Insecta	Diptera	Chironomidae	Corynoneura		99.26	Published
+>OTU_5	Arthropoda	Insecta	Diptera	Chironomidae	Eukiefferiella		97.78	Published
+>OTU_6	Arthropoda	Insecta	Diptera				98.52	Private
+>OTU_7	Arthropoda	Insecta	Diptera	Chironomidae			100	Private
+>OTU_8	Arthropoda	Insecta	Diptera	Chironomidae			93.33	Published
+>OTU_9	Arthropoda	Insecta	Diptera	Chironomidae			97.01	Published
+>OTU_10	Arthropoda	Insecta	Diptera	Chironomidae			92.59	Early-Release
+>OTU_11	Arthropoda	Insecta	Diptera	Chironomidae	Cricotopus		97.78	Private
+>OTU_12	Arthropoda	Insecta	Diptera	Simuliidae	Simulium	arcticum complex	100	Private
+>OTU_13	Arthropoda	Insecta	Diptera	Chironomidae	Thienemanniella	xena	100	Published
+>OTU_14	Arthropoda	Insecta	Diptera	Chironomidae			94.81	Published
+>OTU_15	Arthropoda	Insecta	Diptera	Chironomidae			100	Private
+>OTU_16	Arthropoda	Insecta	Diptera	Chironomidae	Cricotopus		100	Early-Release
+>OTU_17	Arthropoda	Insecta	Diptera	Simuliidae	Simulium	hunteri	98.52	Private
+>OTU_18	Arthropoda	Insecta	Diptera	Chironomidae			99.26	Early-Release
+>OTU_19	Arthropoda	Insecta	Diptera	Chironomidae			97.78	Published
+>OTU_20	Arthropoda	Insecta	Diptera	Chironomidae	Tanytarsus		100	Published
+>OTU_21	Arthropoda	Insecta	Diptera	Chironomidae	Corynoneura		100	Published
+>OTU_22	Arthropoda	Insecta	Diptera	Chironomidae			92.59	Private
+>OTU_23	Arthropoda	Insecta	Diptera	Chironomidae	Cricotopus	bicinctus grp.	99.26	Published
+>OTU_24	Arthropoda	Insecta	Diptera	Chironomidae			92.59	Private
+>OTU_25	Arthropoda	Insecta	Diptera	Chironomidae			95.56	Early-Release
+>OTU_26	Arthropoda	Insecta	Diptera	Chironomidae			93.33	Published
+>OTU_27	Arthropoda	Insecta	Diptera	Chironomidae			94.81	Private
+>OTU_28	Arthropoda	Insecta	Ephemeroptera				87.41	Early-Release
+>OTU_29	Arthropoda	Insecta	Diptera	Chironomidae	Orthocladius		98.52	Early-Release
+>OTU_30	Arthropoda	Insecta	Diptera	Simuliidae	Simulium	virgatum s.l.	100	Published
+>OTU_31	Arthropoda	Insecta	Diptera	Chironomidae	Chironomus		100	Published
+>OTU_32	Arthropoda	Insecta	Diptera	Chironomidae			97.04	Private
+>OTU_33	Arthropoda	Insecta	Diptera	Chironomidae	Orthocladius		100	Published
+>OTU_34	Arthropoda	Insecta	Diptera	Chironomidae	Rheocricotopus		97.04	Published
+>OTU_35	Arthropoda	Insecta	Diptera	Chironomidae			100	Published
+>OTU_36	Arthropoda	Insecta	Plecoptera	Capniidae	Capnura	wanica	99.26	Published
+>OTU_37	Arthropoda	Insecta	Megaloptera	Corydalidae	Corydalus	luteus	100	Published
+>OTU_38	Arthropoda	Insecta	Diptera	Chironomidae	Cricotopus		97.78	Private
+>OTU_39	Arthropoda	Insecta	Diptera	Chironomidae	Cricotopus		100	Early-Release
+>OTU_40	Arthropoda	Insecta	Diptera	Anisopodidae	Sylvicola		95.56	Published
+>OTU_41	Arthropoda	Insecta	Diptera	Tipulidae			100	Published
+>OTU_42	Arthropoda	Insecta	Diptera	Simuliidae	Simulium	bracteatum	100	Private
+>OTU_43	Arthropoda	Insecta	Diptera	Chironomidae	Orthocladius		100	Published
+>OTU_44	Arthropoda	Insecta	Diptera	Simuliidae	Simulium	iriartei	100	Private
+>OTU_45	Arthropoda	Insecta	Diptera	Chironomidae	Orthocladius	telochaetus	99.26	Published
+>OTU_46	Arthropoda	Insecta	Diptera	Chironomidae			97.78	Published
+>OTU_47	Arthropoda	Insecta	Diptera	Chironomidae	Cricotopus		99.26	Published
+>OTU_48	Arthropoda	Insecta	Diptera	Chironomidae			92.59	Published
+>OTU_49	Arthropoda	Insecta	Diptera	Chironomidae	Eukiefferiella		99.26	Published
+>OTU_50	Arthropoda	Insecta	Diptera	Chironomidae			90.37	Early-Release
+>OTU_51	Arthropoda	Insecta	Diptera	Mesembrinellidae			91.85	Published
+>OTU_52	Arthropoda	Insecta	Diptera	Chironomidae			94.81	Published
+>OTU_53	Arthropoda	Insecta	Diptera	Anthomyiidae	Delia	platura	100	Published
+>OTU_54	Arthropoda	Insecta	Coleoptera				88.89	Published
+>OTU_55	Arthropoda	Insecta	Diptera	Chironomidae	Tanytarsus		100	Published
+>OTU_56	Rhodophyta	Florideophyceae					82.54	Early-Release
+>OTU_57	Arthropoda	Insecta	Diptera	Chironomidae			97.04	Private
+>OTU_58	Arthropoda	Insecta	Diptera	Chironomidae			100	Published
+>OTU_59	Arthropoda	Insecta	Diptera	Chironomidae			92.59	Private
+>OTU_60	Arthropoda						97.04	Private
+>OTU_61	Arthropoda	Insecta	Diptera	Chironomidae			100	Published
+>OTU_62	Arthropoda	Insecta	Diptera	Chironomidae	Parakiefferiella		100	Published
+>OTU_63	Arthropoda	Insecta	Plecoptera	Capniidae	Mesocapnia	frisoni	100	Published
+>OTU_64	Arthropoda	Insecta	Lepidoptera				89.33	Published
+>OTU_65	Arthropoda	Insecta	Diptera	Chironomidae			94.07	Published
+>OTU_66	Arthropoda	Insecta	Diptera	Chironomidae			100	Published
+>OTU_67	Arthropoda	Insecta	Megaloptera	Corydalidae			94.07	Published
+>OTU_68	Arthropoda	Insecta	Trichoptera	Limnephilidae	Limnephilus	lithus	99.26	Published
+>OTU_69	Arthropoda	Insecta	Diptera	Limoniidae	Antocha		97.04	Published
+>OTU_70	Arthropoda	Insecta	Diptera	Chironomidae	Cardiocladius		95.56	Published
+>OTU_71	Arthropoda	Insecta	Diptera	Chironomidae	Micropsectra	polita	100	Published
+>OTU_72	Rhodophyta	Florideophyceae					81.63	Early-Release
+>OTU_73	Arthropoda	Insecta	Diptera	Chironomidae			95.45	Private
+>OTU_74	Arthropoda	Insecta	Diptera	Chironomidae	Tanytarsus		95.56	Published
+>OTU_75	Arthropoda	Insecta					75.97	Published
+>OTU_76	Arthropoda	Insecta	Diptera	Chironomidae	Cricotopus		97.04	Published
+>OTU_77	Arthropoda	Insecta	Diptera	Chironomidae			97.78	Private
+>OTU_78	Arthropoda	Insecta	Diptera	Chironomidae			100	Private
+>OTU_79	Arthropoda	Insecta	Diptera	Chironomidae			95.56	Private
+>OTU_80	Arthropoda	Insecta	Diptera	Chironomidae	Cricotopus		99.26	Published
+>OTU_81	Arthropoda	Insecta	Ephemeroptera	Baetidae			90.15	Published
+>OTU_82	Arthropoda	Insecta	Coleoptera				88.89	Early-Release
+>OTU_83	Arthropoda	Insecta	Diptera	Chironomidae			94.81	Private
+>OTU_84	Arthropoda	Insecta	Diptera	Chironomidae			99.26	Private
+>OTU_85	Arthropoda	Insecta	Diptera	Simuliidae			92.59	Published
+>OTU_86	Rhodophyta	Florideophyceae					82.93	Private
+>OTU_87	Arthropoda	Insecta	Diptera	Chironomidae	Orthocladius	carlatus	100	Published
+>OTU_88	Arthropoda	Ostracoda	Podocopida	Cyprididae			91.06	Private
+>OTU_89	Arthropoda	Insecta	Megaloptera	Corydalidae	Corydalus	texanus	100	Published
+>OTU_90	Arthropoda	Insecta	Diptera	Chironomidae	Cricotopus		95	Private

@@ -1,2 +1,0 @@
-delete_data=FALSE
-last_data=""

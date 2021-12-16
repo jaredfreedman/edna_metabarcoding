@@ -6,8 +6,20 @@ library(dada2)
 rm(list = ls())
 graphics.off()
 
-setwd("Research/git/edna_metabarcoding/GC_VR_MiSeq_2021")
 
-# Question - Do I need to go through the entire DADA2 Pipeline? Or can i jump in at the ESV clustering step?
+# Load fastq files and sort into F and R files ----------------------------
+
+#Set working directory
+wd <- "/Users/jaredfreedman/Research/git/edna_metabarcoding/GC_VR_MiSeq_2021/DADA2_Workflow"
+setwd(wd)
+
+#Create path to fastq files
+path <- "../demulti_fastq/_data" 
+list.files(path)
+
+# Forward and reverse fastq filenames have format: SAMPLENAME_R1_001.fastq and SAMPLENAME_R2_001.fastq
+fnFs <- sort(list.files(path, pattern="_R1.fastq", full.names = TRUE))
+fnRs <- sort(list.files(path, pattern="_R2.fastq", full.names = TRUE))
+
 
 

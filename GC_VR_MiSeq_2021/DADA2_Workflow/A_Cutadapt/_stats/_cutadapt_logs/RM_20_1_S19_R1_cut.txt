@@ -1,0 +1,81 @@
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o A_Cutadapt/_data/temp.txt ../demulti_fastq/_data/RM_20_1_S19_R1.fastq --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.56 s (6 µs/read; 9.30 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  86,559
+Reads with adapters:                    65,173 (75.3%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           21,386 (24.7%)
+Reads written (passing filters):        65,173 (75.3%)
+
+Total basepairs processed:    21,726,309 bp
+Total written (filtered):     14,611,903 bp (67.3%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 65173 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+24	10	0.0	2	0 0 10
+25	147	0.0	2	0 123 24
+26	27508	0.0	2	25887 1365 256
+27	22827	0.0	2	0 21472 1355
+28	14681	0.0	2	0 0 14681
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a RAHCGAATACCHYTATTTGTTTG$ -o A_Cutadapt/_data/temp_A.txt A_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.19 s (3 µs/read; 20.54 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  65,173
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           65,173 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:    14,611,903 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: RAHCGAATACCHYTATTTGTTTG; Type: anchored 3'; Length: 23; Trimmed: 0 times
+vsearch-fastx_revcomp ../demulti_fastq/_data/RM_20_1_S19_R1.fastq -fastqout A_Cutadapt/_data/temp2_RC.txt  -label_suffix _RC
+vsearch v2.18.0_macos_x86_64, 16.0GB RAM, 12 cores
+https://github.com/torognes/vsearch
+
+Reading FASTQ file 100%
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^GGDACWGGWTGAACWGTWTAYCCHCC -o A_Cutadapt/_data/temp.txt A_Cutadapt/_data/temp2_RC.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 0.24 s (3 µs/read; 21.67 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  86,559
+Reads with adapters:                         0 (0.0%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           86,559 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:    21,726,309 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 1 ===
+
+Sequence: GGDACWGGWTGAACWGTWTAYCCHCC; Type: anchored 5'; Length: 26; Trimmed: 0 times
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -a RAHCGAATACCHYTATTTGTTTG$ -o A_Cutadapt/_data/temp_B.txt A_Cutadapt/_data/temp.txt --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+No reads processed!
+
+cat A_Cutadapt/_data/temp_A.txt A_Cutadapt/_data/temp_B.txt > A_Cutadapt/_data/RM_20_1_S19_R1_cut.fastq

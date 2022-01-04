@@ -1,5 +1,11 @@
 # Create Length Distribution plots for trimmed sequences
 
+# Created 12/22/21
+# Updated 1/4/22
+
+# Function to create length distribution plots for selected input FASTA or FASTQ files. This function relies on the JAMP length_distribution() function
+
+
 # Clear workspace and close all graphics devices --------------------------
 
 rm(list = ls())

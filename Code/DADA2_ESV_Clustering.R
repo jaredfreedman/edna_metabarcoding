@@ -54,15 +54,36 @@ dirinfo <- file.info(list.dirs(recursive = FALSE)) #get directories in WD
 recentdir <- rownames(dirinfo)[which.max(dirinfo$mtime)] #find most recent dir (the one created in cutadapt())
 file.rename(recentdir, "RevFiles_Cutadapt") #rename file with a more descriptive name
 
+#Create file path for forward and reverse trimmed Fastq files
+
+ForFiles_cut <- list.files(path = "ForFiles_Cutadapt/_data", full.names = TRUE)
+RevFiles_cut <- list.files(path = "RevFiles_Cutadapt/_data", full.names = TRUE)
+
 # Inspect Read Quality ----------------------------------------------------
 
-plotQualityProfile(ForFiles[1:2]) # visualize the quality profiles of F reads
+plotQualityProfile(ForFiles_cut[1:2]) # visualize the quality profiles of F reads
 
-plotQualityProfile(RevFiles[1:2]) # visualize the quality profiles of R reads
+plotQualityProfile(RevFiles_cut[1:2]) # visualize the quality profiles of R reads
 
 # Both F and R reads are high quality (by the standards of the DADA2 manual). It is accepted that R reads are worse quality than F reads, and DADA2 accounts for this.
 
 
 # Filter and Trim ---------------------------------------------------------
+dir.create("Filter_and_Trim")
+dir.create("Filter_and_Trim/ForFiles_filt")
+dir.create("Filter_and_Trim/RevFiles_filt")
+
+out <- filterAndTrim(fwd = ForFiles_cut, 
+                     filt = "Filter_and_Trim/ForFiles_filt",
+                     rev = RevFiles_cut,
+                     filt.rev = "Filter_and_Trim/RevFiles_filt",
+                     truncLen=c(152, 132),
+                     maxN=0, #DADA2 required no Ns
+                     maxEE=c(2,2), # sets max number of expected errors for forward and reverse (c(2,5) would mean 2 EE on for and 5 EE on rev)
+                     truncQ=2, 
+                     rm.phix=TRUE,
+                     compress=TRUE, 
+                     multithread=TRUE)
+head(out)
 
 

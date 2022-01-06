@@ -1,0 +1,30 @@
+This is cutadapt 3.5 with Python 3.10.0
+Command line parameters: -g ^CAAACAAATARDGGTATTCGDTY -o F_Cutadapt/_data/HAV_2_S72_R2_cut.fastq ../demulti_fastq/_data/HAV_2_S72_R2.fastq --discard-untrimmed --cores=1 --error-rate 0.1
+Processing reads on 1 core in single-end mode ...
+Finished in 1.50 s (9 µs/read; 6.51 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                 163,039
+Reads with adapters:                   119,675 (73.4%)
+
+== Read fate breakdown ==
+Reads discarded as untrimmed:           43,364 (26.6%)
+Reads written (passing filters):       119,675 (73.4%)
+
+Total basepairs processed:    40,922,789 bp
+Total written (filtered):     27,173,483 bp (66.4%)
+
+=== Adapter 1 ===
+
+Sequence: CAAACAAATARDGGTATTCGDTY; Type: anchored 5'; Length: 23; Trimmed: 119675 times
+
+No. of allowed errors: 2
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+21	27	0.0	2	0 0 27
+22	336	0.0	2	0 286 50
+23	42218	0.0	2	39007 2608 603
+24	41381	0.0	2	0 38775 2606
+25	35713	0.0	2	0 0 35713

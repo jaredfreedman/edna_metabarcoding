@@ -451,3 +451,231 @@ Primers were successfully removed from NA% on average (SD = NA%).
 *** Module completed!
 
 
+##########
+2022-01-04 14:55:44
+PROCESSING MODULE:
+E_Cutadapt
+
+Module Version: v0.2
+
+
+Using Version: Cutadapt v3.5
+Starting to remove adapters (primers) on forward direction only 95 files:
+E_Cutadapt/_data/BA_1_S92_R1_cut.fastq - 74.19% reads passed
+E_Cutadapt/_data/BA_2_S61_R1_cut.fastq - 75.18% reads passed
+E_Cutadapt/_data/BOU_1_S94_R1_cut.fastq - 70.75% reads passed
+E_Cutadapt/_data/BOU_2_S80_R1_cut.fastq - 73.75% reads passed
+E_Cutadapt/_data/CHILDS_1_S11_R1_cut.fastq - 75.26% reads passed
+E_Cutadapt/_data/CHILDS_2_S12_R1_cut.fastq - 75.01% reads passed
+E_Cutadapt/_data/CLR_1_S59_R1_cut.fastq - 69.9% reads passed
+E_Cutadapt/_data/CLR_2_S60_R1_cut.fastq - 64.23% reads passed
+E_Cutadapt/_data/COL_1_S86_R1_cut.fastq - 73.14% reads passed
+E_Cutadapt/_data/COL_2_S81_R1_cut.fastq - 58.67% reads passed
+E_Cutadapt/_data/CR_109_1_S31_R1_cut.fastq - 75.35% reads passed
+E_Cutadapt/_data/CR_109_2_S32_R1_cut.fastq - 74.5% reads passed
+E_Cutadapt/_data/CR_134_1_S33_R1_cut.fastq - 75.36% reads passed
+E_Cutadapt/_data/CR_134_2_S34_R1_cut.fastq - 70.89% reads passed
+E_Cutadapt/_data/CR_143_1_S35_R1_cut.fastq - 75.19% reads passed
+E_Cutadapt/_data/CR_143_2_S36_R1_cut.fastq - 73.76% reads passed
+E_Cutadapt/_data/CR_148_1_S37_R1_cut.fastq - 74.74% reads passed
+E_Cutadapt/_data/CR_148_2_S38_R1_cut.fastq - 74.83% reads passed
+E_Cutadapt/_data/CR_157_1_S39_R1_cut.fastq - 74.51% reads passed
+E_Cutadapt/_data/CR_157_2_S40_R1_cut.fastq - 73.31% reads passed
+E_Cutadapt/_data/CR_180_1_S41_R1_cut.fastq - 70.62% reads passed
+E_Cutadapt/_data/CR_180_2_S42_R1_cut.fastq - 71.02% reads passed
+E_Cutadapt/_data/CR_204_1_S43_R1_cut.fastq - 73.75% reads passed
+E_Cutadapt/_data/CR_204_2_S44_R1_cut.fastq - 71.39% reads passed
+E_Cutadapt/_data/CR_216_1_S45_R1_cut.fastq - NA% reads passed
+E_Cutadapt/_data/CR_216_2_S46_R1_cut.fastq - 73.81% reads passed
+E_Cutadapt/_data/CR_226_1_S47_R1_cut.fastq - 72.32% reads passed
+E_Cutadapt/_data/CR_226_2_S48_R1_cut.fastq - 73.76% reads passed
+E_Cutadapt/_data/CR_229_1_S49_R1_cut.fastq - 73.21% reads passed
+E_Cutadapt/_data/CR_229_2_S50_R1_cut.fastq - 68.22% reads passed
+E_Cutadapt/_data/CR_246_1_S51_R1_cut.fastq - 70.99% reads passed
+E_Cutadapt/_data/CR_246_2_S52_R1_cut.fastq - 66.44% reads passed
+E_Cutadapt/_data/CR_275_1_S53_R1_cut.fastq - 74.4% reads passed
+E_Cutadapt/_data/CR_275_2_S54_R1_cut.fastq - 74.31% reads passed
+E_Cutadapt/_data/CR_52_1_S23_R1_cut.fastq - 75.22% reads passed
+E_Cutadapt/_data/CR_52_2_S24_R1_cut.fastq - 75.03% reads passed
+E_Cutadapt/_data/CR_61_1_S90_R1_cut.fastq - 74.44% reads passed
+E_Cutadapt/_data/CR_61_2_S25_R1_cut.fastq - 74.84% reads passed
+E_Cutadapt/_data/CR_84_1_S91_R1_cut.fastq - 73.42% reads passed
+E_Cutadapt/_data/CR_84_2_S26_R1_cut.fastq - 63.83% reads passed
+E_Cutadapt/_data/CR_94_1_S27_R1_cut.fastq - 75% reads passed
+E_Cutadapt/_data/CR_94_2_S28_R1_cut.fastq - 74.72% reads passed
+E_Cutadapt/_data/CR_97_1_S29_R1_cut.fastq - NA% reads passed
+E_Cutadapt/_data/CR_97_2_S30_R1_cut.fastq - 74.21% reads passed
+E_Cutadapt/_data/DIA_1_S79_R1_cut.fastq - 74.89% reads passed
+E_Cutadapt/_data/DIA_2_S88_R1_cut.fastq - 75.26% reads passed
+E_Cutadapt/_data/FCW_1_S3_R1_cut.fastq - 75.55% reads passed
+E_Cutadapt/_data/FCW_2_S4_R1_cut.fastq - 75.37% reads passed
+E_Cutadapt/_data/HAV_1_S71_R1_cut.fastq - 74.58% reads passed
+E_Cutadapt/_data/HAV_2_S72_R1_cut.fastq - 73.73% reads passed
+E_Cutadapt/_data/HER_1_S93_R1_cut.fastq - 71.32% reads passed
+E_Cutadapt/_data/HER_2_S62_R1_cut.fastq - 74.77% reads passed
+E_Cutadapt/_data/KAN_1_S67_R1_cut.fastq - 73.96% reads passed
+E_Cutadapt/_data/KAN_2_S68_R1_cut.fastq - 73.82% reads passed
+E_Cutadapt/_data/LCR_1_S57_R1_cut.fastq - 75.11% reads passed
+E_Cutadapt/_data/LCR_2_S58_R1_cut.fastq - 75.6% reads passed
+E_Cutadapt/_data/LF_1_S73_R1_cut.fastq - 61.47% reads passed
+E_Cutadapt/_data/LF_2_S74_R1_cut.fastq - 65.64% reads passed
+E_Cutadapt/_data/MAT_1_S69_R1_cut.fastq - 74.9% reads passed
+E_Cutadapt/_data/MAT_2_S70_R1_cut.fastq - 75.11% reads passed
+E_Cutadapt/_data/NANK_1_S55_R1_cut.fastq - 74.98% reads passed
+E_Cutadapt/_data/NANK_2_S56_R1_cut.fastq - 75.1% reads passed
+E_Cutadapt/_data/neg_Control_S89_R1_cut.fastq - 13.46% reads passed
+E_Cutadapt/_data/pos_Control_S87_R1_cut.fastq - 74.51% reads passed
+E_Cutadapt/_data/RM_20_1_S19_R1_cut.fastq - 75.29% reads passed
+E_Cutadapt/_data/RM_20_2_S20_R1_cut.fastq - 74.82% reads passed
+E_Cutadapt/_data/RM_88_1_S21_R1_cut.fastq - 74.94% reads passed
+E_Cutadapt/_data/RM_88_2_S22_R1_cut.fastq - 74.96% reads passed
+E_Cutadapt/_data/SC_1_S13_R1_cut.fastq - 74.72% reads passed
+E_Cutadapt/_data/SC_2_S14_R1_cut.fastq - 75.2% reads passed
+E_Cutadapt/_data/SCGC_1_S75_R1_cut.fastq - 74.97% reads passed
+E_Cutadapt/_data/SCGC_2_S76_R1_cut.fastq - 74.82% reads passed
+E_Cutadapt/_data/SHI_1_S63_R1_cut.fastq - 75.51% reads passed
+E_Cutadapt/_data/SHI_2_S64_R1_cut.fastq - 74.92% reads passed
+E_Cutadapt/_data/SPE_1_S84_R1_cut.fastq - 74.72% reads passed
+E_Cutadapt/_data/SPE_2_S85_R1_cut.fastq - 74.29% reads passed
+E_Cutadapt/_data/TAP_1_S65_R1_cut.fastq - 75.26% reads passed
+E_Cutadapt/_data/TAP_2_S66_R1_cut.fastq - 74.71% reads passed
+E_Cutadapt/_data/TCDW_1_S7_R1_cut.fastq - 75.43% reads passed
+E_Cutadapt/_data/TCDW_2_S8_R1_cut.fastq - 75.43% reads passed
+E_Cutadapt/_data/TRA_1_S82_R1_cut.fastq - 73.28% reads passed
+E_Cutadapt/_data/TRA_2_S83_R1_cut.fastq - 72.53% reads passed
+E_Cutadapt/_data/TS_1_S77_R1_cut.fastq - 73.65% reads passed
+E_Cutadapt/_data/TS_2_S78_R1_cut.fastq - 73.75% reads passed
+E_Cutadapt/_data/Undetermined_S0_R1_cut.fastq - 23.25% reads passed
+E_Cutadapt/_data/VRBF_1_S9_R1_cut.fastq - 75.06% reads passed
+E_Cutadapt/_data/VRBF_2_S10_R1_cut.fastq - 75.38% reads passed
+E_Cutadapt/_data/VRSB_1_S5_R1_cut.fastq - 75.28% reads passed
+E_Cutadapt/_data/VRSB_2_S6_R1_cut.fastq - 75.13% reads passed
+E_Cutadapt/_data/WBC_1_S17_R1_cut.fastq - 75.47% reads passed
+E_Cutadapt/_data/WBC_2_S18_R1_cut.fastq - 75.38% reads passed
+E_Cutadapt/_data/WCC_1_S1_R1_cut.fastq - 75.4% reads passed
+E_Cutadapt/_data/WCC_2_S2_R1_cut.fastq - 75.15% reads passed
+E_Cutadapt/_data/WFOC_1_S15_R1_cut.fastq - 74.94% reads passed
+E_Cutadapt/_data/WFOC_2_S16_R1_cut.fastq - 75.29% reads passed
+
+Primers were successfully removed from NA% on average (SD = NA%).
+
+2022-01-04 14:57:33
+
+
+*** Module completed!
+
+
+##########
+2022-01-04 14:57:50
+PROCESSING MODULE:
+F_Cutadapt
+
+Module Version: v0.2
+
+
+Using Version: Cutadapt v3.5
+Starting to remove adapters (primers) on forward direction only 95 files:
+F_Cutadapt/_data/BA_1_S92_R2_cut.fastq - 73.71% reads passed
+F_Cutadapt/_data/BA_2_S61_R2_cut.fastq - 73.22% reads passed
+F_Cutadapt/_data/BOU_1_S94_R2_cut.fastq - 71.88% reads passed
+F_Cutadapt/_data/BOU_2_S80_R2_cut.fastq - 73.24% reads passed
+F_Cutadapt/_data/CHILDS_1_S11_R2_cut.fastq - 73.83% reads passed
+F_Cutadapt/_data/CHILDS_2_S12_R2_cut.fastq - 73.23% reads passed
+F_Cutadapt/_data/CLR_1_S59_R2_cut.fastq - 70.03% reads passed
+F_Cutadapt/_data/CLR_2_S60_R2_cut.fastq - 66.57% reads passed
+F_Cutadapt/_data/COL_1_S86_R2_cut.fastq - 71.24% reads passed
+F_Cutadapt/_data/COL_2_S81_R2_cut.fastq - 63.48% reads passed
+F_Cutadapt/_data/CR_109_1_S31_R2_cut.fastq - 73.38% reads passed
+F_Cutadapt/_data/CR_109_2_S32_R2_cut.fastq - 73.24% reads passed
+F_Cutadapt/_data/CR_134_1_S33_R2_cut.fastq - 74.11% reads passed
+F_Cutadapt/_data/CR_134_2_S34_R2_cut.fastq - 69.93% reads passed
+F_Cutadapt/_data/CR_143_1_S35_R2_cut.fastq - 73.64% reads passed
+F_Cutadapt/_data/CR_143_2_S36_R2_cut.fastq - 71.42% reads passed
+F_Cutadapt/_data/CR_148_1_S37_R2_cut.fastq - 73.14% reads passed
+F_Cutadapt/_data/CR_148_2_S38_R2_cut.fastq - 73.17% reads passed
+F_Cutadapt/_data/CR_157_1_S39_R2_cut.fastq - 73.31% reads passed
+F_Cutadapt/_data/CR_157_2_S40_R2_cut.fastq - 72.47% reads passed
+F_Cutadapt/_data/CR_180_1_S41_R2_cut.fastq - 71.22% reads passed
+F_Cutadapt/_data/CR_180_2_S42_R2_cut.fastq - 71.25% reads passed
+F_Cutadapt/_data/CR_204_1_S43_R2_cut.fastq - 72.71% reads passed
+F_Cutadapt/_data/CR_204_2_S44_R2_cut.fastq - 70.33% reads passed
+F_Cutadapt/_data/CR_216_1_S45_R2_cut.fastq - NA% reads passed
+F_Cutadapt/_data/CR_216_2_S46_R2_cut.fastq - 72.14% reads passed
+F_Cutadapt/_data/CR_226_1_S47_R2_cut.fastq - 71.1% reads passed
+F_Cutadapt/_data/CR_226_2_S48_R2_cut.fastq - 72.61% reads passed
+F_Cutadapt/_data/CR_229_1_S49_R2_cut.fastq - 71.23% reads passed
+F_Cutadapt/_data/CR_229_2_S50_R2_cut.fastq - 69% reads passed
+F_Cutadapt/_data/CR_246_1_S51_R2_cut.fastq - 66.13% reads passed
+F_Cutadapt/_data/CR_246_2_S52_R2_cut.fastq - 70.78% reads passed
+F_Cutadapt/_data/CR_275_1_S53_R2_cut.fastq - 72.69% reads passed
+F_Cutadapt/_data/CR_275_2_S54_R2_cut.fastq - 72.93% reads passed
+F_Cutadapt/_data/CR_52_1_S23_R2_cut.fastq - 73.24% reads passed
+F_Cutadapt/_data/CR_52_2_S24_R2_cut.fastq - 74.04% reads passed
+F_Cutadapt/_data/CR_61_1_S90_R2_cut.fastq - 73.72% reads passed
+F_Cutadapt/_data/CR_61_2_S25_R2_cut.fastq - 72.73% reads passed
+F_Cutadapt/_data/CR_84_1_S91_R2_cut.fastq - 73.18% reads passed
+F_Cutadapt/_data/CR_84_2_S26_R2_cut.fastq - 67.78% reads passed
+F_Cutadapt/_data/CR_94_1_S27_R2_cut.fastq - 74.29% reads passed
+F_Cutadapt/_data/CR_94_2_S28_R2_cut.fastq - 73.67% reads passed
+F_Cutadapt/_data/CR_97_1_S29_R2_cut.fastq - NA% reads passed
+F_Cutadapt/_data/CR_97_2_S30_R2_cut.fastq - 73.02% reads passed
+F_Cutadapt/_data/DIA_1_S79_R2_cut.fastq - 73.54% reads passed
+F_Cutadapt/_data/DIA_2_S88_R2_cut.fastq - 73.26% reads passed
+F_Cutadapt/_data/FCW_1_S3_R2_cut.fastq - 73.94% reads passed
+F_Cutadapt/_data/FCW_2_S4_R2_cut.fastq - 73.87% reads passed
+F_Cutadapt/_data/HAV_1_S71_R2_cut.fastq - 73.07% reads passed
+F_Cutadapt/_data/HAV_2_S72_R2_cut.fastq - 73.4% reads passed
+F_Cutadapt/_data/HER_1_S93_R2_cut.fastq - 71.7% reads passed
+F_Cutadapt/_data/HER_2_S62_R2_cut.fastq - 73.5% reads passed
+F_Cutadapt/_data/KAN_1_S67_R2_cut.fastq - 73.36% reads passed
+F_Cutadapt/_data/KAN_2_S68_R2_cut.fastq - 72.78% reads passed
+F_Cutadapt/_data/LCR_1_S57_R2_cut.fastq - 74.14% reads passed
+F_Cutadapt/_data/LCR_2_S58_R2_cut.fastq - 72.95% reads passed
+F_Cutadapt/_data/LF_1_S73_R2_cut.fastq - 69.65% reads passed
+F_Cutadapt/_data/LF_2_S74_R2_cut.fastq - 69.87% reads passed
+F_Cutadapt/_data/MAT_1_S69_R2_cut.fastq - 73.4% reads passed
+F_Cutadapt/_data/MAT_2_S70_R2_cut.fastq - 73.8% reads passed
+F_Cutadapt/_data/NANK_1_S55_R2_cut.fastq - 73.6% reads passed
+F_Cutadapt/_data/NANK_2_S56_R2_cut.fastq - 73.51% reads passed
+F_Cutadapt/_data/neg_Control_S89_R2_cut.fastq - 54.03% reads passed
+F_Cutadapt/_data/pos_Control_S87_R2_cut.fastq - 73.37% reads passed
+F_Cutadapt/_data/RM_20_1_S19_R2_cut.fastq - 73.7% reads passed
+F_Cutadapt/_data/RM_20_2_S20_R2_cut.fastq - 73.74% reads passed
+F_Cutadapt/_data/RM_88_1_S21_R2_cut.fastq - 73.41% reads passed
+F_Cutadapt/_data/RM_88_2_S22_R2_cut.fastq - 73.34% reads passed
+F_Cutadapt/_data/SC_1_S13_R2_cut.fastq - 73.83% reads passed
+F_Cutadapt/_data/SC_2_S14_R2_cut.fastq - 73.55% reads passed
+F_Cutadapt/_data/SCGC_1_S75_R2_cut.fastq - 74.03% reads passed
+F_Cutadapt/_data/SCGC_2_S76_R2_cut.fastq - 74.31% reads passed
+F_Cutadapt/_data/SHI_1_S63_R2_cut.fastq - 74.28% reads passed
+F_Cutadapt/_data/SHI_2_S64_R2_cut.fastq - 73.29% reads passed
+F_Cutadapt/_data/SPE_1_S84_R2_cut.fastq - 73.7% reads passed
+F_Cutadapt/_data/SPE_2_S85_R2_cut.fastq - 73.59% reads passed
+F_Cutadapt/_data/TAP_1_S65_R2_cut.fastq - 73.92% reads passed
+F_Cutadapt/_data/TAP_2_S66_R2_cut.fastq - 73.46% reads passed
+F_Cutadapt/_data/TCDW_1_S7_R2_cut.fastq - 74.09% reads passed
+F_Cutadapt/_data/TCDW_2_S8_R2_cut.fastq - 73.65% reads passed
+F_Cutadapt/_data/TRA_1_S82_R2_cut.fastq - 73.02% reads passed
+F_Cutadapt/_data/TRA_2_S83_R2_cut.fastq - 72.8% reads passed
+F_Cutadapt/_data/TS_1_S77_R2_cut.fastq - 73.3% reads passed
+F_Cutadapt/_data/TS_2_S78_R2_cut.fastq - 72.91% reads passed
+F_Cutadapt/_data/Undetermined_S0_R2_cut.fastq - 17% reads passed
+F_Cutadapt/_data/VRBF_1_S9_R2_cut.fastq - 73.92% reads passed
+F_Cutadapt/_data/VRBF_2_S10_R2_cut.fastq - 72.03% reads passed
+F_Cutadapt/_data/VRSB_1_S5_R2_cut.fastq - 73.62% reads passed
+F_Cutadapt/_data/VRSB_2_S6_R2_cut.fastq - 73.7% reads passed
+F_Cutadapt/_data/WBC_1_S17_R2_cut.fastq - 74.36% reads passed
+F_Cutadapt/_data/WBC_2_S18_R2_cut.fastq - 72.86% reads passed
+F_Cutadapt/_data/WCC_1_S1_R2_cut.fastq - 73.77% reads passed
+F_Cutadapt/_data/WCC_2_S2_R2_cut.fastq - 74.3% reads passed
+F_Cutadapt/_data/WFOC_1_S15_R2_cut.fastq - 73.83% reads passed
+F_Cutadapt/_data/WFOC_2_S16_R2_cut.fastq - 73.12% reads passed
+
+Primers were successfully removed from NA% on average (SD = NA%).
+
+2022-01-04 14:59:39
+
+
+*** Module completed!
+
+

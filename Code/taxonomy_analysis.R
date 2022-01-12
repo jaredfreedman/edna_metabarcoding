@@ -31,34 +31,19 @@ otu_PA <- cbind(otu_PA, otu_df) #combine presence/absence data with taxonomy dat
 
 
 
-columns <- colnames(otu_PA[3:76])
-numcol <- length(columns)
-i<-1
+# separate trib and mainstem samples --------------------------------------
 
-
-
-#for(i in 1:74){
-  currentcol <- columns[i]
+if(names(otu_df)[col("CR*")]){
   
-  otu_PA[currentcol][currentcol>=1] <- TRUE
-  
-  
-  otu_PA$currentcol[otu_PA$currentcol>=1] <- TRUE
-  otu_PA$currentcol
-  i <- i+1
-  
-#}
-
-  
-
+}
 
 
 # Unique Spp, Genus, Orders -----------------------------------------------
 
 species_num <- length(unique(otu_taxa$Species))
-genus_num <-length(unique(otu_taxa$Genus))
-family_num <- length(unique(otu_taxa$Family))
-order_num <- length(unique(otu_taxa$Order))
+genus_num <-length(unique(otu_taxa$Genus[otu_taxa$Species==""]))
+family_num <- length(unique(otu_taxa$Family[otu_taxa$Genus==""]))
+order_num <- length(unique(otu_taxa$Order[otu_taxa$Family==""]))
 
 species_num
 genus_num

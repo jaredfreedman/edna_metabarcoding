@@ -69,18 +69,15 @@ plotQualityProfile(RevFiles_cut[1:2]) # visualize the quality profiles of R read
 
 
 # Filter and Trim ---------------------------------------------------------
+
+# create directories for forward and reverse filtered file outputs
 dir.create("filter_and_trim")
 forfiles_filt <- "filter_and_trim/forfiles_filt"
 dir.create(forfiles_filt)
 revfiles_filt <- "filter_and_trim/revfiles_filt"
 dir.create(revfiles_filt)
 
-dir.create("FandT_test_F")
-dir.create("FandT_test_R")
-f_test <- ForFiles_cut[1]
-r_test <- RevFiles_cut[1]
 
-start_time <- Sys.time()
 out <- filterAndTrim(fwd = forfiles_cut, 
                      filt = forfiles_filt,
                      rev = revfiels_cut,
@@ -94,8 +91,60 @@ out <- filterAndTrim(fwd = forfiles_cut,
                      multithread=TRUE,
                      matchIDs=TRUE #enforces matching between id-line sequence identifiers
                      )
-end_time <- Sys.time()
-end_time - start_time
 head(out)
+
+out$percent_kept <- (out$reads.out/out$reads.in)*100 #calculate percent of reads kept for each sample
+hist(out$percent_kept) #produce histogram of kept reads
+
+
+# Learn the Error Rate ----------------------------------------------------
+
+# learns a parametric error model from the data. every amplicon dataset is different, so DADA2 uses a machine learning algorithm to estimate the maximum possible error rate
+
+for_err <- learnErrors(forfiles_filt, multithread=TRUE)
+rev_err <- learnErrors(revfiles_filt, multithread=TRUE)
+
+plotErrors(for_err, nominalQ=TRUE) #visualize estimated error rates
+
+
+
+# Apply sample inference algorithm ----------------------------------------
+
+# this removes the detected sequencing errors to reveal the members of the sequenced community
+
+for_dada <- dada(forfiles_filt, err=for_err, multithread=TRUE)
+rev_dada <- dada(revfiles_filt, err=rev_err, multithread=TRUE)
+
+
+
+# Merge pair-end reads ----------------------------------------------------
+
+mergers <-  mergePairs(for_dada, forfiles_filt, rev_dada, revfiles_filt, verbose=TRUE)
+
+head(mergers[[1]])
+
+
+# Make ESV Table ----------------------------------------------------------
+
+esv_table <- makeSequenceTable(mergers)
+
+dim(esv_table) #get the numbber of ESVs identified (2nd number in the table dimensions)
+
+table(nchar(getSequences(esv_table)))
+
+
+# Remove chimeras ---------------------------------------------------------
+
+
+esv_table.nochim <- removeBimeraDenovo(esv_table, method="consensus", multithread=TRUE, verbose=TRUE)
+
+dim(esv_table.nochim)
+
+
+
+
+
+
+
 
 

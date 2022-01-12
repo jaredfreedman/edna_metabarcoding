@@ -56,8 +56,8 @@ file.rename(recentdir, "RevFiles_Cutadapt") #rename file with a more descriptive
 
 #Create file path for forward and reverse trimmed Fastq files
 
-ForFiles_cut <- list.files(path = "ForFiles_Cutadapt/_data", full.names = TRUE)
-RevFiles_cut <- list.files(path = "RevFiles_Cutadapt/_data", full.names = TRUE)
+forfiles_cut <- list.files(path = "primer_trim/ForFiles_Cutadapt/_data", full.names = TRUE)
+revfiels_cut <- list.files(path = "primer_trim/RevFiles_Cutadapt/_data", full.names = TRUE)
 
 # Inspect Read Quality ----------------------------------------------------
 
@@ -69,21 +69,33 @@ plotQualityProfile(RevFiles_cut[1:2]) # visualize the quality profiles of R read
 
 
 # Filter and Trim ---------------------------------------------------------
-dir.create("Filter_and_Trim")
-dir.create("Filter_and_Trim/ForFiles_filt")
-dir.create("Filter_and_Trim/RevFiles_filt")
+dir.create("filter_and_trim")
+forfiles_filt <- "filter_and_trim/forfiles_filt"
+dir.create(forfiles_filt)
+revfiles_filt <- "filter_and_trim/revfiles_filt"
+dir.create(revfiles_filt)
 
-out <- filterAndTrim(fwd = ForFiles_cut, 
-                     filt = "Filter_and_Trim/ForFiles_filt",
-                     rev = RevFiles_cut,
-                     filt.rev = "Filter_and_Trim/RevFiles_filt",
+dir.create("FandT_test_F")
+dir.create("FandT_test_R")
+f_test <- ForFiles_cut[1]
+r_test <- RevFiles_cut[1]
+
+start_time <- Sys.time()
+out <- filterAndTrim(fwd = forfiles_cut, 
+                     filt = forfiles_filt,
+                     rev = revfiels_cut,
+                     filt.rev = revfiles_filt,
                      truncLen=c(152, 132),
                      maxN=0, #DADA2 required no Ns
-                     maxEE=c(2,2), # sets max number of expected errors for forward and reverse (c(2,5) would mean 2 EE on for and 5 EE on rev)
+                     maxEE=c(1,1), # sets max number of expected errors for forward and reverse (c(2,5) would mean 2 EE on for and 5 EE on rev)
                      truncQ=2, 
                      rm.phix=TRUE,
                      compress=TRUE, 
-                     multithread=TRUE)
+                     multithread=TRUE,
+                     matchIDs=TRUE #enforces matching between id-line sequence identifiers
+                     )
+end_time <- Sys.time()
+end_time - start_time
 head(out)
 
 

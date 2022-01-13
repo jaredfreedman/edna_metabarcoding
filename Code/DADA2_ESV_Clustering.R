@@ -59,9 +59,15 @@ file.rename(recentdir, "RevFiles_Cutadapt") #rename file with a more descriptive
 forfiles_cut <- list.files(path = "primer_trim/ForFiles_Cutadapt/_data", full.names = TRUE)
 revfiels_cut <- list.files(path = "primer_trim/RevFiles_Cutadapt/_data", full.names = TRUE)
 
+#Inspect length distribution of trimmed sequences
+
+length_dist_plot(filepath = "primer_trim/ForFiles_Cutadapt/_data", output = "primer_trim/ForFiles_Cutadapt/_stats/_length_distribution/") # forward length dist.
+
+length_dist_plot(filepath = "primer_trim/RevFiles_Cutadapt/_data", output = "primer_trim/RevFiles_Cutadapt/_stats/_length_distribution/") # reverse length dist.
+
 # Inspect Read Quality ----------------------------------------------------
 
-plotQualityProfile(ForFiles_cut[1:2]) # visualize the quality profiles of F reads
+plotQualityProfile(ForFiles_cut[50:55]) # visualize the quality profiles of F reads
 
 plotQualityProfile(RevFiles_cut[1:2]) # visualize the quality profiles of R reads
 
@@ -78,7 +84,7 @@ revfiles_filt <- "filter_and_trim/revfiles_filt"
 dir.create(revfiles_filt)
 
 
-out <- filterAndTrim(fwd = forfiles_cut, 
+out_1 <- filterAndTrim(fwd = forfiles_cut, 
                      filt = forfiles_filt,
                      rev = revfiels_cut,
                      filt.rev = revfiles_filt,
@@ -91,6 +97,20 @@ out <- filterAndTrim(fwd = forfiles_cut,
                      multithread=TRUE,
                      matchIDs=TRUE #enforces matching between id-line sequence identifiers
                      )
+
+out_2 <- filterAndTrim(fwd = forfiles_cut, 
+                      filt = forfiles_filt,
+                      rev = revfiels_cut,
+                      filt.rev = revfiles_filt,
+                      truncLen=c(152, 132),
+                      maxN=0, #DADA2 required no Ns
+                      maxEE=c(2,2), # sets max number of expected errors for forward and reverse (c(2,5) would mean 2 EE on for and 5 EE on rev)
+                      truncQ=2, 
+                      rm.phix=TRUE,
+                      compress=TRUE, 
+                      multithread=TRUE,
+                      matchIDs=TRUE #enforces matching between id-line sequence identifiers
+                      )
 head(out)
 
 out$percent_kept <- (out$reads.out/out$reads.in)*100 #calculate percent of reads kept for each sample

@@ -84,7 +84,7 @@ revfiles_filt <- "filter_and_trim/revfiles_filt"
 dir.create(revfiles_filt)
 
 
-out_1 <- filterAndTrim(fwd = forfiles_cut, 
+out <- filterAndTrim(fwd = forfiles_cut, 
                      filt = forfiles_filt,
                      rev = revfiels_cut,
                      filt.rev = revfiles_filt,
@@ -98,19 +98,6 @@ out_1 <- filterAndTrim(fwd = forfiles_cut,
                      matchIDs=TRUE #enforces matching between id-line sequence identifiers
                      )
 
-out_2 <- filterAndTrim(fwd = forfiles_cut, 
-                      filt = forfiles_filt,
-                      rev = revfiels_cut,
-                      filt.rev = revfiles_filt,
-                      truncLen=c(152, 132),
-                      maxN=0, #DADA2 required no Ns
-                      maxEE=c(2,2), # sets max number of expected errors for forward and reverse (c(2,5) would mean 2 EE on for and 5 EE on rev)
-                      truncQ=2, 
-                      rm.phix=TRUE,
-                      compress=TRUE, 
-                      multithread=TRUE,
-                      matchIDs=TRUE #enforces matching between id-line sequence identifiers
-                      )
 head(out)
 
 out$percent_kept <- (out$reads.out/out$reads.in)*100 #calculate percent of reads kept for each sample

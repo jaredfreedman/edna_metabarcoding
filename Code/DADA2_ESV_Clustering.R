@@ -126,9 +126,14 @@ rev_dada <- dada(revfiles_filt, err=rev_err, multithread=TRUE)
 
 # Merge pair-end reads ----------------------------------------------------
 
-mergers <-  mergePairs(for_dada, forfiles_filt, rev_dada, revfiles_filt, verbose=TRUE)
+mergers <- mergePairs(for_dada, forfiles_filt, rev_dada, revfiles_filt, verbose=TRUE)
+
+#writeFastq(mergers$BA_1_S92_R1_cut.fastq, mode="w")
 
 head(mergers[[1]])
+
+#need to figure out how to download the mergers data object before doing a lenght dist. plot
+#length_dist_plot(filepath = , output = , split = )
 
 
 # Make ESV Table ----------------------------------------------------------

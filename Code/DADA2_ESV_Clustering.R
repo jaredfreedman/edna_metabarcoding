@@ -84,11 +84,12 @@ revfiles_filt <- "filter_and_trim/revfiles_filt"
 dir.create(revfiles_filt)
 
 
-out <- filterAndTrim(fwd = forfiles_cut, 
+# specify truncLen=142 -> only take reads of exactly the correct length
+out_142 <- filterAndTrim(fwd = forfiles_cut, 
                      filt = forfiles_filt,
                      rev = revfiels_cut,
                      filt.rev = revfiles_filt,
-                     truncLen=c(152, 132),
+                     truncLen=142,
                      maxN=0, #DADA2 required no Ns
                      maxEE=c(1,1), # sets max number of expected errors for forward and reverse (c(2,5) would mean 2 EE on for and 5 EE on rev)
                      truncQ=2, 
@@ -96,12 +97,12 @@ out <- filterAndTrim(fwd = forfiles_cut,
                      compress=TRUE, 
                      multithread=TRUE,
                      matchIDs=TRUE #enforces matching between id-line sequence identifiers
-                     )
+)
 
-head(out)
+head(out_142)
 
-out$percent_kept <- (out$reads.out/out$reads.in)*100 #calculate percent of reads kept for each sample
-hist(out$percent_kept) #produce histogram of kept reads
+out_142$percent_kept <- (out_142$reads.out/out$reads.in)*100 #calculate percent of reads kept for each sample
+hist(out_142$percent_kept) #produce histogram of kept reads
 
 
 # Learn the Error Rate ----------------------------------------------------
@@ -132,8 +133,8 @@ mergers <- mergePairs(for_dada, forfiles_filt, rev_dada, revfiles_filt, verbose=
 
 head(mergers[[1]])
 
-#need to figure out how to download the mergers data object before doing a lenght dist. plot
-#length_dist_plot(filepath = , output = , split = )
+saveRDS(mergers, file = "merge_pairs/DADA2_mergers.RDS") #create an RDS file containing mergers
+load_mergers <- readRDS("merge_pairs/DADA2_mergers.RDS")
 
 
 # Make ESV Table ----------------------------------------------------------

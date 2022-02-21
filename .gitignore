@@ -75,6 +75,8 @@ Temporary Items
 # Ignore .fasta and .fastq files (often too big for Git)
 *.fasta
 *.fastq
+*.fasta.gz
+*.fa
 
 # Ignore pdf, csv, and txt outputs from MergePE function
 
@@ -82,4 +84,4 @@ Temporary Items
 *_PE_log.txt
 *_PE.csv
 
-+Reference_Databases/coi_ref_db_arthropoda_copy.fasta.gz
+
